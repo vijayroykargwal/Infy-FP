@@ -1,0 +1,1021 @@
+2019-02-22 08:41:35,753 INFO  Loading Baseframework Plugin
+2019-02-22 08:41:35,757 INFO  Initializing the platform to load the Menu - HandsOn
+2019-02-22 08:41:35,766 INFO  Loading the Menu - HandsOn
+2019-02-22 08:41:35,780 INFO  Successfully loaded the Menu - HandsOn
+2019-02-22 11:33:58,096 INFO  Loading Programming Assignment Plugin
+2019-02-22 11:33:58,705 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:33:58,705 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:33:58,715 INFO  Starting to parse the user solution
+2019-02-22 11:33:58,716 INFO  Displaying user solution
+2019-02-22 11:33:58,848 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    #Use the below given print statements to display the output, in case of success\r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n    #Use the below given print statements to display the output, in case of invalid data.\r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:33:58,850 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:33:58,851 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:33:58,851 INFO  Invoking the service to verify the user solution
+2019-02-22 11:33:58,853 INFO  Time before invoking service:Fri Feb 22 11:33:58 IST 2019
+2019-02-22 11:33:58,854 INFO  Initialising service address for VerifySolution
+2019-02-22 11:33:58,855 INFO  Time before invoking service In SUPER:Fri Feb 22 11:33:58 IST 2019
+2019-02-22 11:34:01,517 INFO  Time after invoking service In SUPER:Fri Feb 22 11:34:01 IST 2019
+2019-02-22 11:34:01,518 INFO  Service responded successfully with required details
+2019-02-22 11:34:01,518 INFO  Time after invoking service:Fri Feb 22 11:34:01 IST 2019
+2019-02-22 11:34:01,519 INFO  User solution successfully verified
+2019-02-22 11:34:01,519 INFO  Processing the response from verify service
+2019-02-22 11:34:01,523 INFO  Starting to parse JSON response
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,527 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,528 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,528 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,528 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:34:01,532 INFO  Successfully parsed JSON response
+2019-02-22 11:34:01,534 INFO  In the process of generating verify response in HTML
+2019-02-22 11:34:01,834 INFO  Successfully generated verify response in HTML
+2019-02-22 11:34:01,835 INFO  Successfully processed the response from service
+2019-02-22 11:39:10,135 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:39:10,136 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:39:10,136 INFO  Starting to parse the user solution
+2019-02-22 11:39:10,137 INFO  Displaying user solution
+2019-02-22 11:39:10,213 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    #Use the below given print statements to display the output, in case of success\r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n    #Use the below given print statements to display the output, in case of invalid data.\r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:39:10,214 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:39:10,214 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:39:10,214 INFO  Invoking the service to verify the user solution
+2019-02-22 11:39:10,214 INFO  Time before invoking service:Fri Feb 22 11:39:10 IST 2019
+2019-02-22 11:39:10,214 INFO  Initialising service address for VerifySolution
+2019-02-22 11:39:10,215 INFO  Time before invoking service In SUPER:Fri Feb 22 11:39:10 IST 2019
+2019-02-22 11:39:11,132 INFO  Time after invoking service In SUPER:Fri Feb 22 11:39:11 IST 2019
+2019-02-22 11:39:11,133 INFO  Service responded successfully with required details
+2019-02-22 11:39:11,133 INFO  Time after invoking service:Fri Feb 22 11:39:11 IST 2019
+2019-02-22 11:39:11,133 INFO  User solution successfully verified
+2019-02-22 11:39:11,134 INFO  Processing the response from verify service
+2019-02-22 11:39:11,136 INFO  Starting to parse JSON response
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:39:11,138 INFO  Successfully parsed JSON response
+2019-02-22 11:39:11,139 INFO  In the process of generating verify response in HTML
+2019-02-22 11:39:11,233 INFO  Successfully generated verify response in HTML
+2019-02-22 11:39:11,233 INFO  Successfully processed the response from service
+2019-02-22 11:40:05,632 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:40:05,632 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:40:05,632 INFO  Starting to parse the user solution
+2019-02-22 11:40:05,632 INFO  Displaying user solution
+2019-02-22 11:40:05,690 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,\r\n                   loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    #Use the below given print statements to display the output, in case of success\r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n    #Use the below given print statements to display the output, in case of invalid data.\r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:40:05,690 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:40:05,691 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:40:05,691 INFO  Invoking the service to verify the user solution
+2019-02-22 11:40:05,691 INFO  Time before invoking service:Fri Feb 22 11:40:05 IST 2019
+2019-02-22 11:40:05,691 INFO  Initialising service address for VerifySolution
+2019-02-22 11:40:05,695 INFO  Time before invoking service In SUPER:Fri Feb 22 11:40:05 IST 2019
+2019-02-22 11:40:06,581 INFO  Time after invoking service In SUPER:Fri Feb 22 11:40:06 IST 2019
+2019-02-22 11:40:06,582 INFO  Service responded successfully with required details
+2019-02-22 11:40:06,582 INFO  Time after invoking service:Fri Feb 22 11:40:06 IST 2019
+2019-02-22 11:40:06,582 INFO  User solution successfully verified
+2019-02-22 11:40:06,583 INFO  Processing the response from verify service
+2019-02-22 11:40:06,584 INFO  Verification Failed : Function / Class unavailable
+->Please code the required function / class before verification/n(error code:-2)
+2019-02-22 11:40:18,656 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:40:18,656 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:40:18,656 INFO  Starting to parse the user solution
+2019-02-22 11:40:18,657 INFO  Displaying user solution
+2019-02-22 11:40:18,723 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,\r\n                   loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    #Use the below given print statements to display the output, in case of success\r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n    #Use the below given print statements to display the output, in case of invalid data.\r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:40:18,723 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:40:18,723 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:40:18,723 INFO  Invoking the service to verify the user solution
+2019-02-22 11:40:18,724 INFO  Time before invoking service:Fri Feb 22 11:40:18 IST 2019
+2019-02-22 11:40:18,724 INFO  Initialising service address for VerifySolution
+2019-02-22 11:40:18,725 INFO  Time before invoking service In SUPER:Fri Feb 22 11:40:18 IST 2019
+2019-02-22 11:40:19,593 INFO  Time after invoking service In SUPER:Fri Feb 22 11:40:19 IST 2019
+2019-02-22 11:40:19,594 INFO  Service responded successfully with required details
+2019-02-22 11:40:19,594 INFO  Time after invoking service:Fri Feb 22 11:40:19 IST 2019
+2019-02-22 11:40:19,594 INFO  User solution successfully verified
+2019-02-22 11:40:19,594 INFO  Processing the response from verify service
+2019-02-22 11:40:19,595 INFO  Verification Failed : Function / Class unavailable
+->Please code the required function / class before verification/n(error code:-2)
+2019-02-22 11:40:26,446 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:40:26,447 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:40:26,447 INFO  Starting to parse the user solution
+2019-02-22 11:40:26,447 INFO  Displaying user solution
+2019-02-22 11:40:26,502 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    #Use the below given print statements to display the output, in case of success\r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n    #Use the below given print statements to display the output, in case of invalid data.\r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:40:26,502 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:40:26,505 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:40:26,505 INFO  Invoking the service to verify the user solution
+2019-02-22 11:40:26,505 INFO  Time before invoking service:Fri Feb 22 11:40:26 IST 2019
+2019-02-22 11:40:26,505 INFO  Initialising service address for VerifySolution
+2019-02-22 11:40:26,506 INFO  Time before invoking service In SUPER:Fri Feb 22 11:40:26 IST 2019
+2019-02-22 11:40:27,368 INFO  Time after invoking service In SUPER:Fri Feb 22 11:40:27 IST 2019
+2019-02-22 11:40:27,368 INFO  Service responded successfully with required details
+2019-02-22 11:40:27,368 INFO  Time after invoking service:Fri Feb 22 11:40:27 IST 2019
+2019-02-22 11:40:27,368 INFO  User solution successfully verified
+2019-02-22 11:40:27,368 INFO  Processing the response from verify service
+2019-02-22 11:40:27,370 INFO  Starting to parse JSON response
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,371 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:40:27,373 INFO  Successfully parsed JSON response
+2019-02-22 11:40:27,373 INFO  In the process of generating verify response in HTML
+2019-02-22 11:40:27,445 INFO  Successfully generated verify response in HTML
+2019-02-22 11:40:27,445 INFO  Successfully processed the response from service
+2019-02-22 11:41:54,579 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:41:54,579 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:41:54,579 INFO  Starting to parse the user solution
+2019-02-22 11:41:54,580 INFO  Displaying user solution
+2019-02-22 11:41:54,638 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:41:54,639 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:41:54,639 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:41:54,640 INFO  Invoking the service to verify the user solution
+2019-02-22 11:41:54,640 INFO  Time before invoking service:Fri Feb 22 11:41:54 IST 2019
+2019-02-22 11:41:54,640 INFO  Initialising service address for VerifySolution
+2019-02-22 11:41:54,640 INFO  Time before invoking service In SUPER:Fri Feb 22 11:41:54 IST 2019
+2019-02-22 11:41:55,617 INFO  Time after invoking service In SUPER:Fri Feb 22 11:41:55 IST 2019
+2019-02-22 11:41:55,618 INFO  Service responded successfully with required details
+2019-02-22 11:41:55,618 INFO  Time after invoking service:Fri Feb 22 11:41:55 IST 2019
+2019-02-22 11:41:55,618 INFO  User solution successfully verified
+2019-02-22 11:41:55,618 INFO  Processing the response from verify service
+2019-02-22 11:41:55,619 INFO  Starting to parse JSON response
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,620 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,621 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,621 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,621 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,621 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:41:55,622 INFO  Successfully parsed JSON response
+2019-02-22 11:41:55,622 INFO  In the process of generating verify response in HTML
+2019-02-22 11:41:55,686 INFO  Successfully generated verify response in HTML
+2019-02-22 11:41:55,686 INFO  Successfully processed the response from service
+2019-02-22 11:42:40,406 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:42:40,406 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:42:40,406 INFO  Starting to parse the user solution
+2019-02-22 11:42:40,407 INFO  Displaying user solution
+2019-02-22 11:42:40,473 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:42:40,475 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:42:40,475 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:42:40,475 INFO  Invoking the service to verify the user solution
+2019-02-22 11:42:40,475 INFO  Time before invoking service:Fri Feb 22 11:42:40 IST 2019
+2019-02-22 11:42:40,476 INFO  Initialising service address for VerifySolution
+2019-02-22 11:42:40,477 INFO  Time before invoking service In SUPER:Fri Feb 22 11:42:40 IST 2019
+2019-02-22 11:42:41,299 INFO  Time after invoking service In SUPER:Fri Feb 22 11:42:41 IST 2019
+2019-02-22 11:42:41,299 INFO  Service responded successfully with required details
+2019-02-22 11:42:41,299 INFO  Time after invoking service:Fri Feb 22 11:42:41 IST 2019
+2019-02-22 11:42:41,299 INFO  User solution successfully verified
+2019-02-22 11:42:41,300 INFO  Processing the response from verify service
+2019-02-22 11:42:41,306 INFO  Starting to parse JSON response
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,307 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:42:41,308 INFO  Successfully parsed JSON response
+2019-02-22 11:42:41,309 INFO  In the process of generating verify response in HTML
+2019-02-22 11:42:41,394 INFO  Successfully generated verify response in HTML
+2019-02-22 11:42:41,394 INFO  Successfully processed the response from service
+2019-02-22 11:44:23,567 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:44:23,567 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:44:23,567 INFO  Starting to parse the user solution
+2019-02-22 11:44:23,567 INFO  Displaying user solution
+2019-02-22 11:44:23,630 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:44:23,631 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:44:23,631 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:44:23,632 INFO  Invoking the service to verify the user solution
+2019-02-22 11:44:23,632 INFO  Time before invoking service:Fri Feb 22 11:44:23 IST 2019
+2019-02-22 11:44:23,632 INFO  Initialising service address for VerifySolution
+2019-02-22 11:44:23,632 INFO  Time before invoking service In SUPER:Fri Feb 22 11:44:23 IST 2019
+2019-02-22 11:44:26,403 INFO  Time after invoking service In SUPER:Fri Feb 22 11:44:26 IST 2019
+2019-02-22 11:44:26,403 INFO  Service responded successfully with required details
+2019-02-22 11:44:26,403 INFO  Time after invoking service:Fri Feb 22 11:44:26 IST 2019
+2019-02-22 11:44:26,404 INFO  User solution successfully verified
+2019-02-22 11:44:26,404 INFO  Processing the response from verify service
+2019-02-22 11:44:26,406 INFO  Starting to parse JSON response
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,407 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:26,409 INFO  Successfully parsed JSON response
+2019-02-22 11:44:26,410 INFO  In the process of generating verify response in HTML
+2019-02-22 11:44:26,491 INFO  Successfully generated verify response in HTML
+2019-02-22 11:44:26,491 INFO  Successfully processed the response from service
+2019-02-22 11:44:39,483 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:44:39,484 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:44:39,484 INFO  Starting to parse the user solution
+2019-02-22 11:44:39,484 INFO  Displaying user solution
+2019-02-22 11:44:39,549 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\",eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:44:39,549 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:44:39,549 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:44:39,550 INFO  Invoking the service to verify the user solution
+2019-02-22 11:44:39,550 INFO  Time before invoking service:Fri Feb 22 11:44:39 IST 2019
+2019-02-22 11:44:39,550 INFO  Initialising service address for VerifySolution
+2019-02-22 11:44:39,550 INFO  Time before invoking service In SUPER:Fri Feb 22 11:44:39 IST 2019
+2019-02-22 11:44:40,519 INFO  Time after invoking service In SUPER:Fri Feb 22 11:44:40 IST 2019
+2019-02-22 11:44:40,519 INFO  Service responded successfully with required details
+2019-02-22 11:44:40,519 INFO  Time after invoking service:Fri Feb 22 11:44:40 IST 2019
+2019-02-22 11:44:40,520 INFO  User solution successfully verified
+2019-02-22 11:44:40,520 INFO  Processing the response from verify service
+2019-02-22 11:44:40,521 INFO  Starting to parse JSON response
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,522 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:40,524 INFO  Successfully parsed JSON response
+2019-02-22 11:44:40,524 INFO  In the process of generating verify response in HTML
+2019-02-22 11:44:40,595 INFO  Successfully generated verify response in HTML
+2019-02-22 11:44:40,595 INFO  Successfully processed the response from service
+2019-02-22 11:44:50,186 INFO  Setting request parameters for VerifySolution
+2019-02-22 11:44:50,186 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 11:44:50,186 INFO  Starting to parse the user solution
+2019-02-22 11:44:50,188 INFO  Displaying user solution
+2019-02-22 11:44:50,300 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\",eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 11:44:50,301 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 11:44:50,301 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 11:44:50,301 INFO  Invoking the service to verify the user solution
+2019-02-22 11:44:50,301 INFO  Time before invoking service:Fri Feb 22 11:44:50 IST 2019
+2019-02-22 11:44:50,302 INFO  Initialising service address for VerifySolution
+2019-02-22 11:44:50,303 INFO  Time before invoking service In SUPER:Fri Feb 22 11:44:50 IST 2019
+2019-02-22 11:44:51,134 INFO  Time after invoking service In SUPER:Fri Feb 22 11:44:51 IST 2019
+2019-02-22 11:44:51,134 INFO  Service responded successfully with required details
+2019-02-22 11:44:51,135 INFO  Time after invoking service:Fri Feb 22 11:44:51 IST 2019
+2019-02-22 11:44:51,135 INFO  User solution successfully verified
+2019-02-22 11:44:51,136 INFO  Processing the response from verify service
+2019-02-22 11:44:51,140 INFO  Starting to parse JSON response
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,141 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,142 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,142 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 11:44:51,143 INFO  Successfully parsed JSON response
+2019-02-22 11:44:51,143 INFO  In the process of generating verify response in HTML
+2019-02-22 11:44:51,223 INFO  Successfully generated verify response in HTML
+2019-02-22 11:44:51,223 INFO  Successfully processed the response from service
+2019-02-22 11:54:54,483 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-02-22 12:25:11,106 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:25:11,107 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:25:11,107 INFO  Starting to parse the user solution
+2019-02-22 12:25:11,108 INFO  Displaying user solution
+2019-02-22 12:25:11,281 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n#Price of gems available in the store. gems_list and price_list have one-to-one correspondence\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n#Quantity of gems required by the customer. reqd_gems and reqd_quantity have one-to-one correspondence\r\nreqd_quantity=[3,10,12]\r\n\r\nbill_amount=calculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity)\r\nprint(bill_amount)\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:25:11,282 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:25:11,283 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:25:11,283 INFO  Invoking the service to verify the user solution
+2019-02-22 12:25:11,283 INFO  Time before invoking service:Fri Feb 22 12:25:11 IST 2019
+2019-02-22 12:25:11,283 INFO  Initialising service address for VerifySolution
+2019-02-22 12:25:11,284 INFO  Time before invoking service In SUPER:Fri Feb 22 12:25:11 IST 2019
+2019-02-22 12:25:12,257 INFO  Time after invoking service In SUPER:Fri Feb 22 12:25:12 IST 2019
+2019-02-22 12:25:12,258 INFO  Service responded successfully with required details
+2019-02-22 12:25:12,258 INFO  Time after invoking service:Fri Feb 22 12:25:12 IST 2019
+2019-02-22 12:25:12,258 INFO  User solution successfully verified
+2019-02-22 12:25:12,259 INFO  Processing the response from verify service
+2019-02-22 12:25:12,267 INFO  Starting to parse JSON response
+2019-02-22 12:25:12,269 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:25:12,269 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:25:12,269 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:25:12,269 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:25:12,271 INFO  Successfully parsed JSON response
+2019-02-22 12:25:12,271 INFO  In the process of generating verify response in HTML
+2019-02-22 12:25:12,382 INFO  Successfully generated verify response in HTML
+2019-02-22 12:25:12,383 INFO  Successfully processed the response from service
+2019-02-22 12:26:12,659 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:26:12,659 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:26:12,659 INFO  Starting to parse the user solution
+2019-02-22 12:26:12,660 INFO  Displaying user solution
+2019-02-22 12:26:12,685 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n    return -1\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n#Price of gems available in the store. gems_list and price_list have one-to-one correspondence\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n#Quantity of gems required by the customer. reqd_gems and reqd_quantity have one-to-one correspondence\r\nreqd_quantity=[3,10,12]\r\n\r\nbill_amount=calculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity)\r\nprint(bill_amount)\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:26:12,686 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:26:12,686 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:26:12,686 INFO  Invoking the service to verify the user solution
+2019-02-22 12:26:12,687 INFO  Time before invoking service:Fri Feb 22 12:26:12 IST 2019
+2019-02-22 12:26:12,687 INFO  Initialising service address for VerifySolution
+2019-02-22 12:26:12,688 INFO  Time before invoking service In SUPER:Fri Feb 22 12:26:12 IST 2019
+2019-02-22 12:26:13,421 INFO  Time after invoking service In SUPER:Fri Feb 22 12:26:13 IST 2019
+2019-02-22 12:26:13,421 INFO  Service responded successfully with required details
+2019-02-22 12:26:13,422 INFO  Time after invoking service:Fri Feb 22 12:26:13 IST 2019
+2019-02-22 12:26:13,422 INFO  User solution successfully verified
+2019-02-22 12:26:13,422 INFO  Processing the response from verify service
+2019-02-22 12:26:13,424 INFO  Starting to parse JSON response
+2019-02-22 12:26:13,425 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:13,425 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:13,425 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:13,425 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:13,426 INFO  Successfully parsed JSON response
+2019-02-22 12:26:13,426 INFO  In the process of generating verify response in HTML
+2019-02-22 12:26:13,497 INFO  Successfully generated verify response in HTML
+2019-02-22 12:26:13,497 INFO  Successfully processed the response from service
+2019-02-22 12:26:43,489 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:26:43,489 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:26:43,489 INFO  Starting to parse the user solution
+2019-02-22 12:26:43,491 INFO  Displaying user solution
+2019-02-22 12:26:43,529 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n    return -1\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n\r\nreqd_quantity=[3,10,12]\r\n\r\nbill_amount=calculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity)\r\nprint(bill_amount)\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:26:43,529 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:26:43,530 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:26:43,530 INFO  Invoking the service to verify the user solution
+2019-02-22 12:26:43,531 INFO  Time before invoking service:Fri Feb 22 12:26:43 IST 2019
+2019-02-22 12:26:43,531 INFO  Initialising service address for VerifySolution
+2019-02-22 12:26:43,532 INFO  Time before invoking service In SUPER:Fri Feb 22 12:26:43 IST 2019
+2019-02-22 12:26:44,390 INFO  Time after invoking service In SUPER:Fri Feb 22 12:26:44 IST 2019
+2019-02-22 12:26:44,390 INFO  Service responded successfully with required details
+2019-02-22 12:26:44,390 INFO  Time after invoking service:Fri Feb 22 12:26:44 IST 2019
+2019-02-22 12:26:44,391 INFO  User solution successfully verified
+2019-02-22 12:26:44,391 INFO  Processing the response from verify service
+2019-02-22 12:26:44,392 INFO  Starting to parse JSON response
+2019-02-22 12:26:44,393 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:44,393 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:44,393 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:44,393 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:26:44,394 INFO  Successfully parsed JSON response
+2019-02-22 12:26:44,394 INFO  In the process of generating verify response in HTML
+2019-02-22 12:26:44,460 INFO  Successfully generated verify response in HTML
+2019-02-22 12:26:44,461 INFO  Successfully processed the response from service
+2019-02-22 12:28:31,660 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:28:31,660 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:28:31,660 INFO  Starting to parse the user solution
+2019-02-22 12:28:31,660 INFO  Displaying user solution
+2019-02-22 12:28:31,689 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n    return -1\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n\r\nreqd_quantity=[3,10,12]\r\n\r\ncalculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity)\r\nprint(calculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity))\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:28:31,689 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:28:31,690 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:28:31,690 INFO  Invoking the service to verify the user solution
+2019-02-22 12:28:31,690 INFO  Time before invoking service:Fri Feb 22 12:28:31 IST 2019
+2019-02-22 12:28:31,690 INFO  Initialising service address for VerifySolution
+2019-02-22 12:28:31,691 INFO  Time before invoking service In SUPER:Fri Feb 22 12:28:31 IST 2019
+2019-02-22 12:28:32,610 INFO  Time after invoking service In SUPER:Fri Feb 22 12:28:32 IST 2019
+2019-02-22 12:28:32,610 INFO  Service responded successfully with required details
+2019-02-22 12:28:32,611 INFO  Time after invoking service:Fri Feb 22 12:28:32 IST 2019
+2019-02-22 12:28:32,611 INFO  User solution successfully verified
+2019-02-22 12:28:32,611 INFO  Processing the response from verify service
+2019-02-22 12:28:32,614 INFO  Starting to parse JSON response
+2019-02-22 12:28:32,615 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:28:32,615 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:28:32,615 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:28:32,615 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:28:32,616 INFO  Successfully parsed JSON response
+2019-02-22 12:28:32,616 INFO  In the process of generating verify response in HTML
+2019-02-22 12:28:32,682 INFO  Successfully generated verify response in HTML
+2019-02-22 12:28:32,684 INFO  Successfully processed the response from service
+2019-02-22 12:30:03,305 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:30:03,305 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:30:03,306 INFO  Starting to parse the user solution
+2019-02-22 12:30:03,307 INFO  Displaying user solution
+2019-02-22 12:30:03,333 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n    return -1\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n\r\nreqd_quantity=[3,10,12]\r\n\r\n\r\nprint(calculate_bill_amount(gems_list, price_list, reqd_gems, reqd_quantity))\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:30:03,334 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:30:03,334 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:30:03,334 INFO  Invoking the service to verify the user solution
+2019-02-22 12:30:03,334 INFO  Time before invoking service:Fri Feb 22 12:30:03 IST 2019
+2019-02-22 12:30:03,334 INFO  Initialising service address for VerifySolution
+2019-02-22 12:30:03,335 INFO  Time before invoking service In SUPER:Fri Feb 22 12:30:03 IST 2019
+2019-02-22 12:30:04,134 INFO  Time after invoking service In SUPER:Fri Feb 22 12:30:04 IST 2019
+2019-02-22 12:30:04,134 INFO  Service responded successfully with required details
+2019-02-22 12:30:04,134 INFO  Time after invoking service:Fri Feb 22 12:30:04 IST 2019
+2019-02-22 12:30:04,135 INFO  User solution successfully verified
+2019-02-22 12:30:04,135 INFO  Processing the response from verify service
+2019-02-22 12:30:04,136 INFO  Starting to parse JSON response
+2019-02-22 12:30:04,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:04,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:04,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:04,137 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:04,138 INFO  Successfully parsed JSON response
+2019-02-22 12:30:04,138 INFO  In the process of generating verify response in HTML
+2019-02-22 12:30:04,203 INFO  Successfully generated verify response in HTML
+2019-02-22 12:30:04,203 INFO  Successfully processed the response from service
+2019-02-22 12:30:48,555 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:30:48,556 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:30:48,556 INFO  Starting to parse the user solution
+2019-02-22 12:30:48,556 INFO  Displaying user solution
+2019-02-22 12:30:48,580 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-23\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):\r\n    bill_amount=0\r\n    count=0\r\n    #Write your logic here\r\n    for i in range(0,len(gems_list)):\r\n        for j in range(0,len(reqd_gems)):\r\n            if(gems_list[i]==reqd_gems[j]):\r\n                 bill_amount+=price_list[i]*reqd_quantity[j]\r\n                 count+=1\r\n                \r\n    if(count==len(reqd_gems)):\r\n        if(bill_amount>30000):\r\n            return bill_amount*0.95\r\n        else:\r\n          return bill_amount\r\n    return -1\r\n\r\n#List of gems available in the store\r\ngems_list=[\"Emerald\",\"Ivory\",\"Jasper\",\"Ruby\",\"Garnet\"]\r\n\r\n\r\nprice_list=[1760,2119,1599,3920,3999]\r\n\r\n#List of gems required by the customer\r\nreqd_gems=[\"Ivory\",\"Emerald\",\"Garnet\"]\r\n\r\n\r\nreqd_quantity=[3,10,12]\r\n\r\nbill_amount=calculate_bill_amount(gems_list,price_list,reqd_gems,reqd_quantity)\r\nprint(bill_amount)\r\n","asgnmtId":"23","SolutionFileName":"Assign23.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:30:48,581 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:30:48,581 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:30:48,581 INFO  Invoking the service to verify the user solution
+2019-02-22 12:30:48,581 INFO  Time before invoking service:Fri Feb 22 12:30:48 IST 2019
+2019-02-22 12:30:48,581 INFO  Initialising service address for VerifySolution
+2019-02-22 12:30:48,582 INFO  Time before invoking service In SUPER:Fri Feb 22 12:30:48 IST 2019
+2019-02-22 12:30:49,414 INFO  Time after invoking service In SUPER:Fri Feb 22 12:30:49 IST 2019
+2019-02-22 12:30:49,414 INFO  Service responded successfully with required details
+2019-02-22 12:30:49,414 INFO  Time after invoking service:Fri Feb 22 12:30:49 IST 2019
+2019-02-22 12:30:49,415 INFO  User solution successfully verified
+2019-02-22 12:30:49,416 INFO  Processing the response from verify service
+2019-02-22 12:30:49,417 INFO  Starting to parse JSON response
+2019-02-22 12:30:49,418 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:49,418 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:49,418 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:49,418 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:30:49,419 INFO  Successfully parsed JSON response
+2019-02-22 12:30:49,419 INFO  In the process of generating verify response in HTML
+2019-02-22 12:30:49,487 INFO  Successfully generated verify response in HTML
+2019-02-22 12:30:49,487 INFO  Successfully processed the response from service
+2019-02-22 12:30:58,584 INFO  Initiating to process and prepare Input for the submit service
+2019-02-22 12:30:58,586 INFO  Displaying user solution
+2019-02-22 12:30:58,594 INFO  Successfully processed and prepared the input for the submit service
+2019-02-22 12:30:58,595 INFO  Invoking the service to submit the user solution
+2019-02-22 12:30:58,595 INFO  Initialising service address for Submit
+2019-02-22 12:30:58,595 INFO  Time before invoking service In SUPER:Fri Feb 22 12:30:58 IST 2019
+2019-02-22 12:30:59,020 INFO  Time after invoking service In SUPER:Fri Feb 22 12:30:59 IST 2019
+2019-02-22 12:30:59,020 INFO  Service responded successfully with required details
+2019-02-22 12:30:59,020 INFO  User solution successfully submitted
+2019-02-22 12:30:59,021 INFO  Displaying submission status
+2019-02-22 12:30:59,021 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-22 12:32:28,234 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:32:28,234 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:32:28,234 INFO  Starting to parse the user solution
+2019-02-22 12:32:28,234 INFO  Displaying user solution
+2019-02-22 12:32:28,301 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:32:28,302 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:32:28,302 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:32:28,302 INFO  Invoking the service to verify the user solution
+2019-02-22 12:32:28,302 INFO  Time before invoking service:Fri Feb 22 12:32:28 IST 2019
+2019-02-22 12:32:28,302 INFO  Initialising service address for VerifySolution
+2019-02-22 12:32:28,303 INFO  Time before invoking service In SUPER:Fri Feb 22 12:32:28 IST 2019
+2019-02-22 12:32:29,214 INFO  Time after invoking service In SUPER:Fri Feb 22 12:32:29 IST 2019
+2019-02-22 12:32:29,215 INFO  Service responded successfully with required details
+2019-02-22 12:32:29,215 INFO  Time after invoking service:Fri Feb 22 12:32:29 IST 2019
+2019-02-22 12:32:29,215 INFO  User solution successfully verified
+2019-02-22 12:32:29,216 INFO  Processing the response from verify service
+2019-02-22 12:32:29,218 INFO  Starting to parse JSON response
+2019-02-22 12:32:29,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,220 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,220 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,220 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,220 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,220 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:32:29,222 INFO  Successfully parsed JSON response
+2019-02-22 12:32:29,222 INFO  In the process of generating verify response in HTML
+2019-02-22 12:32:29,296 INFO  Successfully generated verify response in HTML
+2019-02-22 12:32:29,297 INFO  Successfully processed the response from service
+2019-02-22 12:34:07,619 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:34:07,619 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:34:07,619 INFO  Starting to parse the user solution
+2019-02-22 12:34:07,620 INFO  Displaying user solution
+2019-02-22 12:34:07,675 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:34:07,675 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:34:07,675 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:34:07,675 INFO  Invoking the service to verify the user solution
+2019-02-22 12:34:07,678 INFO  Time before invoking service:Fri Feb 22 12:34:07 IST 2019
+2019-02-22 12:34:07,678 INFO  Initialising service address for VerifySolution
+2019-02-22 12:34:07,679 INFO  Time before invoking service In SUPER:Fri Feb 22 12:34:07 IST 2019
+2019-02-22 12:34:08,659 INFO  Time after invoking service In SUPER:Fri Feb 22 12:34:08 IST 2019
+2019-02-22 12:34:08,660 INFO  Service responded successfully with required details
+2019-02-22 12:34:08,660 INFO  Time after invoking service:Fri Feb 22 12:34:08 IST 2019
+2019-02-22 12:34:08,660 INFO  User solution successfully verified
+2019-02-22 12:34:08,660 INFO  Processing the response from verify service
+2019-02-22 12:34:08,662 INFO  Starting to parse JSON response
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,663 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:34:08,664 INFO  Successfully parsed JSON response
+2019-02-22 12:34:08,665 INFO  In the process of generating verify response in HTML
+2019-02-22 12:34:08,744 INFO  Successfully generated verify response in HTML
+2019-02-22 12:34:08,744 INFO  Successfully processed the response from service
+2019-02-22 12:35:13,050 INFO  Setting request parameters for VerifySolution
+2019-02-22 12:35:13,050 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 12:35:13,050 INFO  Starting to parse the user solution
+2019-02-22 12:35:13,051 INFO  Displaying user solution
+2019-02-22 12:35:13,114 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-20\r\n'''\r\nCreated on Feb 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\n\r\ndef calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_expected,customer_emi_expected):\r\n    eligible_loan_amount=0\r\n    bank_emi_expected=0\r\n    eligible_loan_amount=0\r\n    #Start writing your code here\r\n    if(account_balance>=100000):\r\n        if(account_number>=1000 and account_number<=1999):\r\n            if(salary>25000 and salary<=50000 and loan_type==\"Car\"):\r\n                 eligible_loan_amount= 500000\r\n                 bank_emi_expected=36\r\n                 if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                      print(\"Account number:\", account_number)\r\n                      print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                      print(\"Eligible EMIs :\", bank_emi_expected)\r\n                      print(\"Requested loan amount:\", loan_amount_expected)\r\n                      print(\"Requested EMI's:\",customer_emi_expected)\r\n                 else:\r\n                         print(\"The customer is not eligible for the loan\")\r\n            elif(salary>50000 and salary<=75000 and loan_type==\"House\"):\r\n                eligible_loan_amount=6000000\r\n                bank_emi_expected=60\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            elif(salary>75000 and loan_type==\"Business\"):\r\n                eligible_loan_amount =7500000\r\n                bank_emi_expected=84\r\n                if(loan_amount_expected<=eligible_loan_amount and customer_emi_expected<=bank_emi_expected):\r\n                  print(\"Account number:\", account_number)\r\n                  print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n                  print(\"Eligible EMIs :\", bank_emi_expected)\r\n                  print(\"Requested loan amount:\", loan_amount_expected)\r\n                  print(\"Requested EMI's:\",customer_emi_expected)\r\n                else:\r\n                    print(\"The customer is not eligible for the loan\")\r\n            else:\r\n                print(\"Invalid loan type or salary\")\r\n        else:\r\n            print(\"Invalid account number\")\r\n    else:\r\n        print(\"Insufficient account balance\")\r\n    #Populate the variables: eligible_loan_amount and bank_emi_expected\r\n\r\n    \r\n    #print(\"Account number:\", account_number)\r\n    #print(\"The customer can avail the amount of Rs.\", eligible_loan_amount)\r\n    #print(\"Eligible EMIs :\", bank_emi_expected)\r\n    #print(\"Requested loan amount:\", loan_amount_expected)\r\n    #print(\"Requested EMI's:\",customer_emi_expected)\r\n\r\n   \r\n    #print(\"Insufficient account balance\")\r\n    #print(\"The customer is not eligible for the loan\")\r\n    #print(\"Invalid account number\")\r\n    #print(\"Invalid loan type or salary\")\r\n    # Also, do not modify the above print statements for verification to work\r\n\r\n\r\n#Test your code for different values and observe the results\r\ncalculate_loan(1001,40000,250000,\"Car\",300000,30)\r\n","asgnmtId":"20","SolutionFileName":"Assignment20.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 12:35:13,115 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 12:35:13,116 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 12:35:13,116 INFO  Invoking the service to verify the user solution
+2019-02-22 12:35:13,116 INFO  Time before invoking service:Fri Feb 22 12:35:13 IST 2019
+2019-02-22 12:35:13,116 INFO  Initialising service address for VerifySolution
+2019-02-22 12:35:13,116 INFO  Time before invoking service In SUPER:Fri Feb 22 12:35:13 IST 2019
+2019-02-22 12:35:14,029 INFO  Time after invoking service In SUPER:Fri Feb 22 12:35:14 IST 2019
+2019-02-22 12:35:14,029 INFO  Service responded successfully with required details
+2019-02-22 12:35:14,029 INFO  Time after invoking service:Fri Feb 22 12:35:14 IST 2019
+2019-02-22 12:35:14,030 INFO  User solution successfully verified
+2019-02-22 12:35:14,030 INFO  Processing the response from verify service
+2019-02-22 12:35:14,033 INFO  Starting to parse JSON response
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,034 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,035 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,035 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 12:35:14,036 INFO  Successfully parsed JSON response
+2019-02-22 12:35:14,036 INFO  In the process of generating verify response in HTML
+2019-02-22 12:35:14,117 INFO  Successfully generated verify response in HTML
+2019-02-22 12:35:14,117 INFO  Successfully processed the response from service
+2019-02-22 12:35:18,604 INFO  Initiating to process and prepare Input for the submit service
+2019-02-22 12:35:18,605 INFO  Displaying user solution
+2019-02-22 12:35:18,618 INFO  Successfully processed and prepared the input for the submit service
+2019-02-22 12:35:18,619 INFO  Invoking the service to submit the user solution
+2019-02-22 12:35:18,619 INFO  Initialising service address for Submit
+2019-02-22 12:35:18,620 INFO  Time before invoking service In SUPER:Fri Feb 22 12:35:18 IST 2019
+2019-02-22 12:35:18,840 INFO  Time after invoking service In SUPER:Fri Feb 22 12:35:18 IST 2019
+2019-02-22 12:35:18,841 INFO  Service responded successfully with required details
+2019-02-22 12:35:18,841 INFO  User solution successfully submitted
+2019-02-22 12:35:18,841 INFO  Displaying submission status
+2019-02-22 12:35:18,841 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-22 12:35:21,307 INFO  Initiating to process and prepare Input for the submit service
+2019-02-22 12:35:21,308 INFO  Displaying user solution
+2019-02-22 12:35:21,315 INFO  Successfully processed and prepared the input for the submit service
+2019-02-22 12:35:21,316 INFO  Invoking the service to submit the user solution
+2019-02-22 12:35:21,316 INFO  Initialising service address for Submit
+2019-02-22 12:35:21,316 INFO  Time before invoking service In SUPER:Fri Feb 22 12:35:21 IST 2019
+2019-02-22 12:35:21,461 INFO  Time after invoking service In SUPER:Fri Feb 22 12:35:21 IST 2019
+2019-02-22 12:35:21,461 INFO  Service responded successfully with required details
+2019-02-22 12:35:21,461 INFO  User solution successfully submitted
+2019-02-22 12:35:21,461 INFO  Displaying submission status
+2019-02-22 12:35:21,462 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-22 19:04:15,184 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:04:15,184 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:04:15,184 INFO  Starting to parse the user solution
+2019-02-22 19:04:15,185 INFO  Displaying user solution
+2019-02-22 19:04:15,240 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 given_year = given_year+4\r\n                 list_of_leap_years[i] = given_year\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n          for i in range(0,4):\r\n              given_year += 1\r\n              if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                  for i in range(0,15):\r\n                      \r\n                      list_of_leap_years[i] = given_year\r\n                      given_year = given_year+4\r\n                  return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(2001)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:04:15,243 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:04:15,243 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:04:15,243 INFO  Invoking the service to verify the user solution
+2019-02-22 19:04:15,244 INFO  Time before invoking service:Fri Feb 22 19:04:15 IST 2019
+2019-02-22 19:04:15,244 INFO  Initialising service address for VerifySolution
+2019-02-22 19:04:15,244 INFO  Time before invoking service In SUPER:Fri Feb 22 19:04:15 IST 2019
+2019-02-22 19:04:17,134 INFO  Time after invoking service In SUPER:Fri Feb 22 19:04:17 IST 2019
+2019-02-22 19:04:17,134 INFO  Service responded successfully with required details
+2019-02-22 19:04:17,134 INFO  Time after invoking service:Fri Feb 22 19:04:17 IST 2019
+2019-02-22 19:04:17,135 INFO  User solution successfully verified
+2019-02-22 19:04:17,135 INFO  Processing the response from verify service
+2019-02-22 19:04:17,138 INFO  Starting to parse JSON response
+2019-02-22 19:04:17,139 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:04:17,139 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:04:17,139 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:04:17,139 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:04:17,139 INFO  Successfully parsed JSON response
+2019-02-22 19:04:17,141 INFO  In the process of generating verify response in HTML
+2019-02-22 19:04:17,210 INFO  Successfully generated verify response in HTML
+2019-02-22 19:04:17,211 INFO  Successfully processed the response from service
+2019-02-22 19:05:26,806 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:05:26,807 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:05:26,807 INFO  Starting to parse the user solution
+2019-02-22 19:05:26,811 INFO  Displaying user solution
+2019-02-22 19:05:26,849 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n          for i in range(0,4):\r\n              given_year += 1\r\n              if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                  for i in range(0,15):\r\n                      \r\n                      list_of_leap_years[i] = given_year\r\n                      given_year = given_year+4\r\n                  return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:05:26,849 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:05:26,849 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:05:26,849 INFO  Invoking the service to verify the user solution
+2019-02-22 19:05:26,850 INFO  Time before invoking service:Fri Feb 22 19:05:26 IST 2019
+2019-02-22 19:05:26,850 INFO  Initialising service address for VerifySolution
+2019-02-22 19:05:26,850 INFO  Time before invoking service In SUPER:Fri Feb 22 19:05:26 IST 2019
+2019-02-22 19:05:28,615 INFO  Time after invoking service In SUPER:Fri Feb 22 19:05:28 IST 2019
+2019-02-22 19:05:28,616 INFO  Service responded successfully with required details
+2019-02-22 19:05:28,616 INFO  Time after invoking service:Fri Feb 22 19:05:28 IST 2019
+2019-02-22 19:05:28,616 INFO  User solution successfully verified
+2019-02-22 19:05:28,617 INFO  Processing the response from verify service
+2019-02-22 19:05:28,618 INFO  Starting to parse JSON response
+2019-02-22 19:05:28,619 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:05:28,619 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:05:28,619 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:05:28,619 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:05:28,619 INFO  Successfully parsed JSON response
+2019-02-22 19:05:28,620 INFO  In the process of generating verify response in HTML
+2019-02-22 19:05:28,687 INFO  Successfully generated verify response in HTML
+2019-02-22 19:05:28,687 INFO  Successfully processed the response from service
+2019-02-22 19:07:06,145 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:07:06,145 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:07:06,145 INFO  Starting to parse the user solution
+2019-02-22 19:07:06,145 INFO  Displaying user solution
+2019-02-22 19:07:06,180 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n          for i in range(0,4):\r\n              given_year += 1\r\n              if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                  for i in range(0,15):\r\n                      \r\n                      list_of_leap_years[i] = given_year\r\n                      given_year = given_year+4\r\n                  return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:07:06,181 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:07:06,181 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:07:06,181 INFO  Invoking the service to verify the user solution
+2019-02-22 19:07:06,181 INFO  Time before invoking service:Fri Feb 22 19:07:06 IST 2019
+2019-02-22 19:07:06,181 INFO  Initialising service address for VerifySolution
+2019-02-22 19:07:06,182 INFO  Time before invoking service In SUPER:Fri Feb 22 19:07:06 IST 2019
+2019-02-22 19:07:08,285 INFO  Time after invoking service In SUPER:Fri Feb 22 19:07:08 IST 2019
+2019-02-22 19:07:08,285 INFO  Service responded successfully with required details
+2019-02-22 19:07:08,286 INFO  Time after invoking service:Fri Feb 22 19:07:08 IST 2019
+2019-02-22 19:07:08,286 INFO  User solution successfully verified
+2019-02-22 19:07:08,286 INFO  Processing the response from verify service
+2019-02-22 19:07:08,287 INFO  Starting to parse JSON response
+2019-02-22 19:07:08,287 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:08,287 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:08,288 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:08,288 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:08,288 INFO  Successfully parsed JSON response
+2019-02-22 19:07:08,289 INFO  In the process of generating verify response in HTML
+2019-02-22 19:07:08,360 INFO  Successfully generated verify response in HTML
+2019-02-22 19:07:08,360 INFO  Successfully processed the response from service
+2019-02-22 19:07:57,697 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:07:57,697 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:07:57,697 INFO  Starting to parse the user solution
+2019-02-22 19:07:57,698 INFO  Displaying user solution
+2019-02-22 19:07:57,729 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 given_year = given_year+4\r\n                 list_of_leap_years[i] = given_year\r\n                 \r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n          for i in range(0,4):\r\n              given_year += 1\r\n              if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                  for i in range(0,15):\r\n                      \r\n                      list_of_leap_years[i] = given_year\r\n                      given_year = given_year+4\r\n                  return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:07:57,730 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:07:57,730 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:07:57,730 INFO  Invoking the service to verify the user solution
+2019-02-22 19:07:57,730 INFO  Time before invoking service:Fri Feb 22 19:07:57 IST 2019
+2019-02-22 19:07:57,730 INFO  Initialising service address for VerifySolution
+2019-02-22 19:07:57,731 INFO  Time before invoking service In SUPER:Fri Feb 22 19:07:57 IST 2019
+2019-02-22 19:07:59,647 INFO  Time after invoking service In SUPER:Fri Feb 22 19:07:59 IST 2019
+2019-02-22 19:07:59,648 INFO  Service responded successfully with required details
+2019-02-22 19:07:59,648 INFO  Time after invoking service:Fri Feb 22 19:07:59 IST 2019
+2019-02-22 19:07:59,648 INFO  User solution successfully verified
+2019-02-22 19:07:59,649 INFO  Processing the response from verify service
+2019-02-22 19:07:59,650 INFO  Starting to parse JSON response
+2019-02-22 19:07:59,651 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:59,651 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:59,651 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:59,651 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:07:59,651 INFO  Successfully parsed JSON response
+2019-02-22 19:07:59,652 INFO  In the process of generating verify response in HTML
+2019-02-22 19:07:59,716 INFO  Successfully generated verify response in HTML
+2019-02-22 19:07:59,716 INFO  Successfully processed the response from service
+2019-02-22 19:10:25,022 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:10:25,023 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:10:25,023 INFO  Starting to parse the user solution
+2019-02-22 19:10:25,023 INFO  Displaying user solution
+2019-02-22 19:10:25,070 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 given_year = given_year+4\r\n                 list_of_leap_years[i] = given_year\r\n                 \r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:10:25,070 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:10:25,071 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:10:25,071 INFO  Invoking the service to verify the user solution
+2019-02-22 19:10:25,071 INFO  Time before invoking service:Fri Feb 22 19:10:25 IST 2019
+2019-02-22 19:10:25,071 INFO  Initialising service address for VerifySolution
+2019-02-22 19:10:25,072 INFO  Time before invoking service In SUPER:Fri Feb 22 19:10:25 IST 2019
+2019-02-22 19:10:26,788 INFO  Time after invoking service In SUPER:Fri Feb 22 19:10:26 IST 2019
+2019-02-22 19:10:26,788 INFO  Service responded successfully with required details
+2019-02-22 19:10:26,789 INFO  Time after invoking service:Fri Feb 22 19:10:26 IST 2019
+2019-02-22 19:10:26,789 INFO  User solution successfully verified
+2019-02-22 19:10:26,789 INFO  Processing the response from verify service
+2019-02-22 19:10:26,791 INFO  Starting to parse JSON response
+2019-02-22 19:10:26,792 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:10:26,792 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:10:26,792 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:10:26,792 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:10:26,792 INFO  Successfully parsed JSON response
+2019-02-22 19:10:26,793 INFO  In the process of generating verify response in HTML
+2019-02-22 19:10:26,868 INFO  Successfully generated verify response in HTML
+2019-02-22 19:10:26,869 INFO  Successfully processed the response from service
+2019-02-22 19:11:37,055 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:11:37,055 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:11:37,055 INFO  Starting to parse the user solution
+2019-02-22 19:11:37,055 INFO  Displaying user solution
+2019-02-22 19:11:37,092 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:11:37,092 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:11:37,093 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:11:37,093 INFO  Invoking the service to verify the user solution
+2019-02-22 19:11:37,093 INFO  Time before invoking service:Fri Feb 22 19:11:37 IST 2019
+2019-02-22 19:11:37,093 INFO  Initialising service address for VerifySolution
+2019-02-22 19:11:37,094 INFO  Time before invoking service In SUPER:Fri Feb 22 19:11:37 IST 2019
+2019-02-22 19:11:38,955 INFO  Time after invoking service In SUPER:Fri Feb 22 19:11:38 IST 2019
+2019-02-22 19:11:38,956 INFO  Service responded successfully with required details
+2019-02-22 19:11:38,956 INFO  Time after invoking service:Fri Feb 22 19:11:38 IST 2019
+2019-02-22 19:11:38,956 INFO  User solution successfully verified
+2019-02-22 19:11:38,956 INFO  Processing the response from verify service
+2019-02-22 19:11:38,957 INFO  Starting to parse JSON response
+2019-02-22 19:11:38,958 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:11:38,958 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:11:38,958 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:11:38,958 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:11:38,958 INFO  Successfully parsed JSON response
+2019-02-22 19:11:38,959 INFO  In the process of generating verify response in HTML
+2019-02-22 19:11:39,027 INFO  Successfully generated verify response in HTML
+2019-02-22 19:11:39,027 INFO  Successfully processed the response from service
+2019-02-22 19:15:00,033 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:15:00,034 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:15:00,034 INFO  Starting to parse the user solution
+2019-02-22 19:15:00,039 INFO  Displaying user solution
+2019-02-22 19:15:00,080 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:15:00,081 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:15:00,081 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:15:00,081 INFO  Invoking the service to verify the user solution
+2019-02-22 19:15:00,081 INFO  Time before invoking service:Fri Feb 22 19:15:00 IST 2019
+2019-02-22 19:15:00,081 INFO  Initialising service address for VerifySolution
+2019-02-22 19:15:00,085 INFO  Time before invoking service In SUPER:Fri Feb 22 19:15:00 IST 2019
+2019-02-22 19:15:01,817 INFO  Time after invoking service In SUPER:Fri Feb 22 19:15:01 IST 2019
+2019-02-22 19:15:01,817 INFO  Service responded successfully with required details
+2019-02-22 19:15:01,818 INFO  Time after invoking service:Fri Feb 22 19:15:01 IST 2019
+2019-02-22 19:15:01,818 INFO  User solution successfully verified
+2019-02-22 19:15:01,818 INFO  Processing the response from verify service
+2019-02-22 19:15:01,820 INFO  Starting to parse JSON response
+2019-02-22 19:15:01,821 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:15:01,821 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:15:01,821 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:15:01,821 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:15:01,821 INFO  Successfully parsed JSON response
+2019-02-22 19:15:01,822 INFO  In the process of generating verify response in HTML
+2019-02-22 19:15:01,903 INFO  Successfully generated verify response in HTML
+2019-02-22 19:15:01,903 INFO  Successfully processed the response from service
+2019-02-22 19:17:38,111 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:17:38,111 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:17:38,111 INFO  Starting to parse the user solution
+2019-02-22 19:17:38,112 INFO  Displaying user solution
+2019-02-22 19:17:38,153 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:17:38,154 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:17:38,154 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:17:38,154 INFO  Invoking the service to verify the user solution
+2019-02-22 19:17:38,154 INFO  Time before invoking service:Fri Feb 22 19:17:38 IST 2019
+2019-02-22 19:17:38,155 INFO  Initialising service address for VerifySolution
+2019-02-22 19:17:38,156 INFO  Time before invoking service In SUPER:Fri Feb 22 19:17:38 IST 2019
+2019-02-22 19:17:39,874 INFO  Time after invoking service In SUPER:Fri Feb 22 19:17:39 IST 2019
+2019-02-22 19:17:39,875 INFO  Service responded successfully with required details
+2019-02-22 19:17:39,875 INFO  Time after invoking service:Fri Feb 22 19:17:39 IST 2019
+2019-02-22 19:17:39,875 INFO  User solution successfully verified
+2019-02-22 19:17:39,875 INFO  Processing the response from verify service
+2019-02-22 19:17:39,876 INFO  Starting to parse JSON response
+2019-02-22 19:17:39,877 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:17:39,877 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:17:39,877 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:17:39,877 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:17:39,877 INFO  Successfully parsed JSON response
+2019-02-22 19:17:39,878 INFO  In the process of generating verify response in HTML
+2019-02-22 19:17:39,962 INFO  Successfully generated verify response in HTML
+2019-02-22 19:17:39,962 INFO  Successfully processed the response from service
+2019-02-22 19:19:16,258 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:19:16,258 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:19:16,258 INFO  Starting to parse the user solution
+2019-02-22 19:19:16,259 INFO  Displaying user solution
+2019-02-22 19:19:16,290 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:19:16,291 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:19:16,291 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:19:16,291 INFO  Invoking the service to verify the user solution
+2019-02-22 19:19:16,291 INFO  Time before invoking service:Fri Feb 22 19:19:16 IST 2019
+2019-02-22 19:19:16,291 INFO  Initialising service address for VerifySolution
+2019-02-22 19:19:16,292 INFO  Time before invoking service In SUPER:Fri Feb 22 19:19:16 IST 2019
+2019-02-22 19:19:17,909 INFO  Time after invoking service In SUPER:Fri Feb 22 19:19:17 IST 2019
+2019-02-22 19:19:17,909 INFO  Service responded successfully with required details
+2019-02-22 19:19:17,910 INFO  Time after invoking service:Fri Feb 22 19:19:17 IST 2019
+2019-02-22 19:19:17,910 INFO  User solution successfully verified
+2019-02-22 19:19:17,910 INFO  Processing the response from verify service
+2019-02-22 19:19:17,911 INFO  Starting to parse JSON response
+2019-02-22 19:19:17,911 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:19:17,912 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:19:17,912 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:19:17,912 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:19:17,912 INFO  Successfully parsed JSON response
+2019-02-22 19:19:17,913 INFO  In the process of generating verify response in HTML
+2019-02-22 19:19:17,985 INFO  Successfully generated verify response in HTML
+2019-02-22 19:19:17,986 INFO  Successfully processed the response from service
+2019-02-22 19:21:59,672 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:21:59,674 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:21:59,674 INFO  Starting to parse the user solution
+2019-02-22 19:21:59,674 INFO  Displaying user solution
+2019-02-22 19:21:59,715 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     if(given_year>=1900):\r\n         list_of_leap_years = [None]*15\r\n         if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 list_of_leap_years[i] = given_year\r\n                 given_year = given_year+4\r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:21:59,715 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:21:59,715 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:21:59,715 INFO  Invoking the service to verify the user solution
+2019-02-22 19:21:59,715 INFO  Time before invoking service:Fri Feb 22 19:21:59 IST 2019
+2019-02-22 19:21:59,715 INFO  Initialising service address for VerifySolution
+2019-02-22 19:21:59,716 INFO  Time before invoking service In SUPER:Fri Feb 22 19:21:59 IST 2019
+2019-02-22 19:22:01,716 INFO  Time after invoking service In SUPER:Fri Feb 22 19:22:01 IST 2019
+2019-02-22 19:22:01,717 INFO  Service responded successfully with required details
+2019-02-22 19:22:01,717 INFO  Time after invoking service:Fri Feb 22 19:22:01 IST 2019
+2019-02-22 19:22:01,717 INFO  User solution successfully verified
+2019-02-22 19:22:01,717 INFO  Processing the response from verify service
+2019-02-22 19:22:01,719 INFO  Starting to parse JSON response
+2019-02-22 19:22:01,719 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:22:01,719 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:22:01,720 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:22:01,720 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:22:01,720 INFO  Successfully parsed JSON response
+2019-02-22 19:22:01,721 INFO  In the process of generating verify response in HTML
+2019-02-22 19:22:01,794 INFO  Successfully generated verify response in HTML
+2019-02-22 19:22:01,794 INFO  Successfully processed the response from service
+2019-02-22 19:26:08,500 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:26:08,500 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:26:08,501 INFO  Starting to parse the user solution
+2019-02-22 19:26:08,503 INFO  Displaying user solution
+2019-02-22 19:26:08,543 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n             for i in range(0,15):\r\n                 \r\n                 \r\n                 given_year = given_year+4\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                     list_of_leap_years[i] = given_year\r\n                     \r\n                 \r\n             \r\n             return list_of_leap_years \r\n     else:\r\n         if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n             for i in range(0,4):\r\n                 given_year += 1\r\n                 if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n             \r\n                      for i in range(0,15):\r\n                      \r\n                         list_of_leap_years[i] = given_year\r\n                         if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                              given_year = given_year+4\r\n                      return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:26:08,544 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:26:08,544 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:26:08,544 INFO  Invoking the service to verify the user solution
+2019-02-22 19:26:08,544 INFO  Time before invoking service:Fri Feb 22 19:26:08 IST 2019
+2019-02-22 19:26:08,544 INFO  Initialising service address for VerifySolution
+2019-02-22 19:26:08,545 INFO  Time before invoking service In SUPER:Fri Feb 22 19:26:08 IST 2019
+2019-02-22 19:26:10,244 INFO  Time after invoking service In SUPER:Fri Feb 22 19:26:10 IST 2019
+2019-02-22 19:26:10,244 INFO  Service responded successfully with required details
+2019-02-22 19:26:10,244 INFO  Time after invoking service:Fri Feb 22 19:26:10 IST 2019
+2019-02-22 19:26:10,244 INFO  User solution successfully verified
+2019-02-22 19:26:10,244 INFO  Processing the response from verify service
+2019-02-22 19:26:10,245 INFO  Starting to parse JSON response
+2019-02-22 19:26:10,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:26:10,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:26:10,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:26:10,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:26:10,246 INFO  Successfully parsed JSON response
+2019-02-22 19:26:10,247 INFO  In the process of generating verify response in HTML
+2019-02-22 19:26:10,313 INFO  Successfully generated verify response in HTML
+2019-02-22 19:26:10,313 INFO  Successfully processed the response from service
+2019-02-22 19:52:28,524 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:52:28,524 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:52:28,525 INFO  Starting to parse the user solution
+2019-02-22 19:52:28,526 INFO  Displaying user solution
+2019-02-22 19:52:28,614 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             given_year+=4\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 given_year = given_year\r\n             elif(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                 given_year+=4\r\n             list_of_leap_years[i]=given_year\r\n             \r\n         return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:52:28,615 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:52:28,615 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:52:28,615 INFO  Invoking the service to verify the user solution
+2019-02-22 19:52:28,615 INFO  Time before invoking service:Fri Feb 22 19:52:28 IST 2019
+2019-02-22 19:52:28,615 INFO  Initialising service address for VerifySolution
+2019-02-22 19:52:28,616 INFO  Time before invoking service In SUPER:Fri Feb 22 19:52:28 IST 2019
+2019-02-22 19:52:30,452 INFO  Time after invoking service In SUPER:Fri Feb 22 19:52:30 IST 2019
+2019-02-22 19:52:30,453 INFO  Service responded successfully with required details
+2019-02-22 19:52:30,453 INFO  Time after invoking service:Fri Feb 22 19:52:30 IST 2019
+2019-02-22 19:52:30,453 INFO  User solution successfully verified
+2019-02-22 19:52:30,453 INFO  Processing the response from verify service
+2019-02-22 19:52:30,455 INFO  Starting to parse JSON response
+2019-02-22 19:52:30,457 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:52:30,457 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:52:30,457 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:52:30,457 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:52:30,457 INFO  Successfully parsed JSON response
+2019-02-22 19:52:30,458 INFO  In the process of generating verify response in HTML
+2019-02-22 19:52:30,538 INFO  Successfully generated verify response in HTML
+2019-02-22 19:52:30,539 INFO  Successfully processed the response from service
+2019-02-22 19:53:48,269 INFO  Setting request parameters for VerifySolution
+2019-02-22 19:53:48,269 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 19:53:48,269 INFO  Starting to parse the user solution
+2019-02-22 19:53:48,270 INFO  Displaying user solution
+2019-02-22 19:53:48,314 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             list_of_leap_years[i]=given_year\r\n             given_year+=4\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 given_year = given_year\r\n             elif(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                 given_year+=4\r\n             \r\n             \r\n         return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 19:53:48,314 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 19:53:48,314 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 19:53:48,314 INFO  Invoking the service to verify the user solution
+2019-02-22 19:53:48,314 INFO  Time before invoking service:Fri Feb 22 19:53:48 IST 2019
+2019-02-22 19:53:48,315 INFO  Initialising service address for VerifySolution
+2019-02-22 19:53:48,315 INFO  Time before invoking service In SUPER:Fri Feb 22 19:53:48 IST 2019
+2019-02-22 19:53:50,059 INFO  Time after invoking service In SUPER:Fri Feb 22 19:53:50 IST 2019
+2019-02-22 19:53:50,060 INFO  Service responded successfully with required details
+2019-02-22 19:53:50,064 INFO  Time after invoking service:Fri Feb 22 19:53:50 IST 2019
+2019-02-22 19:53:50,064 INFO  User solution successfully verified
+2019-02-22 19:53:50,065 INFO  Processing the response from verify service
+2019-02-22 19:53:50,067 INFO  Starting to parse JSON response
+2019-02-22 19:53:50,068 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:53:50,068 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:53:50,068 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:53:50,068 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 19:53:50,068 INFO  Successfully parsed JSON response
+2019-02-22 19:53:50,094 INFO  In the process of generating verify response in HTML
+2019-02-22 19:53:50,171 INFO  Successfully generated verify response in HTML
+2019-02-22 19:53:50,171 INFO  Successfully processed the response from service
+2019-02-22 20:00:11,591 INFO  Setting request parameters for VerifySolution
+2019-02-22 20:00:11,592 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 20:00:11,592 INFO  Starting to parse the user solution
+2019-02-22 20:00:11,592 INFO  Displaying user solution
+2019-02-22 20:00:11,638 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             list_of_leap_years[i]=given_year\r\n             given_year+=4\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 given_year = given_year\r\n             elif(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                 given_year+=4\r\n             \r\n             \r\n         return list_of_leap_years\r\n     if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n         for i in range(0,4):\r\n             given_year+=1\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 for i in range(0,15):\r\n                     list_of_leap_years[i]=given_year\r\n                     given_year+=4\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 20:00:11,639 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 20:00:11,639 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 20:00:11,639 INFO  Invoking the service to verify the user solution
+2019-02-22 20:00:11,639 INFO  Time before invoking service:Fri Feb 22 20:00:11 IST 2019
+2019-02-22 20:00:11,639 INFO  Initialising service address for VerifySolution
+2019-02-22 20:00:11,640 INFO  Time before invoking service In SUPER:Fri Feb 22 20:00:11 IST 2019
+2019-02-22 20:00:13,289 INFO  Time after invoking service In SUPER:Fri Feb 22 20:00:13 IST 2019
+2019-02-22 20:00:13,289 INFO  Service responded successfully with required details
+2019-02-22 20:00:13,290 INFO  Time after invoking service:Fri Feb 22 20:00:13 IST 2019
+2019-02-22 20:00:13,290 INFO  User solution successfully verified
+2019-02-22 20:00:13,291 INFO  Processing the response from verify service
+2019-02-22 20:00:13,294 INFO  Starting to parse JSON response
+2019-02-22 20:00:13,295 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:00:13,295 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:00:13,295 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:00:13,295 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:00:13,295 INFO  Successfully parsed JSON response
+2019-02-22 20:00:13,297 INFO  In the process of generating verify response in HTML
+2019-02-22 20:00:13,377 INFO  Successfully generated verify response in HTML
+2019-02-22 20:00:13,377 INFO  Successfully processed the response from service
+2019-02-22 20:32:25,824 INFO  Setting request parameters for VerifySolution
+2019-02-22 20:32:25,825 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 20:32:25,825 INFO  Starting to parse the user solution
+2019-02-22 20:32:25,829 INFO  Displaying user solution
+2019-02-22 20:32:25,974 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     \r\n     \r\n  \r\n                     \r\n                 \r\n     if(given_year>0):\r\n         for i in range(0,100):\r\n             \r\n             \r\n             while(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 list_of_leap_years[i]= given_year\r\n                  \r\n             \r\n         return list_of_leap_years\r\n     while(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n         for i in range(0,4):\r\n             given_year+=1\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 for i in range(0,15):\r\n                     list_of_leap_years[i]=given_year\r\n                 return list_of_leap_years\r\n                      \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 20:32:25,978 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 20:32:25,978 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 20:32:25,978 INFO  Invoking the service to verify the user solution
+2019-02-22 20:32:25,978 INFO  Time before invoking service:Fri Feb 22 20:32:25 IST 2019
+2019-02-22 20:32:25,978 INFO  Initialising service address for VerifySolution
+2019-02-22 20:32:25,979 INFO  Time before invoking service In SUPER:Fri Feb 22 20:32:25 IST 2019
+2019-02-22 20:32:35,461 INFO  Time after invoking service In SUPER:Fri Feb 22 20:32:35 IST 2019
+2019-02-22 20:32:35,461 INFO  Service responded successfully with required details
+2019-02-22 20:32:35,461 INFO  Time after invoking service:Fri Feb 22 20:32:35 IST 2019
+2019-02-22 20:32:35,462 INFO  User solution successfully verified
+2019-02-22 20:32:35,462 INFO  Processing the response from verify service
+2019-02-22 20:32:35,468 INFO  Starting to parse JSON response
+2019-02-22 20:32:35,469 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:32:35,469 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:32:35,469 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:32:35,469 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:32:35,469 INFO  Successfully parsed JSON response
+2019-02-22 20:32:35,470 INFO  In the process of generating verify response in HTML
+2019-02-22 20:32:35,545 INFO  Successfully generated verify response in HTML
+2019-02-22 20:32:35,545 INFO  Successfully processed the response from service
+2019-02-22 20:37:48,067 INFO  Setting request parameters for VerifySolution
+2019-02-22 20:37:48,068 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 20:37:48,068 INFO  Starting to parse the user solution
+2019-02-22 20:37:48,069 INFO  Displaying user solution
+2019-02-22 20:37:48,123 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     \r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             list_of_leap_years[i]= given_year\r\n             given_year = given_year+4\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                  given_year = given_year+4\r\n                  \r\n                  if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                      \r\n                      given_year= given_year+8\r\n             \r\n             \r\n         return list_of_leap_years\r\n     if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n         for i in range(0,4):\r\n             given_year+=1\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 for i in range(0,15):\r\n                     list_of_leap_years[i]=given_year\r\n                     \r\n                 return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 20:37:48,123 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 20:37:48,123 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 20:37:48,123 INFO  Invoking the service to verify the user solution
+2019-02-22 20:37:48,124 INFO  Time before invoking service:Fri Feb 22 20:37:48 IST 2019
+2019-02-22 20:37:48,124 INFO  Initialising service address for VerifySolution
+2019-02-22 20:37:48,124 INFO  Time before invoking service In SUPER:Fri Feb 22 20:37:48 IST 2019
+2019-02-22 20:37:50,047 INFO  Time after invoking service In SUPER:Fri Feb 22 20:37:50 IST 2019
+2019-02-22 20:37:50,047 INFO  Service responded successfully with required details
+2019-02-22 20:37:50,047 INFO  Time after invoking service:Fri Feb 22 20:37:50 IST 2019
+2019-02-22 20:37:50,048 INFO  User solution successfully verified
+2019-02-22 20:37:50,048 INFO  Processing the response from verify service
+2019-02-22 20:37:50,053 INFO  Starting to parse JSON response
+2019-02-22 20:37:50,055 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:37:50,055 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:37:50,055 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:37:50,055 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:37:50,055 INFO  Successfully parsed JSON response
+2019-02-22 20:37:50,057 INFO  In the process of generating verify response in HTML
+2019-02-22 20:37:50,137 INFO  Successfully generated verify response in HTML
+2019-02-22 20:37:50,137 INFO  Successfully processed the response from service
+2019-02-22 20:38:34,493 INFO  Setting request parameters for VerifySolution
+2019-02-22 20:38:34,493 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 20:38:34,493 INFO  Starting to parse the user solution
+2019-02-22 20:38:34,493 INFO  Displaying user solution
+2019-02-22 20:38:34,535 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             list_of_leap_years[i]=given_year\r\n             given_year+=4\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 given_year = given_year\r\n             elif(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                 given_year+=4\r\n             \r\n             \r\n         return list_of_leap_years\r\n     if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n         for i in range(0,4):\r\n             given_year+=1\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 for i in range(0,15):\r\n                     list_of_leap_years[i]=given_year\r\n                     given_year+=4\r\n                 return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(1684)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 20:38:34,535 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 20:38:34,535 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 20:38:34,535 INFO  Invoking the service to verify the user solution
+2019-02-22 20:38:34,535 INFO  Time before invoking service:Fri Feb 22 20:38:34 IST 2019
+2019-02-22 20:38:34,535 INFO  Initialising service address for VerifySolution
+2019-02-22 20:38:34,535 INFO  Time before invoking service In SUPER:Fri Feb 22 20:38:34 IST 2019
+2019-02-22 20:38:36,126 INFO  Time after invoking service In SUPER:Fri Feb 22 20:38:36 IST 2019
+2019-02-22 20:38:36,126 INFO  Service responded successfully with required details
+2019-02-22 20:38:36,126 INFO  Time after invoking service:Fri Feb 22 20:38:36 IST 2019
+2019-02-22 20:38:36,127 INFO  User solution successfully verified
+2019-02-22 20:38:36,128 INFO  Processing the response from verify service
+2019-02-22 20:38:36,128 INFO  Starting to parse JSON response
+2019-02-22 20:38:36,129 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:38:36,129 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:38:36,129 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:38:36,129 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:38:36,129 INFO  Successfully parsed JSON response
+2019-02-22 20:38:36,130 INFO  In the process of generating verify response in HTML
+2019-02-22 20:38:36,198 INFO  Successfully generated verify response in HTML
+2019-02-22 20:38:36,198 INFO  Successfully processed the response from service
+2019-02-22 20:48:43,676 INFO  Setting request parameters for VerifySolution
+2019-02-22 20:48:43,677 INFO  Initiating to process and prepare Input for the verify service
+2019-02-22 20:48:43,677 INFO  Starting to parse the user solution
+2019-02-22 20:48:43,677 INFO  Displaying user solution
+2019-02-22 20:48:43,750 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-22\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef find_leap_years(given_year):\r\n\r\n    # Write your logic here\r\n     \r\n     list_of_leap_years = [None]*15\r\n     while(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n         given_year+=4\r\n         \r\n     if(given_year>0):\r\n         for i in range(0,15):\r\n             list_of_leap_years[i]=given_year\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 given_year = given_year\r\n             elif(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n                 given_year+=4\r\n             \r\n            \r\n         return list_of_leap_years\r\n     if(not(given_year%4==0 and given_year%100!=0 or given_year%400==0)):\r\n         for i in range(0,4):\r\n             given_year+=1\r\n             if(given_year%4==0 and given_year%100!=0 or given_year%400==0):\r\n                 for i in range(0,15):\r\n                     list_of_leap_years[i]=given_year\r\n                     given_year+=4\r\n                 return list_of_leap_years\r\n              \r\n\r\nlist_of_leap_years=find_leap_years(2001)\r\nprint(list_of_leap_years)\r\n","asgnmtId":"22","SolutionFileName":"Assign22.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-22 20:48:43,751 INFO  Successfully processed and prepared the input for the verify service
+2019-02-22 20:48:43,751 INFO  Successfully set the request parameters for VerifySolution
+2019-02-22 20:48:43,751 INFO  Invoking the service to verify the user solution
+2019-02-22 20:48:43,751 INFO  Time before invoking service:Fri Feb 22 20:48:43 IST 2019
+2019-02-22 20:48:43,751 INFO  Initialising service address for VerifySolution
+2019-02-22 20:48:43,752 INFO  Time before invoking service In SUPER:Fri Feb 22 20:48:43 IST 2019
+2019-02-22 20:48:45,623 INFO  Time after invoking service In SUPER:Fri Feb 22 20:48:45 IST 2019
+2019-02-22 20:48:45,623 INFO  Service responded successfully with required details
+2019-02-22 20:48:45,624 INFO  Time after invoking service:Fri Feb 22 20:48:45 IST 2019
+2019-02-22 20:48:45,624 INFO  User solution successfully verified
+2019-02-22 20:48:45,624 INFO  Processing the response from verify service
+2019-02-22 20:48:45,626 INFO  Starting to parse JSON response
+2019-02-22 20:48:45,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:48:45,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:48:45,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:48:45,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-22 20:48:45,627 INFO  Successfully parsed JSON response
+2019-02-22 20:48:45,628 INFO  In the process of generating verify response in HTML
+2019-02-22 20:48:45,714 INFO  Successfully generated verify response in HTML
+2019-02-22 20:48:45,714 INFO  Successfully processed the response from service
+2019-02-22 20:51:05,844 INFO  Loading Baseframework Plugin
+2019-02-22 20:51:05,896 INFO  Initializing the platform to load the Menu - HandsOn
+2019-02-22 20:51:05,899 INFO  Loading the Menu - HandsOn
+2019-02-22 20:51:05,902 INFO  Successfully loaded the Menu - HandsOn

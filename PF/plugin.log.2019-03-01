@@ -1,0 +1,406 @@
+2019-03-01 09:09:44,448 INFO  Loading Baseframework Plugin
+2019-03-01 09:09:44,468 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-01 09:09:44,481 INFO  Loading the Menu - HandsOn
+2019-03-01 09:09:44,496 INFO  Successfully loaded the Menu - HandsOn
+2019-03-01 09:11:49,199 INFO  Loading Programming Assignment Plugin
+2019-03-01 09:11:49,686 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:11:49,687 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:11:49,691 INFO  Starting to parse the user solution
+2019-03-01 09:11:49,692 INFO  Displaying user solution
+2019-03-01 09:11:49,771 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:11:49,772 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:11:49,772 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:11:49,772 INFO  Invoking the service to verify the user solution
+2019-03-01 09:11:49,772 INFO  Time before invoking service:Fri Mar 01 09:11:49 IST 2019
+2019-03-01 09:11:49,773 INFO  Initialising service address for VerifySolution
+2019-03-01 09:11:49,774 INFO  Time before invoking service In SUPER:Fri Mar 01 09:11:49 IST 2019
+2019-03-01 09:11:52,555 INFO  Time after invoking service In SUPER:Fri Mar 01 09:11:52 IST 2019
+2019-03-01 09:11:52,555 INFO  Service responded successfully with required details
+2019-03-01 09:11:52,555 INFO  Time after invoking service:Fri Mar 01 09:11:52 IST 2019
+2019-03-01 09:11:52,556 INFO  User solution successfully verified
+2019-03-01 09:11:52,556 INFO  Processing the response from verify service
+2019-03-01 09:11:52,559 INFO  Starting to parse JSON response
+2019-03-01 09:11:52,562 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:11:52,562 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:11:52,562 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:11:52,562 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:11:52,563 INFO  Successfully parsed JSON response
+2019-03-01 09:11:52,564 INFO  In the process of generating verify response in HTML
+2019-03-01 09:11:53,040 INFO  Successfully generated verify response in HTML
+2019-03-01 09:11:53,040 INFO  Successfully processed the response from service
+2019-03-01 09:12:39,096 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:12:39,096 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:12:39,096 INFO  Starting to parse the user solution
+2019-03-01 09:12:39,097 INFO  Displaying user solution
+2019-03-01 09:12:39,128 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     new_word.upper()\r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:12:39,128 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:12:39,128 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:12:39,128 INFO  Invoking the service to verify the user solution
+2019-03-01 09:12:39,129 INFO  Time before invoking service:Fri Mar 01 09:12:39 IST 2019
+2019-03-01 09:12:39,129 INFO  Initialising service address for VerifySolution
+2019-03-01 09:12:39,129 INFO  Time before invoking service In SUPER:Fri Mar 01 09:12:39 IST 2019
+2019-03-01 09:12:40,830 INFO  Time after invoking service In SUPER:Fri Mar 01 09:12:40 IST 2019
+2019-03-01 09:12:40,830 INFO  Service responded successfully with required details
+2019-03-01 09:12:40,830 INFO  Time after invoking service:Fri Mar 01 09:12:40 IST 2019
+2019-03-01 09:12:40,830 INFO  User solution successfully verified
+2019-03-01 09:12:40,830 INFO  Processing the response from verify service
+2019-03-01 09:12:40,831 INFO  Starting to parse JSON response
+2019-03-01 09:12:40,831 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:40,831 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:40,831 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:40,832 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:40,832 INFO  Successfully parsed JSON response
+2019-03-01 09:12:40,832 INFO  In the process of generating verify response in HTML
+2019-03-01 09:12:40,914 INFO  Successfully generated verify response in HTML
+2019-03-01 09:12:40,914 INFO  Successfully processed the response from service
+2019-03-01 09:12:53,029 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:12:53,030 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:12:53,030 INFO  Starting to parse the user solution
+2019-03-01 09:12:53,030 INFO  Displaying user solution
+2019-03-01 09:12:53,063 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     new_word.upper()\r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:12:53,063 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:12:53,063 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:12:53,063 INFO  Invoking the service to verify the user solution
+2019-03-01 09:12:53,064 INFO  Time before invoking service:Fri Mar 01 09:12:53 IST 2019
+2019-03-01 09:12:53,064 INFO  Initialising service address for VerifySolution
+2019-03-01 09:12:53,065 INFO  Time before invoking service In SUPER:Fri Mar 01 09:12:53 IST 2019
+2019-03-01 09:12:55,515 INFO  Time after invoking service In SUPER:Fri Mar 01 09:12:55 IST 2019
+2019-03-01 09:12:55,515 INFO  Service responded successfully with required details
+2019-03-01 09:12:55,516 INFO  Time after invoking service:Fri Mar 01 09:12:55 IST 2019
+2019-03-01 09:12:55,516 INFO  User solution successfully verified
+2019-03-01 09:12:55,516 INFO  Processing the response from verify service
+2019-03-01 09:12:55,517 INFO  Starting to parse JSON response
+2019-03-01 09:12:55,517 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:55,517 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:55,517 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:55,517 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:12:55,517 INFO  Successfully parsed JSON response
+2019-03-01 09:12:55,518 INFO  In the process of generating verify response in HTML
+2019-03-01 09:12:55,595 INFO  Successfully generated verify response in HTML
+2019-03-01 09:12:55,595 INFO  Successfully processed the response from service
+2019-03-01 09:14:05,676 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:14:05,676 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:14:05,676 INFO  Starting to parse the user solution
+2019-03-01 09:14:05,677 INFO  Displaying user solution
+2019-03-01 09:14:05,708 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     new_word=new_word.upper()\r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:14:05,708 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:14:05,709 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:14:05,709 INFO  Invoking the service to verify the user solution
+2019-03-01 09:14:05,709 INFO  Time before invoking service:Fri Mar 01 09:14:05 IST 2019
+2019-03-01 09:14:05,709 INFO  Initialising service address for VerifySolution
+2019-03-01 09:14:05,710 INFO  Time before invoking service In SUPER:Fri Mar 01 09:14:05 IST 2019
+2019-03-01 09:14:07,994 INFO  Time after invoking service In SUPER:Fri Mar 01 09:14:07 IST 2019
+2019-03-01 09:14:07,994 INFO  Service responded successfully with required details
+2019-03-01 09:14:07,994 INFO  Time after invoking service:Fri Mar 01 09:14:07 IST 2019
+2019-03-01 09:14:07,994 INFO  User solution successfully verified
+2019-03-01 09:14:07,994 INFO  Processing the response from verify service
+2019-03-01 09:14:07,995 INFO  Starting to parse JSON response
+2019-03-01 09:14:07,996 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:14:07,996 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:14:07,996 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:14:07,996 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:14:07,996 INFO  Successfully parsed JSON response
+2019-03-01 09:14:07,998 INFO  In the process of generating verify response in HTML
+2019-03-01 09:14:08,096 INFO  Successfully generated verify response in HTML
+2019-03-01 09:14:08,096 INFO  Successfully processed the response from service
+2019-03-01 09:15:01,998 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:15:01,999 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:15:01,999 INFO  Starting to parse the user solution
+2019-03-01 09:15:02,000 INFO  Displaying user solution
+2019-03-01 09:15:02,039 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     \r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:15:02,040 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:15:02,040 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:15:02,040 INFO  Invoking the service to verify the user solution
+2019-03-01 09:15:02,040 INFO  Time before invoking service:Fri Mar 01 09:15:02 IST 2019
+2019-03-01 09:15:02,040 INFO  Initialising service address for VerifySolution
+2019-03-01 09:15:02,041 INFO  Time before invoking service In SUPER:Fri Mar 01 09:15:02 IST 2019
+2019-03-01 09:15:04,500 INFO  Time after invoking service In SUPER:Fri Mar 01 09:15:04 IST 2019
+2019-03-01 09:15:04,501 INFO  Service responded successfully with required details
+2019-03-01 09:15:04,501 INFO  Time after invoking service:Fri Mar 01 09:15:04 IST 2019
+2019-03-01 09:15:04,501 INFO  User solution successfully verified
+2019-03-01 09:15:04,502 INFO  Processing the response from verify service
+2019-03-01 09:15:04,506 INFO  Starting to parse JSON response
+2019-03-01 09:15:04,508 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:04,508 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:04,508 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:04,508 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:04,509 INFO  Successfully parsed JSON response
+2019-03-01 09:15:04,511 INFO  In the process of generating verify response in HTML
+2019-03-01 09:15:04,737 INFO  Successfully generated verify response in HTML
+2019-03-01 09:15:04,737 INFO  Successfully processed the response from service
+2019-03-01 09:15:38,545 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:15:38,545 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:15:38,545 INFO  Starting to parse the user solution
+2019-03-01 09:15:38,546 INFO  Displaying user solution
+2019-03-01 09:15:38,585 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     new_word=word[::-1]\r\n     \r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:15:38,585 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:15:38,586 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:15:38,586 INFO  Invoking the service to verify the user solution
+2019-03-01 09:15:38,586 INFO  Time before invoking service:Fri Mar 01 09:15:38 IST 2019
+2019-03-01 09:15:38,586 INFO  Initialising service address for VerifySolution
+2019-03-01 09:15:38,587 INFO  Time before invoking service In SUPER:Fri Mar 01 09:15:38 IST 2019
+2019-03-01 09:15:40,025 INFO  Time after invoking service In SUPER:Fri Mar 01 09:15:40 IST 2019
+2019-03-01 09:15:40,026 INFO  Service responded successfully with required details
+2019-03-01 09:15:40,027 INFO  Time after invoking service:Fri Mar 01 09:15:40 IST 2019
+2019-03-01 09:15:40,027 INFO  User solution successfully verified
+2019-03-01 09:15:40,027 INFO  Processing the response from verify service
+2019-03-01 09:15:40,030 INFO  Starting to parse JSON response
+2019-03-01 09:15:40,031 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:40,031 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:40,031 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:40,032 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:15:40,032 INFO  Successfully parsed JSON response
+2019-03-01 09:15:40,033 INFO  In the process of generating verify response in HTML
+2019-03-01 09:15:40,160 INFO  Successfully generated verify response in HTML
+2019-03-01 09:15:40,161 INFO  Successfully processed the response from service
+2019-03-01 09:23:40,143 INFO  Setting request parameters for VerifySolution
+2019-03-01 09:23:40,143 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 09:23:40,144 INFO  Starting to parse the user solution
+2019-03-01 09:23:40,144 INFO  Displaying user solution
+2019-03-01 09:23:40,184 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-40\r\n'''\r\nCreated on Feb 28, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nnew_word=\"\"\r\ndef is_palindrome(word):\r\n     word=word.upper()\r\n     new_word=word[::-1]\r\n      \r\n     \r\n     if(new_word==word):\r\n         return True\r\n     else:\r\n         return False\r\n    \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for word and test your program\r\nresult=is_palindrome(\"MadAMa\")\r\nif(result):\r\n    print(\"The given word is a Palindrome\")\r\nelse:\r\n    print(\"The given word is not a Palindrome\")\r\n","asgnmtId":"40","SolutionFileName":"Assign40.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 09:23:40,185 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 09:23:40,185 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 09:23:40,185 INFO  Invoking the service to verify the user solution
+2019-03-01 09:23:40,186 INFO  Time before invoking service:Fri Mar 01 09:23:40 IST 2019
+2019-03-01 09:23:40,186 INFO  Initialising service address for VerifySolution
+2019-03-01 09:23:40,186 INFO  Time before invoking service In SUPER:Fri Mar 01 09:23:40 IST 2019
+2019-03-01 09:23:41,943 INFO  Time after invoking service In SUPER:Fri Mar 01 09:23:41 IST 2019
+2019-03-01 09:23:41,943 INFO  Service responded successfully with required details
+2019-03-01 09:23:41,943 INFO  Time after invoking service:Fri Mar 01 09:23:41 IST 2019
+2019-03-01 09:23:41,943 INFO  User solution successfully verified
+2019-03-01 09:23:41,944 INFO  Processing the response from verify service
+2019-03-01 09:23:41,945 INFO  Starting to parse JSON response
+2019-03-01 09:23:41,946 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:23:41,946 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:23:41,946 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:23:41,946 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 09:23:41,947 INFO  Successfully parsed JSON response
+2019-03-01 09:23:41,947 INFO  In the process of generating verify response in HTML
+2019-03-01 09:23:42,024 INFO  Successfully generated verify response in HTML
+2019-03-01 09:23:42,025 INFO  Successfully processed the response from service
+2019-03-01 09:23:45,765 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 09:23:45,768 INFO  Displaying user solution
+2019-03-01 09:23:45,776 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 09:23:45,776 INFO  Invoking the service to submit the user solution
+2019-03-01 09:23:45,776 INFO  Initialising service address for Submit
+2019-03-01 09:23:45,778 INFO  Time before invoking service In SUPER:Fri Mar 01 09:23:45 IST 2019
+2019-03-01 09:23:45,913 INFO  Time after invoking service In SUPER:Fri Mar 01 09:23:45 IST 2019
+2019-03-01 09:23:45,914 INFO  Service responded successfully with required details
+2019-03-01 09:23:45,914 INFO  User solution successfully submitted
+2019-03-01 09:23:45,914 INFO  Displaying submission status
+2019-03-01 09:23:45,914 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-01 09:23:49,059 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 09:23:49,060 INFO  Displaying user solution
+2019-03-01 09:23:49,069 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 09:23:49,069 INFO  Invoking the service to submit the user solution
+2019-03-01 09:23:49,069 INFO  Initialising service address for Submit
+2019-03-01 09:23:49,070 INFO  Time before invoking service In SUPER:Fri Mar 01 09:23:49 IST 2019
+2019-03-01 09:23:49,265 INFO  Time after invoking service In SUPER:Fri Mar 01 09:23:49 IST 2019
+2019-03-01 09:23:49,265 INFO  Service responded successfully with required details
+2019-03-01 09:23:49,265 INFO  User solution successfully submitted
+2019-03-01 09:23:49,266 INFO  Displaying submission status
+2019-03-01 09:23:49,266 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-01 11:26:16,287 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:26:16,287 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:26:16,287 INFO  Starting to parse the user solution
+2019-03-01 11:26:16,287 INFO  Displaying user solution
+2019-03-01 11:26:16,323 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-37\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n#Global variables\r\nchild_id=(10,20,30,40,50)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\nchild_id=(10,20,30,40,50)\r\nchild_id_list=list(child_id)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\ndef calculate_total_chocolates():\r\n    \r\n    total_chocolates=sum(chocolates_received)\r\n    \r\n    return total_chocolates\r\n\r\ndef reward_child(child_id_rewarded,extra_chocolates):\r\n    \r\n    \r\n    if(extra_chocolates<1):\r\n        print(\"Extra chocolates is less than 1\")\r\n         \r\n    elif(child_id_rewarded not in child_id):\r\n            print(\"Child id is invalid\")\r\n            \r\n    else:\r\n        for i in range(0,len(child_id_list)):\r\n                if(child_id_list[i]==child_id_rewarded):\r\n                    chocolates_received[i]=chocolates_received[i]+extra_chocolates\r\n                    return chocolates_received\r\n\r\n\r\n\r\nprint(calculate_total_chocolates())\r\n#Test your code by passing different values for child_id_rewarded,extra_chocolates\r\nreward_child(20,2)\r\n","asgnmtId":"37","SolutionFileName":"Assign37.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:26:16,324 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:26:16,324 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:26:16,324 INFO  Invoking the service to verify the user solution
+2019-03-01 11:26:16,324 INFO  Time before invoking service:Fri Mar 01 11:26:16 IST 2019
+2019-03-01 11:26:16,324 INFO  Initialising service address for VerifySolution
+2019-03-01 11:26:16,325 INFO  Time before invoking service In SUPER:Fri Mar 01 11:26:16 IST 2019
+2019-03-01 11:26:17,402 INFO  Time after invoking service In SUPER:Fri Mar 01 11:26:17 IST 2019
+2019-03-01 11:26:17,403 INFO  Service responded successfully with required details
+2019-03-01 11:26:17,403 INFO  Time after invoking service:Fri Mar 01 11:26:17 IST 2019
+2019-03-01 11:26:17,404 INFO  User solution successfully verified
+2019-03-01 11:26:17,405 INFO  Processing the response from verify service
+2019-03-01 11:26:17,410 INFO  Starting to parse JSON response
+2019-03-01 11:26:17,411 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,411 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,411 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,411 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,412 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,412 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,412 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:26:17,419 INFO  Successfully parsed JSON response
+2019-03-01 11:26:17,419 INFO  In the process of generating verify response in HTML
+2019-03-01 11:26:17,491 INFO  Successfully generated verify response in HTML
+2019-03-01 11:26:17,491 INFO  Successfully processed the response from service
+2019-03-01 11:28:16,971 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:28:16,971 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:28:16,971 INFO  Starting to parse the user solution
+2019-03-01 11:28:16,972 INFO  Displaying user solution
+2019-03-01 11:28:17,006 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-37\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n#Global variables\r\nchild_id=(10,20,30,40,50)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\nchild_id=(10,20,30,40,50)\r\nchild_id_list=list(child_id)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\ndef calculate_total_chocolates():\r\n    \r\n    total_chocolates=sum(chocolates_received)\r\n    \r\n    return total_chocolates\r\n\r\ndef reward_child(child_id_rewarded,extra_chocolates):\r\n    \r\n    \r\n    if(extra_chocolates<1):\r\n        print(\"Extra chocolates is less than 1\")\r\n         \r\n    elif(child_id_rewarded not in child_id):\r\n            print(\"Child id is invalid\")\r\n            \r\n    else:\r\n        for i in range(0,len(child_id_list)):\r\n                if(child_id_list[i]==child_id_rewarded):\r\n                    chocolates_received[i]=chocolates_received[i]+extra_chocolates\r\n                    return chocolates_received\r\n\r\n\r\n\r\nprint(calculate_total_chocolates())\r\n#Test your code by passing different values for child_id_rewarded,extra_chocolates\r\nreward_child(20,2)\r\n","asgnmtId":"37","SolutionFileName":"Assign37.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:28:17,006 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:28:17,006 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:28:17,006 INFO  Invoking the service to verify the user solution
+2019-03-01 11:28:17,006 INFO  Time before invoking service:Fri Mar 01 11:28:17 IST 2019
+2019-03-01 11:28:17,007 INFO  Initialising service address for VerifySolution
+2019-03-01 11:28:17,007 INFO  Time before invoking service In SUPER:Fri Mar 01 11:28:17 IST 2019
+2019-03-01 11:28:17,829 INFO  Time after invoking service In SUPER:Fri Mar 01 11:28:17 IST 2019
+2019-03-01 11:28:17,829 INFO  Service responded successfully with required details
+2019-03-01 11:28:17,829 INFO  Time after invoking service:Fri Mar 01 11:28:17 IST 2019
+2019-03-01 11:28:17,829 INFO  User solution successfully verified
+2019-03-01 11:28:17,830 INFO  Processing the response from verify service
+2019-03-01 11:28:17,832 INFO  Starting to parse JSON response
+2019-03-01 11:28:17,833 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,833 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,833 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,833 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,833 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,834 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,834 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:28:17,835 INFO  Successfully parsed JSON response
+2019-03-01 11:28:17,835 INFO  In the process of generating verify response in HTML
+2019-03-01 11:28:17,916 INFO  Successfully generated verify response in HTML
+2019-03-01 11:28:17,917 INFO  Successfully processed the response from service
+2019-03-01 11:29:25,462 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:29:25,462 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:29:25,462 INFO  Starting to parse the user solution
+2019-03-01 11:29:25,463 INFO  Displaying user solution
+2019-03-01 11:29:25,494 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-37\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n#Global variables\r\nchild_id=(10,20,30,40,50)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\nchild_id=(10,20,30,40,50)\r\nchild_id_list=list(child_id)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\ndef calculate_total_chocolates():\r\n    \r\n    total_chocolates=sum(chocolates_received)\r\n    \r\n    return total_chocolates\r\n\r\ndef reward_child(child_id_rewarded,extra_chocolates):\r\n    \r\n    \r\n    if(extra_chocolates<1):\r\n        print(\"Extra chocolates is less than 1\")\r\n         \r\n    elif(child_id_rewarded not in child_id):\r\n            print(\"Child id is invalid\")\r\n            \r\n    else:\r\n        for i in range(0,len(child_id_list)):\r\n                if(child_id_list[i]==child_id_rewarded):\r\n                    chocolates_received[i]=chocolates_received[i]+extra_chocolates\r\n                return chocolates_received\r\n\r\n\r\n\r\nprint(calculate_total_chocolates())\r\n#Test your code by passing different values for child_id_rewarded,extra_chocolates\r\nreward_child(20,2)\r\n","asgnmtId":"37","SolutionFileName":"Assign37.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:29:25,494 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:29:25,494 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:29:25,494 INFO  Invoking the service to verify the user solution
+2019-03-01 11:29:25,496 INFO  Time before invoking service:Fri Mar 01 11:29:25 IST 2019
+2019-03-01 11:29:25,496 INFO  Initialising service address for VerifySolution
+2019-03-01 11:29:25,497 INFO  Time before invoking service In SUPER:Fri Mar 01 11:29:25 IST 2019
+2019-03-01 11:29:26,806 INFO  Time after invoking service In SUPER:Fri Mar 01 11:29:26 IST 2019
+2019-03-01 11:29:26,806 INFO  Service responded successfully with required details
+2019-03-01 11:29:26,806 INFO  Time after invoking service:Fri Mar 01 11:29:26 IST 2019
+2019-03-01 11:29:26,806 INFO  User solution successfully verified
+2019-03-01 11:29:26,806 INFO  Processing the response from verify service
+2019-03-01 11:29:26,808 INFO  Starting to parse JSON response
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,808 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:29:26,809 INFO  Successfully parsed JSON response
+2019-03-01 11:29:26,810 INFO  In the process of generating verify response in HTML
+2019-03-01 11:29:26,882 INFO  Successfully generated verify response in HTML
+2019-03-01 11:29:26,883 INFO  Successfully processed the response from service
+2019-03-01 11:30:57,291 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:30:57,291 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:30:57,291 INFO  Starting to parse the user solution
+2019-03-01 11:30:57,292 INFO  Displaying user solution
+2019-03-01 11:30:57,325 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-37\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n#Global variables\r\nchild_id=(10,20,30,40,50)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\nchild_id=(10,20,30,40,50)\r\nchild_id_list=list(child_id)\r\nchocolates_received=[12,5,3,4,6]\r\n\r\ndef calculate_total_chocolates():\r\n    \r\n    total_chocolates=sum(chocolates_received)\r\n    \r\n    return total_chocolates\r\n\r\ndef reward_child(child_id_rewarded,extra_chocolates):\r\n    \r\n    \r\n    if(extra_chocolates<1):\r\n        print(\"Extra chocolates is less than 1\")\r\n         \r\n    elif(child_id_rewarded not in child_id):\r\n            print(\"Child id is invalid\")\r\n            \r\n    else:\r\n        for i in range(0,len(child_id_list)):\r\n                if(child_id_list[i]==child_id_rewarded):\r\n                    chocolates_received[i]=chocolates_received[i]+extra_chocolates\r\n                    return chocolates_received\r\n\r\n\r\n\r\nprint(calculate_total_chocolates())\r\n#Test your code by passing different values for child_id_rewarded,extra_chocolates\r\nreward_child(20,2)\r\n","asgnmtId":"37","SolutionFileName":"Assign37.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:30:57,325 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:30:57,325 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:30:57,325 INFO  Invoking the service to verify the user solution
+2019-03-01 11:30:57,326 INFO  Time before invoking service:Fri Mar 01 11:30:57 IST 2019
+2019-03-01 11:30:57,326 INFO  Initialising service address for VerifySolution
+2019-03-01 11:30:57,327 INFO  Time before invoking service In SUPER:Fri Mar 01 11:30:57 IST 2019
+2019-03-01 11:30:58,190 INFO  Time after invoking service In SUPER:Fri Mar 01 11:30:58 IST 2019
+2019-03-01 11:30:58,191 INFO  Service responded successfully with required details
+2019-03-01 11:30:58,191 INFO  Time after invoking service:Fri Mar 01 11:30:58 IST 2019
+2019-03-01 11:30:58,191 INFO  User solution successfully verified
+2019-03-01 11:30:58,191 INFO  Processing the response from verify service
+2019-03-01 11:30:58,192 INFO  Starting to parse JSON response
+2019-03-01 11:30:58,193 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,193 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,193 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,193 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,194 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,194 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,194 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:30:58,195 INFO  Successfully parsed JSON response
+2019-03-01 11:30:58,195 INFO  In the process of generating verify response in HTML
+2019-03-01 11:30:58,272 INFO  Successfully generated verify response in HTML
+2019-03-01 11:30:58,272 INFO  Successfully processed the response from service
+2019-03-01 11:35:01,127 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:35:01,127 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:35:01,127 INFO  Starting to parse the user solution
+2019-03-01 11:35:01,128 INFO  Displaying user solution
+2019-03-01 11:35:01,180 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-38\r\n'''\r\nCreated on Mar 1, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef check_double(number):\r\n    str1=\"\"\r\n    str1=str1+str(number)\r\n    list1=list(str1)\r\n    \r\n    double_number=number*2\r\n    str2=\"\"\r\n    str2=str2+str(double_number)\r\n    list2=list(str2)\r\n    \r\n    if(len(list1)==len(list2)):\r\n        count=0\r\n        for i in list1:\r\n            for j in list2:\r\n                if(i==j):\r\n                    count+=1\r\n                    \r\n        if(count==len(list1)):\r\n            return True\r\n        else:\r\n            return False\r\n    else:\r\n        return False\r\n\r\n\r\nprint(check_double(125874))\r\n","asgnmtId":"38","SolutionFileName":"Assign39.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:35:01,180 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:35:01,181 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:35:01,181 INFO  Invoking the service to verify the user solution
+2019-03-01 11:35:01,181 INFO  Time before invoking service:Fri Mar 01 11:35:01 IST 2019
+2019-03-01 11:35:01,181 INFO  Initialising service address for VerifySolution
+2019-03-01 11:35:01,182 INFO  Time before invoking service In SUPER:Fri Mar 01 11:35:01 IST 2019
+2019-03-01 11:35:02,018 INFO  Time after invoking service In SUPER:Fri Mar 01 11:35:02 IST 2019
+2019-03-01 11:35:02,018 INFO  Service responded successfully with required details
+2019-03-01 11:35:02,018 INFO  Time after invoking service:Fri Mar 01 11:35:02 IST 2019
+2019-03-01 11:35:02,018 INFO  User solution successfully verified
+2019-03-01 11:35:02,019 INFO  Processing the response from verify service
+2019-03-01 11:35:02,022 INFO  Starting to parse JSON response
+2019-03-01 11:35:02,024 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:35:02,024 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:35:02,024 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:35:02,024 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:35:02,025 INFO  Successfully parsed JSON response
+2019-03-01 11:35:02,025 INFO  In the process of generating verify response in HTML
+2019-03-01 11:35:02,112 INFO  Successfully generated verify response in HTML
+2019-03-01 11:35:02,113 INFO  Successfully processed the response from service
+2019-03-01 11:35:06,623 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 11:35:06,624 INFO  Displaying user solution
+2019-03-01 11:35:06,634 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 11:35:06,635 INFO  Invoking the service to submit the user solution
+2019-03-01 11:35:06,635 INFO  Initialising service address for Submit
+2019-03-01 11:35:06,635 INFO  Time before invoking service In SUPER:Fri Mar 01 11:35:06 IST 2019
+2019-03-01 11:35:06,797 INFO  Time after invoking service In SUPER:Fri Mar 01 11:35:06 IST 2019
+2019-03-01 11:35:06,797 INFO  Service responded successfully with required details
+2019-03-01 11:35:06,797 INFO  User solution successfully submitted
+2019-03-01 11:35:06,797 INFO  Displaying submission status
+2019-03-01 11:35:06,797 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-01 11:35:08,966 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 11:35:08,967 INFO  Displaying user solution
+2019-03-01 11:35:08,979 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 11:35:08,980 INFO  Invoking the service to submit the user solution
+2019-03-01 11:35:08,980 INFO  Initialising service address for Submit
+2019-03-01 11:35:08,980 INFO  Time before invoking service In SUPER:Fri Mar 01 11:35:08 IST 2019
+2019-03-01 11:35:09,083 INFO  Time after invoking service In SUPER:Fri Mar 01 11:35:09 IST 2019
+2019-03-01 11:35:09,083 INFO  Service responded successfully with required details
+2019-03-01 11:35:09,083 INFO  User solution successfully submitted
+2019-03-01 11:35:09,083 INFO  Displaying submission status
+2019-03-01 11:35:09,084 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-01 11:36:06,193 INFO  Setting request parameters for VerifySolution
+2019-03-01 11:36:06,193 INFO  Initiating to process and prepare Input for the verify service
+2019-03-01 11:36:06,193 INFO  Starting to parse the user solution
+2019-03-01 11:36:06,194 INFO  Displaying user solution
+2019-03-01 11:36:06,246 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-32\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef max_visited_speciality(patient_medical_speciality_list,medical_speciality):\r\n    \r\n    pcount=0\r\n    ocount=0\r\n    ecount=0\r\n    pmsl=[]\r\n    pmsl=patient_medical_speciality_list\r\n    \r\n    for i in range(0,len(pmsl)):\r\n        if(pmsl[i]=='P'):\r\n            pcount=pcount+1\r\n            \r\n        elif(pmsl[i]=='O'):\r\n            ocount=ocount+1\r\n            \r\n        elif(pmsl[i]=='E'):\r\n            ecount=ecount+1\r\n            \r\n    if(pcount>ocount and pcount>ecount):\r\n            speciality=\"Pediatrics\"\r\n            \r\n    elif(ocount>pcount and ocount>ecount):\r\n            speciality=\"Orthopedics\"\r\n            \r\n    elif(ecount>pcount and ecount>ocount):\r\n            speciality=\"ENT\"\r\n        \r\n    \r\n    # write your logic here\r\n\r\n    return speciality\r\n\r\n#provide different values in the list and test your program\r\npatient_medical_speciality_list=[301,'P',302, 'P' ,305, 'P' ,401, 'E' ,656, 'E']\r\nmedical_speciality={\"P\":\"Pediatrics\",\"O\":\"Orthopedics\",\"E\":\"ENT\"}\r\nspeciality=max_visited_speciality(patient_medical_speciality_list,medical_speciality)\r\nprint(speciality)\r\n","asgnmtId":"32","SolutionFileName":"Assign32.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-01 11:36:06,247 INFO  Successfully processed and prepared the input for the verify service
+2019-03-01 11:36:06,247 INFO  Successfully set the request parameters for VerifySolution
+2019-03-01 11:36:06,247 INFO  Invoking the service to verify the user solution
+2019-03-01 11:36:06,247 INFO  Time before invoking service:Fri Mar 01 11:36:06 IST 2019
+2019-03-01 11:36:06,248 INFO  Initialising service address for VerifySolution
+2019-03-01 11:36:06,248 INFO  Time before invoking service In SUPER:Fri Mar 01 11:36:06 IST 2019
+2019-03-01 11:36:07,979 INFO  Time after invoking service In SUPER:Fri Mar 01 11:36:07 IST 2019
+2019-03-01 11:36:07,980 INFO  Service responded successfully with required details
+2019-03-01 11:36:07,980 INFO  Time after invoking service:Fri Mar 01 11:36:07 IST 2019
+2019-03-01 11:36:07,980 INFO  User solution successfully verified
+2019-03-01 11:36:07,980 INFO  Processing the response from verify service
+2019-03-01 11:36:07,981 INFO  Starting to parse JSON response
+2019-03-01 11:36:07,982 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:36:07,982 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-01 11:36:07,983 INFO  Successfully parsed JSON response
+2019-03-01 11:36:07,984 INFO  In the process of generating verify response in HTML
+2019-03-01 11:36:08,052 INFO  Successfully generated verify response in HTML
+2019-03-01 11:36:08,053 INFO  Successfully processed the response from service
+2019-03-01 11:36:12,193 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 11:36:12,194 INFO  Displaying user solution
+2019-03-01 11:36:12,203 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 11:36:12,204 INFO  Invoking the service to submit the user solution
+2019-03-01 11:36:12,204 INFO  Initialising service address for Submit
+2019-03-01 11:36:12,204 INFO  Time before invoking service In SUPER:Fri Mar 01 11:36:12 IST 2019
+2019-03-01 11:36:12,375 INFO  Time after invoking service In SUPER:Fri Mar 01 11:36:12 IST 2019
+2019-03-01 11:36:12,375 INFO  Service responded successfully with required details
+2019-03-01 11:36:12,375 INFO  User solution successfully submitted
+2019-03-01 11:36:12,376 INFO  Displaying submission status
+2019-03-01 11:36:12,376 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-01 11:36:14,649 INFO  Initiating to process and prepare Input for the submit service
+2019-03-01 11:36:14,650 INFO  Displaying user solution
+2019-03-01 11:36:14,661 INFO  Successfully processed and prepared the input for the submit service
+2019-03-01 11:36:14,661 INFO  Invoking the service to submit the user solution
+2019-03-01 11:36:14,661 INFO  Initialising service address for Submit
+2019-03-01 11:36:14,662 INFO  Time before invoking service In SUPER:Fri Mar 01 11:36:14 IST 2019
+2019-03-01 11:36:14,793 INFO  Time after invoking service In SUPER:Fri Mar 01 11:36:14 IST 2019
+2019-03-01 11:36:14,794 INFO  Service responded successfully with required details
+2019-03-01 11:36:14,794 INFO  User solution successfully submitted
+2019-03-01 11:36:14,794 INFO  Displaying submission status
+2019-03-01 11:36:14,794 INFO  Displayed submission status successfullySuccessfully Submitted!

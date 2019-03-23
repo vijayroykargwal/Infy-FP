@@ -1,0 +1,89 @@
+2019-02-26 09:05:46,922 INFO  Loading Baseframework Plugin
+2019-02-26 09:05:46,926 INFO  Initializing the platform to load the Menu - HandsOn
+2019-02-26 09:05:46,929 INFO  Loading the Menu - HandsOn
+2019-02-26 09:05:46,937 INFO  Successfully loaded the Menu - HandsOn
+2019-02-26 12:34:10,553 INFO  Loading Programming Assignment Plugin
+2019-02-26 12:34:11,067 INFO  Setting request parameters for VerifySolution
+2019-02-26 12:34:11,068 INFO  Initiating to process and prepare Input for the verify service
+2019-02-26 12:34:11,073 INFO  Starting to parse the user solution
+2019-02-26 12:34:11,073 INFO  Displaying user solution
+2019-02-26 12:34:11,164 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-34\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom itertools import count\r\n\r\ndef find_pairs_of_numbers(num_list,n):\r\n    count=0\r\n    for i in range(0,len(num_list)):\r\n        for j in range(i+1,len(num_list)):\r\n            if(num_list[i]+num_list[j]==n):\r\n                count+=1\r\n     \r\n    return count\r\n              \r\n    #Remove pass and write your logic here\r\n\r\nnum_list=[1, 2, 4, 5, 6]\r\nn=6\r\nprint(find_pairs_of_numbers(num_list,n))\r\n","asgnmtId":"34","SolutionFileName":"Assign34.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-26 12:34:11,164 INFO  Successfully processed and prepared the input for the verify service
+2019-02-26 12:34:11,169 INFO  Successfully set the request parameters for VerifySolution
+2019-02-26 12:34:11,169 INFO  Invoking the service to verify the user solution
+2019-02-26 12:34:11,169 INFO  Time before invoking service:Tue Feb 26 12:34:11 IST 2019
+2019-02-26 12:34:11,170 INFO  Initialising service address for VerifySolution
+2019-02-26 12:34:11,171 INFO  Time before invoking service In SUPER:Tue Feb 26 12:34:11 IST 2019
+2019-02-26 12:34:13,233 INFO  Time after invoking service In SUPER:Tue Feb 26 12:34:13 IST 2019
+2019-02-26 12:34:13,234 INFO  Service responded successfully with required details
+2019-02-26 12:34:13,234 INFO  Time after invoking service:Tue Feb 26 12:34:13 IST 2019
+2019-02-26 12:34:13,234 INFO  User solution successfully verified
+2019-02-26 12:34:13,234 INFO  Processing the response from verify service
+2019-02-26 12:34:13,237 INFO  Starting to parse JSON response
+2019-02-26 12:34:13,240 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:13,240 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:13,240 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:13,240 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:13,241 INFO  Successfully parsed JSON response
+2019-02-26 12:34:13,242 INFO  In the process of generating verify response in HTML
+2019-02-26 12:34:13,342 INFO  Successfully generated verify response in HTML
+2019-02-26 12:34:13,342 INFO  Successfully processed the response from service
+2019-02-26 12:34:46,436 INFO  Setting request parameters for VerifySolution
+2019-02-26 12:34:46,436 INFO  Initiating to process and prepare Input for the verify service
+2019-02-26 12:34:46,436 INFO  Starting to parse the user solution
+2019-02-26 12:34:46,437 INFO  Displaying user solution
+2019-02-26 12:34:46,459 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-34\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom itertools import count\r\n\r\ndef find_pairs_of_numbers(num_list,n):\r\n    count=0\r\n    for i in range(0,len(num_list)):\r\n        for j in range(i+1,len(num_list)):\r\n            if(num_list[i]+num_list[j]==n):\r\n                count+=1\r\n     \r\n    return count\r\n              \r\n    #Remove pass and write your logic here\r\n\r\nnum_list=[1, 2, 4, 5, 6]\r\nn=6\r\nprint(find_pairs_of_numbers(num_list,n))\r\n","asgnmtId":"34","SolutionFileName":"Assign34.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-26 12:34:46,459 INFO  Successfully processed and prepared the input for the verify service
+2019-02-26 12:34:46,459 INFO  Successfully set the request parameters for VerifySolution
+2019-02-26 12:34:46,459 INFO  Invoking the service to verify the user solution
+2019-02-26 12:34:46,460 INFO  Time before invoking service:Tue Feb 26 12:34:46 IST 2019
+2019-02-26 12:34:46,460 INFO  Initialising service address for VerifySolution
+2019-02-26 12:34:46,460 INFO  Time before invoking service In SUPER:Tue Feb 26 12:34:46 IST 2019
+2019-02-26 12:34:48,331 INFO  Time after invoking service In SUPER:Tue Feb 26 12:34:48 IST 2019
+2019-02-26 12:34:48,331 INFO  Service responded successfully with required details
+2019-02-26 12:34:48,331 INFO  Time after invoking service:Tue Feb 26 12:34:48 IST 2019
+2019-02-26 12:34:48,331 INFO  User solution successfully verified
+2019-02-26 12:34:48,331 INFO  Processing the response from verify service
+2019-02-26 12:34:48,332 INFO  Starting to parse JSON response
+2019-02-26 12:34:48,334 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:48,334 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:48,334 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:48,334 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 12:34:48,334 INFO  Successfully parsed JSON response
+2019-02-26 12:34:48,336 INFO  In the process of generating verify response in HTML
+2019-02-26 12:34:48,411 INFO  Successfully generated verify response in HTML
+2019-02-26 12:34:48,411 INFO  Successfully processed the response from service
+2019-02-26 12:34:55,232 INFO  Initiating to process and prepare Input for the submit service
+2019-02-26 12:34:55,235 INFO  Displaying user solution
+2019-02-26 12:34:55,246 INFO  Successfully processed and prepared the input for the submit service
+2019-02-26 12:34:55,247 INFO  Invoking the service to submit the user solution
+2019-02-26 12:34:55,247 INFO  Initialising service address for Submit
+2019-02-26 12:34:55,247 INFO  Time before invoking service In SUPER:Tue Feb 26 12:34:55 IST 2019
+2019-02-26 12:34:55,361 INFO  Time after invoking service In SUPER:Tue Feb 26 12:34:55 IST 2019
+2019-02-26 12:34:55,361 INFO  Service responded successfully with required details
+2019-02-26 12:34:55,361 INFO  User solution successfully submitted
+2019-02-26 12:34:55,362 INFO  Displaying submission status
+2019-02-26 12:34:55,362 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-26 15:18:59,200 INFO  Setting request parameters for VerifySolution
+2019-02-26 15:18:59,200 INFO  Initiating to process and prepare Input for the verify service
+2019-02-26 15:18:59,200 INFO  Starting to parse the user solution
+2019-02-26 15:18:59,201 INFO  Displaying user solution
+2019-02-26 15:18:59,278 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-36\r\n'''\r\nCreated on Feb 26, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef create_largest_number(number_list):\r\n      number_list.sort(reverse=True)\r\n      for i in range(0,len(number_list)):\r\n          number_list=str(number_list[i])+str(number_list[i+1])+str(number_list[i+2])\r\n          \r\n              \r\n          \r\n          return number_list       \r\n    #remove pass and write your logic here\r\n\r\nnumber_list=[23,45,67]\r\nlargest_number=create_largest_number(number_list)\r\nprint(largest_number)\r\n","asgnmtId":"36","SolutionFileName":"Assign36.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-26 15:18:59,278 INFO  Successfully processed and prepared the input for the verify service
+2019-02-26 15:18:59,279 INFO  Successfully set the request parameters for VerifySolution
+2019-02-26 15:18:59,279 INFO  Invoking the service to verify the user solution
+2019-02-26 15:18:59,279 INFO  Time before invoking service:Tue Feb 26 15:18:59 IST 2019
+2019-02-26 15:18:59,279 INFO  Initialising service address for VerifySolution
+2019-02-26 15:18:59,280 INFO  Time before invoking service In SUPER:Tue Feb 26 15:18:59 IST 2019
+2019-02-26 15:19:01,489 INFO  Time after invoking service In SUPER:Tue Feb 26 15:19:01 IST 2019
+2019-02-26 15:19:01,489 INFO  Service responded successfully with required details
+2019-02-26 15:19:01,490 INFO  Time after invoking service:Tue Feb 26 15:19:01 IST 2019
+2019-02-26 15:19:01,490 INFO  User solution successfully verified
+2019-02-26 15:19:01,490 INFO  Processing the response from verify service
+2019-02-26 15:19:01,492 INFO  Starting to parse JSON response
+2019-02-26 15:19:01,494 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 15:19:01,494 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-26 15:19:01,494 INFO  Successfully parsed JSON response
+2019-02-26 15:19:01,495 INFO  In the process of generating verify response in HTML
+2019-02-26 15:19:01,582 INFO  Successfully generated verify response in HTML
+2019-02-26 15:19:01,582 INFO  Successfully processed the response from service

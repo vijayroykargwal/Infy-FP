@@ -1,0 +1,717 @@
+2019-02-27 13:54:02,598 INFO  Loading Baseframework Plugin
+2019-02-27 13:54:02,608 INFO  Initializing the platform to load the Menu - HandsOn
+2019-02-27 13:54:02,614 INFO  Loading the Menu - HandsOn
+2019-02-27 13:54:02,659 INFO  Successfully loaded the Menu - HandsOn
+2019-02-27 19:11:25,724 INFO  Loading Programming Assignment Plugin
+2019-02-27 19:11:26,357 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:11:26,357 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:11:26,363 INFO  Starting to parse the user solution
+2019-02-27 19:11:26,364 INFO  Displaying user solution
+2019-02-27 19:11:26,497 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-30\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\ndef encode(message):\r\n    count=0\r\n    message=message+\"@\"\r\n    value=\"\"\r\n    for i in range(0,len(message)-1):\r\n        if message[i]==message[i+1]:\r\n            count+=1\r\n           \r\n           \r\n        else:\r\n            value+=str(count+1)+message[i]\r\n            count=0 \r\n            \r\n            \r\n    return value \r\n\r\n           \r\n        \r\n        \r\n    \r\n        \r\n        \r\n        \r\n        \r\n            \r\n            \r\n        \r\n         \r\n         \r\n             \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for message and test your program\r\nencoded_message=encode(\"ABBBBCCCCCCCCAB\")\r\nprint(encoded_message)\r\n","asgnmtId":"30","SolutionFileName":"Assign30.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:11:26,497 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:11:26,498 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:11:26,498 INFO  Invoking the service to verify the user solution
+2019-02-27 19:11:26,498 INFO  Time before invoking service:Wed Feb 27 19:11:26 IST 2019
+2019-02-27 19:11:26,499 INFO  Initialising service address for VerifySolution
+2019-02-27 19:11:26,500 INFO  Time before invoking service In SUPER:Wed Feb 27 19:11:26 IST 2019
+2019-02-27 19:11:28,018 INFO  Time after invoking service In SUPER:Wed Feb 27 19:11:28 IST 2019
+2019-02-27 19:11:28,018 INFO  Service responded successfully with required details
+2019-02-27 19:11:28,019 INFO  Time after invoking service:Wed Feb 27 19:11:28 IST 2019
+2019-02-27 19:11:28,019 INFO  User solution successfully verified
+2019-02-27 19:11:28,019 INFO  Processing the response from verify service
+2019-02-27 19:11:28,022 INFO  Starting to parse JSON response
+2019-02-27 19:11:28,025 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:11:28,025 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:11:28,027 INFO  Successfully parsed JSON response
+2019-02-27 19:11:28,028 INFO  In the process of generating verify response in HTML
+2019-02-27 19:11:28,194 INFO  Successfully generated verify response in HTML
+2019-02-27 19:11:28,194 INFO  Successfully processed the response from service
+2019-02-27 19:13:12,767 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:13:12,768 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:13:12,768 INFO  Starting to parse the user solution
+2019-02-27 19:13:12,768 INFO  Displaying user solution
+2019-02-27 19:13:12,811 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-30\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\ndef encode(message):\r\n    count=0\r\n    message=message+\"@\"\r\n    value=\"\"\r\n    for i in range(0,len(message)-1):\r\n        if message[i]==message[i+1]:\r\n            count+=1\r\n           \r\n           \r\n        else:\r\n            value+=str(count+1)+message[i]\r\n            count=0 \r\n            \r\n            \r\n    return value \r\n\r\n           \r\n        \r\n        \r\n    \r\n        \r\n        \r\n        \r\n        \r\n            \r\n            \r\n        \r\n         \r\n         \r\n             \r\n    #Remove pass and write your logic here\r\n\r\n#Provide different values for message and test your program\r\nencoded_message=encode(\"ABBBBCCCCCCCCAB\")\r\nprint(encoded_message)\r\n","asgnmtId":"30","SolutionFileName":"Assign30.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:13:12,812 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:13:12,812 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:13:12,812 INFO  Invoking the service to verify the user solution
+2019-02-27 19:13:12,812 INFO  Time before invoking service:Wed Feb 27 19:13:12 IST 2019
+2019-02-27 19:13:12,813 INFO  Initialising service address for VerifySolution
+2019-02-27 19:13:12,813 INFO  Time before invoking service In SUPER:Wed Feb 27 19:13:12 IST 2019
+2019-02-27 19:13:13,580 INFO  Time after invoking service In SUPER:Wed Feb 27 19:13:13 IST 2019
+2019-02-27 19:13:13,581 INFO  Service responded successfully with required details
+2019-02-27 19:13:13,581 INFO  Time after invoking service:Wed Feb 27 19:13:13 IST 2019
+2019-02-27 19:13:13,581 INFO  User solution successfully verified
+2019-02-27 19:13:13,581 INFO  Processing the response from verify service
+2019-02-27 19:13:13,582 INFO  Starting to parse JSON response
+2019-02-27 19:13:13,583 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:13:13,583 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:13:13,584 INFO  Successfully parsed JSON response
+2019-02-27 19:13:13,584 INFO  In the process of generating verify response in HTML
+2019-02-27 19:13:13,657 INFO  Successfully generated verify response in HTML
+2019-02-27 19:13:13,657 INFO  Successfully processed the response from service
+2019-02-27 19:13:31,273 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 19:13:31,278 INFO  Displaying user solution
+2019-02-27 19:13:31,288 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 19:13:31,288 INFO  Invoking the service to submit the user solution
+2019-02-27 19:13:31,288 INFO  Initialising service address for Submit
+2019-02-27 19:13:31,289 INFO  Time before invoking service In SUPER:Wed Feb 27 19:13:31 IST 2019
+2019-02-27 19:13:31,488 INFO  Time after invoking service In SUPER:Wed Feb 27 19:13:31 IST 2019
+2019-02-27 19:13:31,488 INFO  Service responded successfully with required details
+2019-02-27 19:13:31,488 INFO  User solution successfully submitted
+2019-02-27 19:13:31,489 INFO  Displaying submission status
+2019-02-27 19:13:31,489 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-27 19:13:33,777 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 19:13:33,778 INFO  Displaying user solution
+2019-02-27 19:13:33,784 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 19:13:33,784 INFO  Invoking the service to submit the user solution
+2019-02-27 19:13:33,784 INFO  Initialising service address for Submit
+2019-02-27 19:13:33,785 INFO  Time before invoking service In SUPER:Wed Feb 27 19:13:33 IST 2019
+2019-02-27 19:13:34,051 INFO  Time after invoking service In SUPER:Wed Feb 27 19:13:34 IST 2019
+2019-02-27 19:13:34,051 INFO  Service responded successfully with required details
+2019-02-27 19:13:34,051 INFO  User solution successfully submitted
+2019-02-27 19:13:34,052 INFO  Displaying submission status
+2019-02-27 19:13:34,052 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-27 19:23:11,458 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:23:11,458 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:23:11,458 INFO  Starting to parse the user solution
+2019-02-27 19:23:11,459 INFO  Displaying user solution
+2019-02-27 19:23:11,515 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if len(commonDict) == 0: \r\n        print -1\r\n        return\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:23:11,515 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:23:11,515 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:23:11,515 INFO  Invoking the service to verify the user solution
+2019-02-27 19:23:11,516 INFO  Time before invoking service:Wed Feb 27 19:23:11 IST 2019
+2019-02-27 19:23:11,516 INFO  Initialising service address for VerifySolution
+2019-02-27 19:23:11,516 INFO  Time before invoking service In SUPER:Wed Feb 27 19:23:11 IST 2019
+2019-02-27 19:23:12,402 INFO  Time after invoking service In SUPER:Wed Feb 27 19:23:12 IST 2019
+2019-02-27 19:23:12,403 INFO  Service responded successfully with required details
+2019-02-27 19:23:12,403 INFO  Time after invoking service:Wed Feb 27 19:23:12 IST 2019
+2019-02-27 19:23:12,403 INFO  User solution successfully verified
+2019-02-27 19:23:12,403 INFO  Processing the response from verify service
+2019-02-27 19:23:12,406 INFO  Starting to parse JSON response
+2019-02-27 19:23:12,408 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:23:12,408 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:23:12,409 INFO  Successfully parsed JSON response
+2019-02-27 19:23:12,409 INFO  In the process of generating verify response in HTML
+2019-02-27 19:23:12,480 INFO  Successfully generated verify response in HTML
+2019-02-27 19:23:12,480 INFO  Successfully processed the response from service
+2019-02-27 19:25:42,843 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:25:42,843 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:25:42,843 INFO  Starting to parse the user solution
+2019-02-27 19:25:42,844 INFO  Displaying user solution
+2019-02-27 19:25:42,884 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        print -1\r\n        return\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:25:42,884 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:25:42,884 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:25:42,884 INFO  Invoking the service to verify the user solution
+2019-02-27 19:25:42,884 INFO  Time before invoking service:Wed Feb 27 19:25:42 IST 2019
+2019-02-27 19:25:42,884 INFO  Initialising service address for VerifySolution
+2019-02-27 19:25:42,886 INFO  Time before invoking service In SUPER:Wed Feb 27 19:25:42 IST 2019
+2019-02-27 19:25:43,669 INFO  Time after invoking service In SUPER:Wed Feb 27 19:25:43 IST 2019
+2019-02-27 19:25:43,670 INFO  Service responded successfully with required details
+2019-02-27 19:25:43,670 INFO  Time after invoking service:Wed Feb 27 19:25:43 IST 2019
+2019-02-27 19:25:43,670 INFO  User solution successfully verified
+2019-02-27 19:25:43,670 INFO  Processing the response from verify service
+2019-02-27 19:25:43,672 INFO  Starting to parse JSON response
+2019-02-27 19:25:43,672 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:25:43,673 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:25:43,674 INFO  Successfully parsed JSON response
+2019-02-27 19:25:43,674 INFO  In the process of generating verify response in HTML
+2019-02-27 19:25:43,745 INFO  Successfully generated verify response in HTML
+2019-02-27 19:25:43,745 INFO  Successfully processed the response from service
+2019-02-27 19:40:12,815 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:40:12,815 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:40:12,815 INFO  Starting to parse the user solution
+2019-02-27 19:40:12,816 INFO  Displaying user solution
+2019-02-27 19:40:12,870 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        print -1\r\n        return\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:40:12,871 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:40:12,871 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:40:12,871 INFO  Invoking the service to verify the user solution
+2019-02-27 19:40:12,872 INFO  Time before invoking service:Wed Feb 27 19:40:12 IST 2019
+2019-02-27 19:40:12,872 INFO  Initialising service address for VerifySolution
+2019-02-27 19:40:12,873 INFO  Time before invoking service In SUPER:Wed Feb 27 19:40:12 IST 2019
+2019-02-27 19:40:13,718 INFO  Time after invoking service In SUPER:Wed Feb 27 19:40:13 IST 2019
+2019-02-27 19:40:13,718 INFO  Service responded successfully with required details
+2019-02-27 19:40:13,718 INFO  Time after invoking service:Wed Feb 27 19:40:13 IST 2019
+2019-02-27 19:40:13,718 INFO  User solution successfully verified
+2019-02-27 19:40:13,719 INFO  Processing the response from verify service
+2019-02-27 19:40:13,721 INFO  Starting to parse JSON response
+2019-02-27 19:40:13,722 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:40:13,722 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:40:13,723 INFO  Successfully parsed JSON response
+2019-02-27 19:40:13,723 INFO  In the process of generating verify response in HTML
+2019-02-27 19:40:13,795 INFO  Successfully generated verify response in HTML
+2019-02-27 19:40:13,796 INFO  Successfully processed the response from service
+2019-02-27 19:40:52,563 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:40:52,563 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:40:52,563 INFO  Starting to parse the user solution
+2019-02-27 19:40:52,563 INFO  Displaying user solution
+2019-02-27 19:40:52,606 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        print -1\r\n        return\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:40:52,606 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:40:52,606 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:40:52,606 INFO  Invoking the service to verify the user solution
+2019-02-27 19:40:52,607 INFO  Time before invoking service:Wed Feb 27 19:40:52 IST 2019
+2019-02-27 19:40:52,607 INFO  Initialising service address for VerifySolution
+2019-02-27 19:40:52,607 INFO  Time before invoking service In SUPER:Wed Feb 27 19:40:52 IST 2019
+2019-02-27 19:40:53,430 INFO  Time after invoking service In SUPER:Wed Feb 27 19:40:53 IST 2019
+2019-02-27 19:40:53,430 INFO  Service responded successfully with required details
+2019-02-27 19:40:53,430 INFO  Time after invoking service:Wed Feb 27 19:40:53 IST 2019
+2019-02-27 19:40:53,431 INFO  User solution successfully verified
+2019-02-27 19:40:53,431 INFO  Processing the response from verify service
+2019-02-27 19:40:53,433 INFO  Starting to parse JSON response
+2019-02-27 19:40:53,433 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:40:53,433 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:40:53,434 INFO  Successfully parsed JSON response
+2019-02-27 19:40:53,435 INFO  In the process of generating verify response in HTML
+2019-02-27 19:40:53,505 INFO  Successfully generated verify response in HTML
+2019-02-27 19:40:53,505 INFO  Successfully processed the response from service
+2019-02-27 19:41:38,494 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:41:38,494 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:41:38,494 INFO  Starting to parse the user solution
+2019-02-27 19:41:38,495 INFO  Displaying user solution
+2019-02-27 19:41:38,532 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        print -1\r\n        return\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:41:38,532 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:41:38,532 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:41:38,532 INFO  Invoking the service to verify the user solution
+2019-02-27 19:41:38,532 INFO  Time before invoking service:Wed Feb 27 19:41:38 IST 2019
+2019-02-27 19:41:38,532 INFO  Initialising service address for VerifySolution
+2019-02-27 19:41:38,533 INFO  Time before invoking service In SUPER:Wed Feb 27 19:41:38 IST 2019
+2019-02-27 19:41:39,346 INFO  Time after invoking service In SUPER:Wed Feb 27 19:41:39 IST 2019
+2019-02-27 19:41:39,346 INFO  Service responded successfully with required details
+2019-02-27 19:41:39,346 INFO  Time after invoking service:Wed Feb 27 19:41:39 IST 2019
+2019-02-27 19:41:39,346 INFO  User solution successfully verified
+2019-02-27 19:41:39,346 INFO  Processing the response from verify service
+2019-02-27 19:41:39,348 INFO  Starting to parse JSON response
+2019-02-27 19:41:39,348 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:41:39,348 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:41:39,349 INFO  Successfully parsed JSON response
+2019-02-27 19:41:39,349 INFO  In the process of generating verify response in HTML
+2019-02-27 19:41:39,413 INFO  Successfully generated verify response in HTML
+2019-02-27 19:41:39,414 INFO  Successfully processed the response from service
+2019-02-27 19:42:19,741 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:42:19,742 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:42:19,742 INFO  Starting to parse the user solution
+2019-02-27 19:42:19,742 INFO  Displaying user solution
+2019-02-27 19:42:19,787 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:42:19,787 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:42:19,788 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:42:19,788 INFO  Invoking the service to verify the user solution
+2019-02-27 19:42:19,788 INFO  Time before invoking service:Wed Feb 27 19:42:19 IST 2019
+2019-02-27 19:42:19,788 INFO  Initialising service address for VerifySolution
+2019-02-27 19:42:19,789 INFO  Time before invoking service In SUPER:Wed Feb 27 19:42:19 IST 2019
+2019-02-27 19:42:20,624 INFO  Time after invoking service In SUPER:Wed Feb 27 19:42:20 IST 2019
+2019-02-27 19:42:20,624 INFO  Service responded successfully with required details
+2019-02-27 19:42:20,624 INFO  Time after invoking service:Wed Feb 27 19:42:20 IST 2019
+2019-02-27 19:42:20,625 INFO  User solution successfully verified
+2019-02-27 19:42:20,625 INFO  Processing the response from verify service
+2019-02-27 19:42:20,626 INFO  Starting to parse JSON response
+2019-02-27 19:42:20,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:42:20,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:42:20,628 INFO  Successfully parsed JSON response
+2019-02-27 19:42:20,628 INFO  In the process of generating verify response in HTML
+2019-02-27 19:42:20,703 INFO  Successfully generated verify response in HTML
+2019-02-27 19:42:20,703 INFO  Successfully processed the response from service
+2019-02-27 19:42:59,944 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:42:59,945 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:42:59,945 INFO  Starting to parse the user solution
+2019-02-27 19:42:59,945 INFO  Displaying user solution
+2019-02-27 19:42:59,991 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 and dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars) \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:42:59,991 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:42:59,992 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:42:59,992 INFO  Invoking the service to verify the user solution
+2019-02-27 19:42:59,992 INFO  Time before invoking service:Wed Feb 27 19:42:59 IST 2019
+2019-02-27 19:42:59,992 INFO  Initialising service address for VerifySolution
+2019-02-27 19:42:59,993 INFO  Time before invoking service In SUPER:Wed Feb 27 19:42:59 IST 2019
+2019-02-27 19:43:01,690 INFO  Time after invoking service In SUPER:Wed Feb 27 19:43:01 IST 2019
+2019-02-27 19:43:01,690 INFO  Service responded successfully with required details
+2019-02-27 19:43:01,690 INFO  Time after invoking service:Wed Feb 27 19:43:01 IST 2019
+2019-02-27 19:43:01,690 INFO  User solution successfully verified
+2019-02-27 19:43:01,691 INFO  Processing the response from verify service
+2019-02-27 19:43:01,692 INFO  Starting to parse JSON response
+2019-02-27 19:43:01,692 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:01,692 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:01,693 INFO  Successfully parsed JSON response
+2019-02-27 19:43:01,695 INFO  In the process of generating verify response in HTML
+2019-02-27 19:43:01,762 INFO  Successfully generated verify response in HTML
+2019-02-27 19:43:01,762 INFO  Successfully processed the response from service
+2019-02-27 19:43:43,830 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:43:43,830 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:43:43,830 INFO  Starting to parse the user solution
+2019-02-27 19:43:43,830 INFO  Displaying user solution
+2019-02-27 19:43:43,869 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 and dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n     \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:43:43,870 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:43:43,870 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:43:43,870 INFO  Invoking the service to verify the user solution
+2019-02-27 19:43:43,871 INFO  Time before invoking service:Wed Feb 27 19:43:43 IST 2019
+2019-02-27 19:43:43,871 INFO  Initialising service address for VerifySolution
+2019-02-27 19:43:43,872 INFO  Time before invoking service In SUPER:Wed Feb 27 19:43:43 IST 2019
+2019-02-27 19:43:44,532 INFO  Time after invoking service In SUPER:Wed Feb 27 19:43:44 IST 2019
+2019-02-27 19:43:44,533 INFO  Service responded successfully with required details
+2019-02-27 19:43:44,533 INFO  Time after invoking service:Wed Feb 27 19:43:44 IST 2019
+2019-02-27 19:43:44,533 INFO  User solution successfully verified
+2019-02-27 19:43:44,533 INFO  Processing the response from verify service
+2019-02-27 19:43:44,534 INFO  Starting to parse JSON response
+2019-02-27 19:43:44,535 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:44,535 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:44,536 INFO  Successfully parsed JSON response
+2019-02-27 19:43:44,536 INFO  In the process of generating verify response in HTML
+2019-02-27 19:43:44,598 INFO  Successfully generated verify response in HTML
+2019-02-27 19:43:44,598 INFO  Successfully processed the response from service
+2019-02-27 19:43:54,725 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:43:54,725 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:43:54,726 INFO  Starting to parse the user solution
+2019-02-27 19:43:54,726 INFO  Displaying user solution
+2019-02-27 19:43:54,771 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 and dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n     \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:43:54,772 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:43:54,772 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:43:54,772 INFO  Invoking the service to verify the user solution
+2019-02-27 19:43:54,772 INFO  Time before invoking service:Wed Feb 27 19:43:54 IST 2019
+2019-02-27 19:43:54,772 INFO  Initialising service address for VerifySolution
+2019-02-27 19:43:54,773 INFO  Time before invoking service In SUPER:Wed Feb 27 19:43:54 IST 2019
+2019-02-27 19:43:55,609 INFO  Time after invoking service In SUPER:Wed Feb 27 19:43:55 IST 2019
+2019-02-27 19:43:55,609 INFO  Service responded successfully with required details
+2019-02-27 19:43:55,609 INFO  Time after invoking service:Wed Feb 27 19:43:55 IST 2019
+2019-02-27 19:43:55,610 INFO  User solution successfully verified
+2019-02-27 19:43:55,610 INFO  Processing the response from verify service
+2019-02-27 19:43:55,611 INFO  Starting to parse JSON response
+2019-02-27 19:43:55,612 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:55,612 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:43:55,613 INFO  Successfully parsed JSON response
+2019-02-27 19:43:55,614 INFO  In the process of generating verify response in HTML
+2019-02-27 19:43:55,683 INFO  Successfully generated verify response in HTML
+2019-02-27 19:43:55,683 INFO  Successfully processed the response from service
+2019-02-27 19:44:01,308 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:44:01,308 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:44:01,308 INFO  Starting to parse the user solution
+2019-02-27 19:44:01,309 INFO  Displaying user solution
+2019-02-27 19:44:01,352 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n     \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:44:01,353 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:44:01,353 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:44:01,353 INFO  Invoking the service to verify the user solution
+2019-02-27 19:44:01,353 INFO  Time before invoking service:Wed Feb 27 19:44:01 IST 2019
+2019-02-27 19:44:01,353 INFO  Initialising service address for VerifySolution
+2019-02-27 19:44:01,354 INFO  Time before invoking service In SUPER:Wed Feb 27 19:44:01 IST 2019
+2019-02-27 19:44:02,193 INFO  Time after invoking service In SUPER:Wed Feb 27 19:44:02 IST 2019
+2019-02-27 19:44:02,194 INFO  Service responded successfully with required details
+2019-02-27 19:44:02,194 INFO  Time after invoking service:Wed Feb 27 19:44:02 IST 2019
+2019-02-27 19:44:02,194 INFO  User solution successfully verified
+2019-02-27 19:44:02,194 INFO  Processing the response from verify service
+2019-02-27 19:44:02,196 INFO  Starting to parse JSON response
+2019-02-27 19:44:02,197 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:44:02,197 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:44:02,198 INFO  Successfully parsed JSON response
+2019-02-27 19:44:02,198 INFO  In the process of generating verify response in HTML
+2019-02-27 19:44:02,267 INFO  Successfully generated verify response in HTML
+2019-02-27 19:44:02,267 INFO  Successfully processed the response from service
+2019-02-27 19:44:29,593 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:44:29,593 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:44:29,593 INFO  Starting to parse the user solution
+2019-02-27 19:44:29,595 INFO  Displaying user solution
+2019-02-27 19:44:29,639 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n     \r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:44:29,639 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:44:29,639 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:44:29,639 INFO  Invoking the service to verify the user solution
+2019-02-27 19:44:29,640 INFO  Time before invoking service:Wed Feb 27 19:44:29 IST 2019
+2019-02-27 19:44:29,640 INFO  Initialising service address for VerifySolution
+2019-02-27 19:44:29,640 INFO  Time before invoking service In SUPER:Wed Feb 27 19:44:29 IST 2019
+2019-02-27 19:44:30,466 INFO  Time after invoking service In SUPER:Wed Feb 27 19:44:30 IST 2019
+2019-02-27 19:44:30,466 INFO  Service responded successfully with required details
+2019-02-27 19:44:30,467 INFO  Time after invoking service:Wed Feb 27 19:44:30 IST 2019
+2019-02-27 19:44:30,467 INFO  User solution successfully verified
+2019-02-27 19:44:30,468 INFO  Processing the response from verify service
+2019-02-27 19:44:30,470 INFO  Starting to parse JSON response
+2019-02-27 19:44:30,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:44:30,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:44:30,473 INFO  Successfully parsed JSON response
+2019-02-27 19:44:30,473 INFO  In the process of generating verify response in HTML
+2019-02-27 19:44:30,546 INFO  Successfully generated verify response in HTML
+2019-02-27 19:44:30,546 INFO  Successfully processed the response from service
+2019-02-27 19:45:16,432 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:45:16,432 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:45:16,432 INFO  Starting to parse the user solution
+2019-02-27 19:45:16,432 INFO  Displaying user solution
+2019-02-27 19:45:16,475 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:45:16,476 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:45:16,476 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:45:16,476 INFO  Invoking the service to verify the user solution
+2019-02-27 19:45:16,476 INFO  Time before invoking service:Wed Feb 27 19:45:16 IST 2019
+2019-02-27 19:45:16,476 INFO  Initialising service address for VerifySolution
+2019-02-27 19:45:16,477 INFO  Time before invoking service In SUPER:Wed Feb 27 19:45:16 IST 2019
+2019-02-27 19:45:17,345 INFO  Time after invoking service In SUPER:Wed Feb 27 19:45:17 IST 2019
+2019-02-27 19:45:17,345 INFO  Service responded successfully with required details
+2019-02-27 19:45:17,345 INFO  Time after invoking service:Wed Feb 27 19:45:17 IST 2019
+2019-02-27 19:45:17,346 INFO  User solution successfully verified
+2019-02-27 19:45:17,346 INFO  Processing the response from verify service
+2019-02-27 19:45:17,347 INFO  Starting to parse JSON response
+2019-02-27 19:45:17,348 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:45:17,348 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:45:17,349 INFO  Successfully parsed JSON response
+2019-02-27 19:45:17,349 INFO  In the process of generating verify response in HTML
+2019-02-27 19:45:17,420 INFO  Successfully generated verify response in HTML
+2019-02-27 19:45:17,420 INFO  Successfully processed the response from service
+2019-02-27 19:48:36,567 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:48:36,567 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:48:36,567 INFO  Starting to parse the user solution
+2019-02-27 19:48:36,567 INFO  Displaying user solution
+2019-02-27 19:48:36,614 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars)\r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:48:36,615 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:48:36,615 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:48:36,615 INFO  Invoking the service to verify the user solution
+2019-02-27 19:48:36,615 INFO  Time before invoking service:Wed Feb 27 19:48:36 IST 2019
+2019-02-27 19:48:36,615 INFO  Initialising service address for VerifySolution
+2019-02-27 19:48:36,616 INFO  Time before invoking service In SUPER:Wed Feb 27 19:48:36 IST 2019
+2019-02-27 19:48:37,397 INFO  Time after invoking service In SUPER:Wed Feb 27 19:48:37 IST 2019
+2019-02-27 19:48:37,397 INFO  Service responded successfully with required details
+2019-02-27 19:48:37,397 INFO  Time after invoking service:Wed Feb 27 19:48:37 IST 2019
+2019-02-27 19:48:37,397 INFO  User solution successfully verified
+2019-02-27 19:48:37,398 INFO  Processing the response from verify service
+2019-02-27 19:48:37,401 INFO  Starting to parse JSON response
+2019-02-27 19:48:37,403 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:48:37,403 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:48:37,404 INFO  Successfully parsed JSON response
+2019-02-27 19:48:37,404 INFO  In the process of generating verify response in HTML
+2019-02-27 19:48:37,476 INFO  Successfully generated verify response in HTML
+2019-02-27 19:48:37,477 INFO  Successfully processed the response from service
+2019-02-27 19:53:10,706 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:53:10,706 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:53:10,706 INFO  Starting to parse the user solution
+2019-02-27 19:53:10,707 INFO  Displaying user solution
+2019-02-27 19:53:10,750 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n    str1=\"\"  #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars)\r\n    str1 = commonChars+str1\r\n    return str1 \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:53:10,750 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:53:10,750 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:53:10,750 INFO  Invoking the service to verify the user solution
+2019-02-27 19:53:10,750 INFO  Time before invoking service:Wed Feb 27 19:53:10 IST 2019
+2019-02-27 19:53:10,750 INFO  Initialising service address for VerifySolution
+2019-02-27 19:53:10,751 INFO  Time before invoking service In SUPER:Wed Feb 27 19:53:10 IST 2019
+2019-02-27 19:53:11,576 INFO  Time after invoking service In SUPER:Wed Feb 27 19:53:11 IST 2019
+2019-02-27 19:53:11,577 INFO  Service responded successfully with required details
+2019-02-27 19:53:11,577 INFO  Time after invoking service:Wed Feb 27 19:53:11 IST 2019
+2019-02-27 19:53:11,577 INFO  User solution successfully verified
+2019-02-27 19:53:11,577 INFO  Processing the response from verify service
+2019-02-27 19:53:11,580 INFO  Starting to parse JSON response
+2019-02-27 19:53:11,581 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:11,581 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:11,581 INFO  Successfully parsed JSON response
+2019-02-27 19:53:11,581 INFO  In the process of generating verify response in HTML
+2019-02-27 19:53:11,656 INFO  Successfully generated verify response in HTML
+2019-02-27 19:53:11,656 INFO  Successfully processed the response from service
+2019-02-27 19:53:17,240 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:53:17,240 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:53:17,240 INFO  Starting to parse the user solution
+2019-02-27 19:53:17,240 INFO  Displaying user solution
+2019-02-27 19:53:17,274 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n    str1=\"\"  #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars)\r\n    str1 = commonChars+str1\r\n    return str1 \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:53:17,274 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:53:17,274 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:53:17,274 INFO  Invoking the service to verify the user solution
+2019-02-27 19:53:17,275 INFO  Time before invoking service:Wed Feb 27 19:53:17 IST 2019
+2019-02-27 19:53:17,275 INFO  Initialising service address for VerifySolution
+2019-02-27 19:53:17,276 INFO  Time before invoking service In SUPER:Wed Feb 27 19:53:17 IST 2019
+2019-02-27 19:53:18,154 INFO  Time after invoking service In SUPER:Wed Feb 27 19:53:18 IST 2019
+2019-02-27 19:53:18,155 INFO  Service responded successfully with required details
+2019-02-27 19:53:18,155 INFO  Time after invoking service:Wed Feb 27 19:53:18 IST 2019
+2019-02-27 19:53:18,155 INFO  User solution successfully verified
+2019-02-27 19:53:18,156 INFO  Processing the response from verify service
+2019-02-27 19:53:18,158 INFO  Starting to parse JSON response
+2019-02-27 19:53:18,159 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:18,159 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:18,161 INFO  Successfully parsed JSON response
+2019-02-27 19:53:18,161 INFO  In the process of generating verify response in HTML
+2019-02-27 19:53:18,231 INFO  Successfully generated verify response in HTML
+2019-02-27 19:53:18,231 INFO  Successfully processed the response from service
+2019-02-27 19:53:36,478 INFO  Setting request parameters for VerifySolution
+2019-02-27 19:53:36,478 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 19:53:36,478 INFO  Starting to parse the user solution
+2019-02-27 19:53:36,480 INFO  Displaying user solution
+2019-02-27 19:53:36,526 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom collections import Counter\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    dict1 = Counter(msg1) \r\n    dict2 = Counter(msg2)\r\n    commonDict = dict1 & dict2 \r\n    if (len(commonDict) == 0): \r\n        return -1\r\n    commonChars = list(commonDict.elements())\r\n    commonChars = sorted(commonChars)\r\n    return ''.join(commonChars) \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 19:53:36,526 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 19:53:36,527 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 19:53:36,527 INFO  Invoking the service to verify the user solution
+2019-02-27 19:53:36,527 INFO  Time before invoking service:Wed Feb 27 19:53:36 IST 2019
+2019-02-27 19:53:36,527 INFO  Initialising service address for VerifySolution
+2019-02-27 19:53:36,528 INFO  Time before invoking service In SUPER:Wed Feb 27 19:53:36 IST 2019
+2019-02-27 19:53:37,358 INFO  Time after invoking service In SUPER:Wed Feb 27 19:53:37 IST 2019
+2019-02-27 19:53:37,358 INFO  Service responded successfully with required details
+2019-02-27 19:53:37,359 INFO  Time after invoking service:Wed Feb 27 19:53:37 IST 2019
+2019-02-27 19:53:37,359 INFO  User solution successfully verified
+2019-02-27 19:53:37,359 INFO  Processing the response from verify service
+2019-02-27 19:53:37,360 INFO  Starting to parse JSON response
+2019-02-27 19:53:37,361 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:37,361 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 19:53:37,362 INFO  Successfully parsed JSON response
+2019-02-27 19:53:37,362 INFO  In the process of generating verify response in HTML
+2019-02-27 19:53:37,428 INFO  Successfully generated verify response in HTML
+2019-02-27 19:53:37,429 INFO  Successfully processed the response from service
+2019-02-27 20:01:10,658 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:01:10,658 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:01:10,658 INFO  Starting to parse the user solution
+2019-02-27 20:01:10,659 INFO  Displaying user solution
+2019-02-27 20:01:10,710 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    msg1 = set(msg1)\r\n    msg2 = set(msg2)\r\n    common_chars = list(msg1 & msg2)\r\n    return ''.join(common_chars)\r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:01:10,711 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:01:10,711 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:01:10,711 INFO  Invoking the service to verify the user solution
+2019-02-27 20:01:10,711 INFO  Time before invoking service:Wed Feb 27 20:01:10 IST 2019
+2019-02-27 20:01:10,711 INFO  Initialising service address for VerifySolution
+2019-02-27 20:01:10,712 INFO  Time before invoking service In SUPER:Wed Feb 27 20:01:10 IST 2019
+2019-02-27 20:01:11,512 INFO  Time after invoking service In SUPER:Wed Feb 27 20:01:11 IST 2019
+2019-02-27 20:01:11,512 INFO  Service responded successfully with required details
+2019-02-27 20:01:11,512 INFO  Time after invoking service:Wed Feb 27 20:01:11 IST 2019
+2019-02-27 20:01:11,512 INFO  User solution successfully verified
+2019-02-27 20:01:11,513 INFO  Processing the response from verify service
+2019-02-27 20:01:11,517 INFO  Starting to parse JSON response
+2019-02-27 20:01:11,518 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:01:11,518 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:01:11,519 INFO  Successfully parsed JSON response
+2019-02-27 20:01:11,519 INFO  In the process of generating verify response in HTML
+2019-02-27 20:01:11,592 INFO  Successfully generated verify response in HTML
+2019-02-27 20:01:11,592 INFO  Successfully processed the response from service
+2019-02-27 20:07:15,330 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:07:15,330 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:07:15,330 INFO  Starting to parse the user solution
+2019-02-27 20:07:15,331 INFO  Displaying user solution
+2019-02-27 20:07:15,377 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    msg1 = set(msg1)\r\n    msg2 = set(msg2)\r\n    common_chars = list(msg1 & msg2)\r\n    for i in range(0,len(common_chars)):\r\n        str1 = str1 + str(common_chars[i])\r\n    return str1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:07:15,378 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:07:15,378 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:07:15,378 INFO  Invoking the service to verify the user solution
+2019-02-27 20:07:15,378 INFO  Time before invoking service:Wed Feb 27 20:07:15 IST 2019
+2019-02-27 20:07:15,378 INFO  Initialising service address for VerifySolution
+2019-02-27 20:07:15,379 INFO  Time before invoking service In SUPER:Wed Feb 27 20:07:15 IST 2019
+2019-02-27 20:07:16,209 INFO  Time after invoking service In SUPER:Wed Feb 27 20:07:16 IST 2019
+2019-02-27 20:07:16,209 INFO  Service responded successfully with required details
+2019-02-27 20:07:16,209 INFO  Time after invoking service:Wed Feb 27 20:07:16 IST 2019
+2019-02-27 20:07:16,210 INFO  User solution successfully verified
+2019-02-27 20:07:16,210 INFO  Processing the response from verify service
+2019-02-27 20:07:16,213 INFO  Starting to parse JSON response
+2019-02-27 20:07:16,214 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:07:16,214 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:07:16,215 INFO  Successfully parsed JSON response
+2019-02-27 20:07:16,215 INFO  In the process of generating verify response in HTML
+2019-02-27 20:07:16,301 INFO  Successfully generated verify response in HTML
+2019-02-27 20:07:16,301 INFO  Successfully processed the response from service
+2019-02-27 20:08:44,492 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:08:44,492 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:08:44,492 INFO  Starting to parse the user solution
+2019-02-27 20:08:44,492 INFO  Displaying user solution
+2019-02-27 20:08:44,539 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    msg1 = set(msg1)\r\n    msg2 = set(msg2)\r\n    common_chars = str(msg1 & msg2)\r\n    for i in range(0,len(common_chars)):\r\n        str1 = str1 + str(common_chars[i])\r\n    return str1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:08:44,540 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:08:44,540 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:08:44,540 INFO  Invoking the service to verify the user solution
+2019-02-27 20:08:44,540 INFO  Time before invoking service:Wed Feb 27 20:08:44 IST 2019
+2019-02-27 20:08:44,540 INFO  Initialising service address for VerifySolution
+2019-02-27 20:08:44,541 INFO  Time before invoking service In SUPER:Wed Feb 27 20:08:44 IST 2019
+2019-02-27 20:08:45,476 INFO  Time after invoking service In SUPER:Wed Feb 27 20:08:45 IST 2019
+2019-02-27 20:08:45,476 INFO  Service responded successfully with required details
+2019-02-27 20:08:45,476 INFO  Time after invoking service:Wed Feb 27 20:08:45 IST 2019
+2019-02-27 20:08:45,477 INFO  User solution successfully verified
+2019-02-27 20:08:45,477 INFO  Processing the response from verify service
+2019-02-27 20:08:45,479 INFO  Starting to parse JSON response
+2019-02-27 20:08:45,481 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:08:45,481 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:08:45,485 INFO  Successfully parsed JSON response
+2019-02-27 20:08:45,485 INFO  In the process of generating verify response in HTML
+2019-02-27 20:08:45,572 INFO  Successfully generated verify response in HTML
+2019-02-27 20:08:45,573 INFO  Successfully processed the response from service
+2019-02-27 20:08:53,623 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:08:53,623 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:08:53,623 INFO  Starting to parse the user solution
+2019-02-27 20:08:53,623 INFO  Displaying user solution
+2019-02-27 20:08:53,668 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    msg1 = set(msg1)\r\n    msg2 = set(msg2)\r\n    common_chars = list(msg1 & msg2)\r\n    for i in range(0,len(common_chars)):\r\n        str1 = str1 + str(common_chars[i])\r\n    return str1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"Python\"\r\nmsg2=\"Python\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:08:53,669 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:08:53,669 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:08:53,669 INFO  Invoking the service to verify the user solution
+2019-02-27 20:08:53,669 INFO  Time before invoking service:Wed Feb 27 20:08:53 IST 2019
+2019-02-27 20:08:53,669 INFO  Initialising service address for VerifySolution
+2019-02-27 20:08:53,670 INFO  Time before invoking service In SUPER:Wed Feb 27 20:08:53 IST 2019
+2019-02-27 20:08:54,580 INFO  Time after invoking service In SUPER:Wed Feb 27 20:08:54 IST 2019
+2019-02-27 20:08:54,581 INFO  Service responded successfully with required details
+2019-02-27 20:08:54,581 INFO  Time after invoking service:Wed Feb 27 20:08:54 IST 2019
+2019-02-27 20:08:54,581 INFO  User solution successfully verified
+2019-02-27 20:08:54,581 INFO  Processing the response from verify service
+2019-02-27 20:08:54,582 INFO  Starting to parse JSON response
+2019-02-27 20:08:54,583 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:08:54,583 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:08:54,584 INFO  Successfully parsed JSON response
+2019-02-27 20:08:54,584 INFO  In the process of generating verify response in HTML
+2019-02-27 20:08:54,655 INFO  Successfully generated verify response in HTML
+2019-02-27 20:08:54,655 INFO  Successfully processed the response from service
+2019-02-27 20:23:05,516 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:23:05,516 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:23:05,516 INFO  Starting to parse the user solution
+2019-02-27 20:23:05,517 INFO  Displaying user solution
+2019-02-27 20:23:05,571 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    for i in range(0,len(msg1)):\r\n        for j in range(0,len(msg2)):\r\n            if((msg1[i]==msg2[j]) and (msg1[i] not in str1)):\r\n                str1 += msg1[i]\r\n    if(len(str1)!=0):\r\n      return str1\r\n    else:\r\n        return -1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:23:05,571 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:23:05,572 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:23:05,572 INFO  Invoking the service to verify the user solution
+2019-02-27 20:23:05,572 INFO  Time before invoking service:Wed Feb 27 20:23:05 IST 2019
+2019-02-27 20:23:05,572 INFO  Initialising service address for VerifySolution
+2019-02-27 20:23:05,573 INFO  Time before invoking service In SUPER:Wed Feb 27 20:23:05 IST 2019
+2019-02-27 20:23:06,359 INFO  Time after invoking service In SUPER:Wed Feb 27 20:23:06 IST 2019
+2019-02-27 20:23:06,359 INFO  Service responded successfully with required details
+2019-02-27 20:23:06,360 INFO  Time after invoking service:Wed Feb 27 20:23:06 IST 2019
+2019-02-27 20:23:06,360 INFO  User solution successfully verified
+2019-02-27 20:23:06,360 INFO  Processing the response from verify service
+2019-02-27 20:23:06,363 INFO  Starting to parse JSON response
+2019-02-27 20:23:06,364 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:23:06,364 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:23:06,365 INFO  Successfully parsed JSON response
+2019-02-27 20:23:06,365 INFO  In the process of generating verify response in HTML
+2019-02-27 20:23:06,454 INFO  Successfully generated verify response in HTML
+2019-02-27 20:23:06,454 INFO  Successfully processed the response from service
+2019-02-27 20:23:30,050 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:23:30,050 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:23:30,050 INFO  Starting to parse the user solution
+2019-02-27 20:23:30,051 INFO  Displaying user solution
+2019-02-27 20:23:30,090 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    for i in range(0,len(msg1)):\r\n        for j in range(0,len(msg2)):\r\n            if((msg1[i]==msg2[j]) and (msg1[i] not in str1)):\r\n                str1 += msg1[i]\r\n    if(len(str1)!=0):\r\n      return str1\r\n    else:\r\n        return -1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:23:30,118 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:23:30,119 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:23:30,119 INFO  Invoking the service to verify the user solution
+2019-02-27 20:23:30,119 INFO  Time before invoking service:Wed Feb 27 20:23:30 IST 2019
+2019-02-27 20:23:30,119 INFO  Initialising service address for VerifySolution
+2019-02-27 20:23:30,120 INFO  Time before invoking service In SUPER:Wed Feb 27 20:23:30 IST 2019
+2019-02-27 20:23:30,965 INFO  Time after invoking service In SUPER:Wed Feb 27 20:23:30 IST 2019
+2019-02-27 20:23:30,966 INFO  Service responded successfully with required details
+2019-02-27 20:23:30,966 INFO  Time after invoking service:Wed Feb 27 20:23:30 IST 2019
+2019-02-27 20:23:30,966 INFO  User solution successfully verified
+2019-02-27 20:23:30,966 INFO  Processing the response from verify service
+2019-02-27 20:23:30,967 INFO  Starting to parse JSON response
+2019-02-27 20:23:30,968 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:23:30,968 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:23:30,969 INFO  Successfully parsed JSON response
+2019-02-27 20:23:30,969 INFO  In the process of generating verify response in HTML
+2019-02-27 20:23:31,043 INFO  Successfully generated verify response in HTML
+2019-02-27 20:23:31,043 INFO  Successfully processed the response from service
+2019-02-27 20:24:17,652 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:24:17,652 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:24:17,652 INFO  Starting to parse the user solution
+2019-02-27 20:24:17,653 INFO  Displaying user solution
+2019-02-27 20:24:17,694 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    for i in range(0,len(msg1)):\r\n        for j in range(0,len(msg2)):\r\n            if((msg1[i]==msg2[j]) and (msg1[i] not in str1)):\r\n                str1 += msg1[i]\r\n    if(len(str1)!=0):\r\n      return ''.join(str1)\r\n    else:\r\n        return -1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:24:17,694 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:24:17,694 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:24:17,694 INFO  Invoking the service to verify the user solution
+2019-02-27 20:24:17,695 INFO  Time before invoking service:Wed Feb 27 20:24:17 IST 2019
+2019-02-27 20:24:17,695 INFO  Initialising service address for VerifySolution
+2019-02-27 20:24:17,695 INFO  Time before invoking service In SUPER:Wed Feb 27 20:24:17 IST 2019
+2019-02-27 20:24:18,574 INFO  Time after invoking service In SUPER:Wed Feb 27 20:24:18 IST 2019
+2019-02-27 20:24:18,574 INFO  Service responded successfully with required details
+2019-02-27 20:24:18,574 INFO  Time after invoking service:Wed Feb 27 20:24:18 IST 2019
+2019-02-27 20:24:18,574 INFO  User solution successfully verified
+2019-02-27 20:24:18,574 INFO  Processing the response from verify service
+2019-02-27 20:24:18,575 INFO  Starting to parse JSON response
+2019-02-27 20:24:18,576 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:24:18,576 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:24:18,577 INFO  Successfully parsed JSON response
+2019-02-27 20:24:18,577 INFO  In the process of generating verify response in HTML
+2019-02-27 20:24:18,645 INFO  Successfully generated verify response in HTML
+2019-02-27 20:24:18,645 INFO  Successfully processed the response from service
+2019-02-27 20:25:15,728 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:25:15,728 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:25:15,728 INFO  Starting to parse the user solution
+2019-02-27 20:25:15,728 INFO  Displaying user solution
+2019-02-27 20:25:15,772 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    for i in range(0,len(msg1)):\r\n        for j in range(0,len(msg2)):\r\n            if((msg1[i]==msg2[j]) and (msg1[i] not in str1)):\r\n                str1 += msg1[i]\r\n    if(len(str1)!=0):\r\n      return (str1)\r\n    else:\r\n        return -1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:25:15,772 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:25:15,772 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:25:15,772 INFO  Invoking the service to verify the user solution
+2019-02-27 20:25:15,773 INFO  Time before invoking service:Wed Feb 27 20:25:15 IST 2019
+2019-02-27 20:25:15,773 INFO  Initialising service address for VerifySolution
+2019-02-27 20:25:15,773 INFO  Time before invoking service In SUPER:Wed Feb 27 20:25:15 IST 2019
+2019-02-27 20:25:16,607 INFO  Time after invoking service In SUPER:Wed Feb 27 20:25:16 IST 2019
+2019-02-27 20:25:16,608 INFO  Service responded successfully with required details
+2019-02-27 20:25:16,608 INFO  Time after invoking service:Wed Feb 27 20:25:16 IST 2019
+2019-02-27 20:25:16,608 INFO  User solution successfully verified
+2019-02-27 20:25:16,608 INFO  Processing the response from verify service
+2019-02-27 20:25:16,609 INFO  Starting to parse JSON response
+2019-02-27 20:25:16,610 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:25:16,610 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:25:16,611 INFO  Successfully parsed JSON response
+2019-02-27 20:25:16,611 INFO  In the process of generating verify response in HTML
+2019-02-27 20:25:16,678 INFO  Successfully generated verify response in HTML
+2019-02-27 20:25:16,678 INFO  Successfully processed the response from service
+2019-02-27 20:25:20,651 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 20:25:20,652 INFO  Displaying user solution
+2019-02-27 20:25:20,663 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 20:25:20,663 INFO  Invoking the service to submit the user solution
+2019-02-27 20:25:20,663 INFO  Initialising service address for Submit
+2019-02-27 20:25:20,664 INFO  Time before invoking service In SUPER:Wed Feb 27 20:25:20 IST 2019
+2019-02-27 20:25:20,813 INFO  Time after invoking service In SUPER:Wed Feb 27 20:25:20 IST 2019
+2019-02-27 20:25:20,813 INFO  Service responded successfully with required details
+2019-02-27 20:25:20,813 INFO  User solution successfully submitted
+2019-02-27 20:25:20,813 INFO  Displaying submission status
+2019-02-27 20:25:20,813 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-27 20:25:24,595 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 20:25:24,596 INFO  Displaying user solution
+2019-02-27 20:25:24,603 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 20:25:24,603 INFO  Invoking the service to submit the user solution
+2019-02-27 20:25:24,603 INFO  Initialising service address for Submit
+2019-02-27 20:25:24,604 INFO  Time before invoking service In SUPER:Wed Feb 27 20:25:24 IST 2019
+2019-02-27 20:25:24,760 INFO  Time after invoking service In SUPER:Wed Feb 27 20:25:24 IST 2019
+2019-02-27 20:25:24,760 INFO  Service responded successfully with required details
+2019-02-27 20:25:24,760 INFO  User solution successfully submitted
+2019-02-27 20:25:24,760 INFO  Displaying submission status
+2019-02-27 20:25:24,760 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-27 20:25:56,652 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:25:56,653 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:25:56,653 INFO  Starting to parse the user solution
+2019-02-27 20:25:56,653 INFO  Displaying user solution
+2019-02-27 20:25:56,696 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-33\r\n'''\r\nCreated on Feb 25, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_common_characters(msg1,msg2):\r\n      #Remove pass and write your logic here\r\n    str1=\"\"\r\n    for i in range(0,len(msg1)):\r\n        for j in range(0,len(msg2)):\r\n            if((msg1[i]==msg2[j]) and (msg1[i] not in str1)):\r\n                str1 += msg1[i]\r\n    if(len(str1)>0):\r\n      return (str1)\r\n    else:\r\n        return -1\r\n        \r\n\r\n#Provide different values for msg1,msg2 and test your program\r\nmsg1=\"I like Python\"\r\nmsg2=\"Java is a very popular language\"\r\ncommon_characters=find_common_characters(msg1,msg2)\r\nprint(common_characters)\r\n","asgnmtId":"33","SolutionFileName":"Assign33.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:25:56,697 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:25:56,697 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:25:56,697 INFO  Invoking the service to verify the user solution
+2019-02-27 20:25:56,697 INFO  Time before invoking service:Wed Feb 27 20:25:56 IST 2019
+2019-02-27 20:25:56,697 INFO  Initialising service address for VerifySolution
+2019-02-27 20:25:56,698 INFO  Time before invoking service In SUPER:Wed Feb 27 20:25:56 IST 2019
+2019-02-27 20:25:57,532 INFO  Time after invoking service In SUPER:Wed Feb 27 20:25:57 IST 2019
+2019-02-27 20:25:57,533 INFO  Service responded successfully with required details
+2019-02-27 20:25:57,533 INFO  Time after invoking service:Wed Feb 27 20:25:57 IST 2019
+2019-02-27 20:25:57,533 INFO  User solution successfully verified
+2019-02-27 20:25:57,534 INFO  Processing the response from verify service
+2019-02-27 20:25:57,535 INFO  Starting to parse JSON response
+2019-02-27 20:25:57,536 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:25:57,536 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:25:57,538 INFO  Successfully parsed JSON response
+2019-02-27 20:25:57,538 INFO  In the process of generating verify response in HTML
+2019-02-27 20:25:57,597 INFO  Successfully generated verify response in HTML
+2019-02-27 20:25:57,597 INFO  Successfully processed the response from service
+2019-02-27 20:26:01,488 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 20:26:01,489 INFO  Displaying user solution
+2019-02-27 20:26:01,495 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 20:26:01,495 INFO  Invoking the service to submit the user solution
+2019-02-27 20:26:01,495 INFO  Initialising service address for Submit
+2019-02-27 20:26:01,496 INFO  Time before invoking service In SUPER:Wed Feb 27 20:26:01 IST 2019
+2019-02-27 20:26:01,648 INFO  Time after invoking service In SUPER:Wed Feb 27 20:26:01 IST 2019
+2019-02-27 20:26:01,648 INFO  Service responded successfully with required details
+2019-02-27 20:26:01,648 INFO  User solution successfully submitted
+2019-02-27 20:26:01,648 INFO  Displaying submission status
+2019-02-27 20:26:01,648 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-02-27 20:28:47,034 INFO  Setting request parameters for VerifySolution
+2019-02-27 20:28:47,034 INFO  Initiating to process and prepare Input for the verify service
+2019-02-27 20:28:47,034 INFO  Starting to parse the user solution
+2019-02-27 20:28:47,035 INFO  Displaying user solution
+2019-02-27 20:28:47,077 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Assgn-26\r\n'''\r\nCreated on Feb 22, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom builtins import int\r\n\r\n\r\ndef solve(heads,legs):\r\n      error_msg=\"No solution\"\r\n      chicken_count=0\r\n      rabbit_count=0\r\n      if(heads>0 and legs>0 and legs>heads):\r\n         rabbit_count = (legs - 2 * heads)\r\n         rabbit_count = rabbit_count//2\r\n         chicken_count = heads - rabbit_count \r\n         if((rabbit_count+chicken_count)==heads):\r\n             if((4*rabbit_count+2*chicken_count)==legs):\r\n                 return print( chicken_count, rabbit_count)\r\n             else:\r\n                  return print(error_msg)\r\n         else:\r\n             return print(error_msg)\r\n      else:\r\n              return print(error_msg)\r\n     \r\n     \r\n          \r\n      \r\n    #Populate the variables: chicken_count and rabbit_count\r\n\r\n\r\n\r\n    # Use the below given print statements to display the output\r\n    # Also, do not modify them for verification to work\r\n\r\n    #print(chicken_count,rabbit_count)\r\n    #print(error_msg)\r\n\r\n#Provide different values for heads and legs and test your program\r\nsolve(23,67)\r\n","asgnmtId":"26","SolutionFileName":"Assign26.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-02-27 20:28:47,078 INFO  Successfully processed and prepared the input for the verify service
+2019-02-27 20:28:47,078 INFO  Successfully set the request parameters for VerifySolution
+2019-02-27 20:28:47,078 INFO  Invoking the service to verify the user solution
+2019-02-27 20:28:47,078 INFO  Time before invoking service:Wed Feb 27 20:28:47 IST 2019
+2019-02-27 20:28:47,078 INFO  Initialising service address for VerifySolution
+2019-02-27 20:28:47,079 INFO  Time before invoking service In SUPER:Wed Feb 27 20:28:47 IST 2019
+2019-02-27 20:28:47,904 INFO  Time after invoking service In SUPER:Wed Feb 27 20:28:47 IST 2019
+2019-02-27 20:28:47,904 INFO  Service responded successfully with required details
+2019-02-27 20:28:47,905 INFO  Time after invoking service:Wed Feb 27 20:28:47 IST 2019
+2019-02-27 20:28:47,905 INFO  User solution successfully verified
+2019-02-27 20:28:47,905 INFO  Processing the response from verify service
+2019-02-27 20:28:47,907 INFO  Starting to parse JSON response
+2019-02-27 20:28:47,909 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:28:47,909 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:28:47,909 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:28:47,909 ERROR Keys used to parse test result JSON might be incorrect
+2019-02-27 20:28:47,911 INFO  Successfully parsed JSON response
+2019-02-27 20:28:47,911 INFO  In the process of generating verify response in HTML
+2019-02-27 20:28:47,980 INFO  Successfully generated verify response in HTML
+2019-02-27 20:28:47,980 INFO  Successfully processed the response from service
+2019-02-27 20:28:51,787 INFO  Initiating to process and prepare Input for the submit service
+2019-02-27 20:28:51,787 INFO  Displaying user solution
+2019-02-27 20:28:51,794 INFO  Successfully processed and prepared the input for the submit service
+2019-02-27 20:28:51,795 INFO  Invoking the service to submit the user solution
+2019-02-27 20:28:51,795 INFO  Initialising service address for Submit
+2019-02-27 20:28:51,795 INFO  Time before invoking service In SUPER:Wed Feb 27 20:28:51 IST 2019
+2019-02-27 20:28:51,885 INFO  Time after invoking service In SUPER:Wed Feb 27 20:28:51 IST 2019
+2019-02-27 20:28:51,886 INFO  Service responded successfully with required details
+2019-02-27 20:28:51,886 INFO  User solution successfully submitted
+2019-02-27 20:28:51,886 INFO  Displaying submission status
+2019-02-27 20:28:51,886 INFO  Displayed submission status successfullySuccessfully Submitted!

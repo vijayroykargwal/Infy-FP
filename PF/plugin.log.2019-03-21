@@ -1,0 +1,199 @@
+2019-03-21 11:43:29,205 INFO  Loading Baseframework Plugin
+2019-03-21 11:43:29,209 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-21 11:43:29,211 INFO  Loading the Menu - HandsOn
+2019-03-21 11:43:29,222 INFO  Successfully loaded the Menu - HandsOn
+2019-03-21 12:39:00,698 INFO  Loading Programming Assignment Plugin
+2019-03-21 12:39:01,202 INFO  Setting request parameters for VerifySolution
+2019-03-21 12:39:01,202 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 12:39:01,207 INFO  Starting to parse the user solution
+2019-03-21 12:39:01,208 INFO  Displaying user solution
+2019-03-21 12:39:01,361 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-31\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef sum_of_elements(num_list,number):\r\n    result_sum = 0\r\n    new_num_list=[]\r\n    for i in range(0,len(num_list)):\r\n        if(num_list[i]==number):\r\n            if(i==0):\r\n                new_num_list.append(num_list[i])\r\n                new_num_list.append(num_list[i+1])\r\n                \r\n            elif(i==len(num_list)-1):\r\n                new_num_list.append(num_list[i])\r\n                new_num_list.append(num_list[i-1])\r\n                \r\n            else:\r\n                new_num_list.append(num_list[i-1])\r\n                new_num_list.append(num_list[i])\r\n                new_num_list.append(num_list[i+1])\r\n                \r\n                \r\n    for i in new_num_list:\r\n        if i in num_list:\r\n            num_list.remove(i)    \r\n    if(len(num_list)!=0):\r\n        result_sum = sum(num_list)\r\n    else:\r\n        result_sum = 0\r\n        \r\n    return result_sum\r\n      \r\nnum_list=[1,7,3,4,1,7,10,5]\r\nnumber=7\r\nprint(sum_of_elements(num_list, number))\r\n","asgnmtId":"31","SolutionFileName":"problem31.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 12:39:01,370 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 12:39:01,370 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 12:39:01,370 INFO  Invoking the service to verify the user solution
+2019-03-21 12:39:01,371 INFO  Time before invoking service:Thu Mar 21 12:39:01 IST 2019
+2019-03-21 12:39:01,372 INFO  Initialising service address for VerifySolution
+2019-03-21 12:39:01,372 INFO  Time before invoking service In SUPER:Thu Mar 21 12:39:01 IST 2019
+2019-03-21 12:39:02,463 INFO  Time after invoking service In SUPER:Thu Mar 21 12:39:02 IST 2019
+2019-03-21 12:39:02,463 INFO  Service responded successfully with required details
+2019-03-21 12:39:02,463 INFO  Time after invoking service:Thu Mar 21 12:39:02 IST 2019
+2019-03-21 12:39:02,464 INFO  User solution successfully verified
+2019-03-21 12:39:02,464 INFO  Processing the response from verify service
+2019-03-21 12:39:02,466 INFO  Starting to parse JSON response
+2019-03-21 12:39:02,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-21 12:39:02,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-21 12:39:02,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-21 12:39:02,471 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-21 12:39:02,474 INFO  Successfully parsed JSON response
+2019-03-21 12:39:02,474 INFO  In the process of generating verify response in HTML
+2019-03-21 12:39:02,754 INFO  Successfully generated verify response in HTML
+2019-03-21 12:39:02,755 INFO  Successfully processed the response from service
+2019-03-21 12:43:13,695 INFO  Initiating to process and prepare Input for the submit service
+2019-03-21 12:43:13,700 INFO  Displaying user solution
+2019-03-21 12:43:13,709 INFO  Successfully processed and prepared the input for the submit service
+2019-03-21 12:43:13,709 INFO  Invoking the service to submit the user solution
+2019-03-21 12:43:13,709 INFO  Initialising service address for Submit
+2019-03-21 12:43:13,709 INFO  Time before invoking service In SUPER:Thu Mar 21 12:43:13 IST 2019
+2019-03-21 12:43:14,298 INFO  Time after invoking service In SUPER:Thu Mar 21 12:43:14 IST 2019
+2019-03-21 12:43:14,298 INFO  Service responded successfully with required details
+2019-03-21 12:43:14,298 INFO  User solution successfully submitted
+2019-03-21 12:43:14,299 INFO  Displaying submission status
+2019-03-21 12:43:14,299 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-21 13:52:35,986 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-21 13:52:48,532 INFO  Setting request parameters for VerifySolution
+2019-03-21 13:52:48,533 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 13:52:48,533 INFO  Starting to parse the user solution
+2019-03-21 13:52:48,533 INFO  Displaying user solution
+2019-03-21 13:52:48,587 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef sum_of_list(num_list): \r\n    #Start writing your code here\r\n    #Do not alter the below line\r\n    if(len(num_list)!=0):\r\n        lst=num_list\r\n    else:\r\n        lst = -1\r\n    return lst[0] + sum_of_list(lst[1:])\r\n\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 13:52:48,589 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 13:52:48,589 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 13:52:48,589 INFO  Invoking the service to verify the user solution
+2019-03-21 13:52:48,589 INFO  Time before invoking service:Thu Mar 21 13:52:48 IST 2019
+2019-03-21 13:52:48,590 INFO  Initialising service address for VerifySolution
+2019-03-21 13:52:48,590 INFO  Time before invoking service In SUPER:Thu Mar 21 13:52:48 IST 2019
+2019-03-21 13:52:48,900 INFO  Time after invoking service In SUPER:Thu Mar 21 13:52:48 IST 2019
+2019-03-21 13:52:48,901 INFO  Service responded successfully with required details
+2019-03-21 13:52:48,901 INFO  Time after invoking service:Thu Mar 21 13:52:48 IST 2019
+2019-03-21 13:52:48,901 INFO  User solution successfully verified
+2019-03-21 13:52:48,901 INFO  Processing the response from verify service
+2019-03-21 13:52:48,903 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 13:52:56,110 INFO  Setting request parameters for VerifySolution
+2019-03-21 13:52:56,110 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 13:52:56,110 INFO  Starting to parse the user solution
+2019-03-21 13:52:56,111 INFO  Displaying user solution
+2019-03-21 13:52:56,139 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef sum_of_list(num_list): \r\n    #Start writing your code here\r\n    #Do not alter the below line\r\n    if(len(num_list)!=0):\r\n        lst=num_list\r\n    else:\r\n        lst = -1\r\n    return lst[0] + sum_of_list(lst[1:])\r\n\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 13:52:56,139 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 13:52:56,139 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 13:52:56,139 INFO  Invoking the service to verify the user solution
+2019-03-21 13:52:56,142 INFO  Time before invoking service:Thu Mar 21 13:52:56 IST 2019
+2019-03-21 13:52:56,142 INFO  Initialising service address for VerifySolution
+2019-03-21 13:52:56,143 INFO  Time before invoking service In SUPER:Thu Mar 21 13:52:56 IST 2019
+2019-03-21 13:52:56,294 INFO  Time after invoking service In SUPER:Thu Mar 21 13:52:56 IST 2019
+2019-03-21 13:52:56,294 INFO  Service responded successfully with required details
+2019-03-21 13:52:56,294 INFO  Time after invoking service:Thu Mar 21 13:52:56 IST 2019
+2019-03-21 13:52:56,294 INFO  User solution successfully verified
+2019-03-21 13:52:56,295 INFO  Processing the response from verify service
+2019-03-21 13:52:56,296 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 13:53:13,511 INFO  Setting request parameters for VerifySolution
+2019-03-21 13:53:13,511 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 13:53:13,511 INFO  Starting to parse the user solution
+2019-03-21 13:53:13,512 INFO  Displaying user solution
+2019-03-21 13:53:13,544 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef sum_of_list(num_list):\r\n    if(len(num_list)!=0):\r\n        lst=num_list\r\n    else:\r\n        lst = -1\r\n    return lst[0] + sum_of_list(lst[1:])\r\n\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 13:53:13,545 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 13:53:13,545 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 13:53:13,545 INFO  Invoking the service to verify the user solution
+2019-03-21 13:53:13,545 INFO  Time before invoking service:Thu Mar 21 13:53:13 IST 2019
+2019-03-21 13:53:13,545 INFO  Initialising service address for VerifySolution
+2019-03-21 13:53:13,546 INFO  Time before invoking service In SUPER:Thu Mar 21 13:53:13 IST 2019
+2019-03-21 13:53:13,702 INFO  Time after invoking service In SUPER:Thu Mar 21 13:53:13 IST 2019
+2019-03-21 13:53:13,703 INFO  Service responded successfully with required details
+2019-03-21 13:53:13,703 INFO  Time after invoking service:Thu Mar 21 13:53:13 IST 2019
+2019-03-21 13:53:13,703 INFO  User solution successfully verified
+2019-03-21 13:53:13,704 INFO  Processing the response from verify service
+2019-03-21 13:53:13,705 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 13:53:21,543 INFO  Setting request parameters for VerifySolution
+2019-03-21 13:53:21,543 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 13:53:21,543 INFO  Starting to parse the user solution
+2019-03-21 13:53:21,544 INFO  Displaying user solution
+2019-03-21 13:53:21,583 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef sum_of_list(num_list):\r\n    if(len(num_list)!=0):\r\n        lst=num_list\r\n    else:\r\n        lst = -1\r\n    return lst[0] + sum_of_list(lst[1:])\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 13:53:21,584 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 13:53:21,584 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 13:53:21,585 INFO  Invoking the service to verify the user solution
+2019-03-21 13:53:21,586 INFO  Time before invoking service:Thu Mar 21 13:53:21 IST 2019
+2019-03-21 13:53:21,586 INFO  Initialising service address for VerifySolution
+2019-03-21 13:53:21,586 INFO  Time before invoking service In SUPER:Thu Mar 21 13:53:21 IST 2019
+2019-03-21 13:53:21,741 INFO  Time after invoking service In SUPER:Thu Mar 21 13:53:21 IST 2019
+2019-03-21 13:53:21,741 INFO  Service responded successfully with required details
+2019-03-21 13:53:21,742 INFO  Time after invoking service:Thu Mar 21 13:53:21 IST 2019
+2019-03-21 13:53:21,742 INFO  User solution successfully verified
+2019-03-21 13:53:21,742 INFO  Processing the response from verify service
+2019-03-21 13:53:21,743 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 13:53:27,794 INFO  Setting request parameters for VerifySolution
+2019-03-21 13:53:27,794 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 13:53:27,794 INFO  Starting to parse the user solution
+2019-03-21 13:53:27,795 INFO  Displaying user solution
+2019-03-21 13:53:27,831 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef sum_of_list(num_list):\r\n    if(len(num_list)!=0):\r\n        lst=num_list\r\n    else:\r\n        lst = -1\r\n    return lst[0] + sum_of_list(lst[1:])\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 13:53:27,832 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 13:53:27,832 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 13:53:27,832 INFO  Invoking the service to verify the user solution
+2019-03-21 13:53:27,833 INFO  Time before invoking service:Thu Mar 21 13:53:27 IST 2019
+2019-03-21 13:53:27,833 INFO  Initialising service address for VerifySolution
+2019-03-21 13:53:27,833 INFO  Time before invoking service In SUPER:Thu Mar 21 13:53:27 IST 2019
+2019-03-21 13:53:27,932 INFO  Time after invoking service In SUPER:Thu Mar 21 13:53:27 IST 2019
+2019-03-21 13:53:27,932 INFO  Service responded successfully with required details
+2019-03-21 13:53:27,932 INFO  Time after invoking service:Thu Mar 21 13:53:27 IST 2019
+2019-03-21 13:53:27,933 INFO  User solution successfully verified
+2019-03-21 13:53:27,933 INFO  Processing the response from verify service
+2019-03-21 13:53:27,933 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 14:27:46,180 INFO  Setting request parameters for VerifySolution
+2019-03-21 14:27:46,180 INFO  Initiating to process and prepare Input for the verify service
+2019-03-21 14:27:46,180 INFO  Starting to parse the user solution
+2019-03-21 14:27:46,181 INFO  Displaying user solution
+2019-03-21 14:27:46,261 INFO  Successfully parsed the user solution{"CourseShortName":"PF","UserSolution":"#PF-Prac-37\r\n'''\r\nCreated on Mar 21, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef sum_of_list(num_list):\r\n    if(len(num_list)!=0):\r\n        lst = num_list\r\n    else:\r\n        return 0\r\n        \r\n        \r\n    return lst[0] + sum_of_list(lst[1:])\r\nnum_list=[44,23,77,11,89,3]\r\nresult=sum_of_list(num_list)\r\nprint(\"Sum of the elements:\",result)\r\n","asgnmtId":"37","SolutionFileName":"problem37.py","AsgnmtTyp":"P","TestcaseFileName":""}
+2019-03-21 14:27:46,261 INFO  Successfully processed and prepared the input for the verify service
+2019-03-21 14:27:46,261 INFO  Successfully set the request parameters for VerifySolution
+2019-03-21 14:27:46,261 INFO  Invoking the service to verify the user solution
+2019-03-21 14:27:46,261 INFO  Time before invoking service:Thu Mar 21 14:27:46 IST 2019
+2019-03-21 14:27:46,261 INFO  Initialising service address for VerifySolution
+2019-03-21 14:27:46,264 INFO  Time before invoking service In SUPER:Thu Mar 21 14:27:46 IST 2019
+2019-03-21 14:27:46,459 INFO  Time after invoking service In SUPER:Thu Mar 21 14:27:46 IST 2019
+2019-03-21 14:27:46,459 INFO  Service responded successfully with required details
+2019-03-21 14:27:46,460 INFO  Time after invoking service:Thu Mar 21 14:27:46 IST 2019
+2019-03-21 14:27:46,460 INFO  User solution successfully verified
+2019-03-21 14:27:46,460 INFO  Processing the response from verify service
+2019-03-21 14:27:46,465 INFO  Verification Failed : Data unavailable
+->Please provide the correct assignment number in the first line
+->Verification is not enabled for tryouts!
+->Please contact educator if the issue persist
+(error code:-56)
+2019-03-21 14:27:49,475 INFO  Initiating to process and prepare Input for the submit service
+2019-03-21 14:27:49,476 INFO  Displaying user solution
+2019-03-21 14:27:49,484 INFO  Successfully processed and prepared the input for the submit service
+2019-03-21 14:27:49,484 INFO  Invoking the service to submit the user solution
+2019-03-21 14:27:49,484 INFO  Initialising service address for Submit
+2019-03-21 14:27:49,485 INFO  Time before invoking service In SUPER:Thu Mar 21 14:27:49 IST 2019
+2019-03-21 14:27:49,952 INFO  Time after invoking service In SUPER:Thu Mar 21 14:27:49 IST 2019
+2019-03-21 14:27:49,952 INFO  Service responded successfully with required details
+2019-03-21 14:27:49,952 INFO  User solution successfully submitted
+2019-03-21 14:27:49,952 INFO  Displaying submission status
+2019-03-21 14:27:49,952 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-21 14:27:53,828 INFO  Initiating to process and prepare Input for the submit service
+2019-03-21 14:27:53,829 INFO  Displaying user solution
+2019-03-21 14:27:53,839 INFO  Successfully processed and prepared the input for the submit service
+2019-03-21 14:27:53,839 INFO  Invoking the service to submit the user solution
+2019-03-21 14:27:53,839 INFO  Initialising service address for Submit
+2019-03-21 14:27:53,840 INFO  Time before invoking service In SUPER:Thu Mar 21 14:27:53 IST 2019
+2019-03-21 14:27:54,128 INFO  Time after invoking service In SUPER:Thu Mar 21 14:27:54 IST 2019
+2019-03-21 14:27:54,128 INFO  Service responded successfully with required details
+2019-03-21 14:27:54,128 INFO  User solution successfully submitted
+2019-03-21 14:27:54,129 INFO  Displaying submission status
+2019-03-21 14:27:54,129 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-21 20:53:29,823 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-21 20:53:32,758 INFO  Initiating to process and prepare Input for the submit service
+2019-03-21 20:53:32,759 INFO  Displaying user solution
+2019-03-21 20:53:32,762 ERROR Exception occured while submitting the user solution
+2019-03-21 20:53:34,822 INFO  Initiating to process and prepare Input for the submit service
+2019-03-21 20:53:34,823 INFO  Displaying user solution
+2019-03-21 20:53:34,827 ERROR Exception occured while submitting the user solution
