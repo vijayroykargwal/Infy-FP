@@ -1,0 +1,370 @@
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Beginning to fetch the scheduled assignments.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Creating connection for the server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Server connection created successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Fetching the list of assignments scheduled for the batch :- Feb19-LC1
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Obtained the list of assignments scheduled for the batch :- Feb19-LC1
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Attempting to close the connection
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:19:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentsScheduled()
+INFO - Message :Connection closed successfuly
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:14 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Started loading assignment for assignment ID:- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:14 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Getting the assignment details for Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:14 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Creating connection to the server
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Connection created successfuly
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Fetching the details
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Assignment details fetched successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Attempting to close connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.LoadAssignmentsDAO
+INFO - MethodName :getAssignmentDetails()
+INFO - Message :Connection closed successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Starting thread for loading data for 'Show tables'
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Checking for previous submissions for current assignment.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.services.CommonUtilities
+INFO - MethodName :checkAssigmentSubmitted()
+INFO - Message :Checking for assignment submitted.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Checking for submissions for assignment Id :- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Creating connection for submission database server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Connection created for submission database server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Obtaining previous submissions of the user.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Obtained previous submission.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Attempting to close connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:15 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :checkAssignmentSubmitted()
+INFO - Message :Connection closed.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Creating project root folder for the assignment.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Created project root folder for the assignment.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Creating project structure folder for the assignment.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Created project structure folder for the assignment.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Creating trainee connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Trainee connection created successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:16 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Beginning to run Table creation script in Trainee Account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:17 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Beginning to run the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Succcessfuly executed the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:18 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Table creation script successfuly run in Trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:18 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Beginning to run the Trainee data Insertion scripts.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:18 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Beginning to run the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Succcessfuly executed the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Trainee data insertion scripts successfuly run in Trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Attempting to close the trainee connection after creating tables.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Trainee connection closed successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Establishing connection between the current project and trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.commonUtilites.CustomOracleConnection
+INFO - MethodName :connect
+INFO - Message :Inside custom oracle connection
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:21 IST 2019
+INFO - ClassName :rdbms.commonUtilites.CustomOracleConnection
+INFO - MethodName :connect
+INFO - Message :src Path == C:\eclipse\plugins\ojdbc6.jar
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 11:21:22 IST 2019
+INFO - ClassName :rdbms.assignment.services.LoadAssignmentService
+INFO - MethodName :loadAssignment()
+INFO - Message :Successfuly established connection between current project and trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Starting re-loading tables.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Creating trainee connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Trainee connection created successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting the current file and corresponding project.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Obtained the current SQL file and the project.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting the assignment details for the assignment ID:- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Obtained assignment details for assignment id:- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:37 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting user confirmation to continue or not.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:40 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :User chose to cancel the tables re-load.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Starting re-loading tables.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Creating trainee connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Trainee connection created successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting the current file and corresponding project.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Obtained the current SQL file and the project.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting the assignment details for the assignment ID:- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Obtained assignment details for assignment id:- Playground
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:47 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Getting user confirmation to continue or not.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:48 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :User chose to continue with table re-load.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:48 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Running the table creation scripts in trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:48 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Beginning to run the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:49 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Succcessfuly executed the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:49 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Table creation scripts successfuly run in trainees's account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:49 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Running the trainee data insertion scripts in trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:49 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Beginning to run the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:51 IST 2019
+INFO - ClassName :rdbms.assignment.DAL.CommonsDAL
+INFO - MethodName :executeQueryGroup()
+INFO - Message :Succcessfuly executed the query group in the given server.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:51 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Trainee data insertion scripts successfuly run in trainee account.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:51 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Attempting to close trainee connection.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:51 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Trainee connection closed successfuly.
+INFO - -----------------------------------------------------------------------------------
+INFO - Thu Mar 28 12:15:51 IST 2019
+INFO - ClassName :rdbms.assignment.actions.ReloadTables
+INFO - MethodName :run()
+INFO - Message :Tables re-loaded successfuly.
+INFO - -----------------------------------------------------------------------------------
