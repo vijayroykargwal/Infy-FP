@@ -1,0 +1,1507 @@
+2019-03-18 10:39:02,550 INFO  Loading Baseframework Plugin
+2019-03-18 10:39:02,561 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-18 10:39:02,571 INFO  Loading the Menu - HandsOn
+2019-03-18 10:39:02,630 INFO  Successfully loaded the Menu - HandsOn
+2019-03-18 10:41:00,647 INFO  Loading Programming Assignment Plugin
+2019-03-18 10:41:01,945 INFO  Setting request parameters for VerifySolution
+2019-03-18 10:41:01,945 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 10:41:01,955 INFO  Starting to parse the user solution
+2019-03-18 10:41:01,957 INFO  Displaying user solution
+2019-03-18 10:41:02,165 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-7\r\n'''\r\nCreated on Mar 14, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\nfrom src.DataStructures import LinkedList\r\n\r\ndef remove_duplicates(duplicate_list):\r\n    #write your logic here\r\n    list1=[]\r\n    new_list = LinkedList()\r\n    temp = duplicate_list.get_head()\r\n    while(temp is not None):\r\n        list1.append(temp.get_data())\r\n        temp = temp.get_next()\r\n    set1 = set(list1)\r\n    duplicate_list = list(set1)\r\n    duplicate_list = sorted(duplicate_list)\r\n    for i in duplicate_list:\r\n        new_list.add(i)\r\n    duplicate_list = new_list   \r\n    return duplicate_list\r\n\r\n#Add different values to the linked list and test your program\r\nduplicate_list=LinkedList()\r\nduplicate_list.add(30)\r\nduplicate_list.add(40)\r\nduplicate_list.add(40)\r\nduplicate_list.add(40)\r\nduplicate_list.add(40)\r\nprint(remove_duplicates(duplicate_list))\r\n","asgnmtId":"7","SolutionFileName":"Assign7.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 10:41:02,167 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 10:41:02,167 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 10:41:02,168 INFO  Invoking the service to verify the user solution
+2019-03-18 10:41:02,169 INFO  Time before invoking service:Mon Mar 18 10:41:02 IST 2019
+2019-03-18 10:41:02,170 INFO  Initialising service address for VerifySolution
+2019-03-18 10:41:02,173 INFO  Time before invoking service In SUPER:Mon Mar 18 10:41:02 IST 2019
+2019-03-18 10:41:06,458 INFO  Time after invoking service In SUPER:Mon Mar 18 10:41:06 IST 2019
+2019-03-18 10:41:06,458 INFO  Service responded successfully with required details
+2019-03-18 10:41:06,459 INFO  Time after invoking service:Mon Mar 18 10:41:06 IST 2019
+2019-03-18 10:41:06,460 INFO  User solution successfully verified
+2019-03-18 10:41:06,460 INFO  Processing the response from verify service
+2019-03-18 10:41:06,467 INFO  Starting to parse JSON response
+2019-03-18 10:41:06,476 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 10:41:06,476 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 10:41:06,484 INFO  Successfully parsed JSON response
+2019-03-18 10:41:06,486 INFO  In the process of generating verify response in HTML
+2019-03-18 10:41:06,708 INFO  Successfully generated verify response in HTML
+2019-03-18 10:41:06,709 INFO  Successfully processed the response from service
+2019-03-18 13:33:03,532 INFO  Loading Baseframework Plugin
+2019-03-18 13:33:03,534 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-18 13:33:03,544 INFO  Loading the Menu - HandsOn
+2019-03-18 13:33:03,548 INFO  Successfully loaded the Menu - HandsOn
+2019-03-18 13:58:06,975 INFO  Loading Programming Assignment Plugin
+2019-03-18 13:58:07,323 INFO  Setting request parameters for VerifySolution
+2019-03-18 13:58:07,324 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 13:58:07,327 INFO  Starting to parse the user solution
+2019-03-18 13:58:07,328 INFO  Displaying user solution
+2019-03-18 13:58:07,445 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-15\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef pattern_search(text, pattern):\r\n    #Remove pass and write your logic here\r\n    text = text.split(pattern)\r\n    if(len(text)!=0):\r\n        return len(text)-1\r\n    \r\n\r\n#Use different values for text and pattern and test your program\r\ntext = \"MESMERIZING MESSAGE\"\r\npattern = \"MES\"\r\nresult=pattern_search(text, pattern)\r\nprint(\"The given text:\",text)\r\nprint(\"Pattern:\",pattern)\r\nprint(\"No. of occurrences of the pattern :\",result)\r\n","asgnmtId":"15","SolutionFileName":"Excer15.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 13:58:07,446 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 13:58:07,446 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 13:58:07,446 INFO  Invoking the service to verify the user solution
+2019-03-18 13:58:07,446 INFO  Time before invoking service:Mon Mar 18 13:58:07 IST 2019
+2019-03-18 13:58:07,447 INFO  Initialising service address for VerifySolution
+2019-03-18 13:58:07,448 INFO  Time before invoking service In SUPER:Mon Mar 18 13:58:07 IST 2019
+2019-03-18 13:58:08,409 INFO  Time after invoking service In SUPER:Mon Mar 18 13:58:08 IST 2019
+2019-03-18 13:58:08,410 INFO  Service responded successfully with required details
+2019-03-18 13:58:08,410 INFO  Time after invoking service:Mon Mar 18 13:58:08 IST 2019
+2019-03-18 13:58:08,410 INFO  User solution successfully verified
+2019-03-18 13:58:08,412 INFO  Processing the response from verify service
+2019-03-18 13:58:08,414 INFO  Starting to parse JSON response
+2019-03-18 13:58:08,416 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 13:58:08,416 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 13:58:08,419 INFO  Successfully parsed JSON response
+2019-03-18 13:58:08,419 INFO  In the process of generating verify response in HTML
+2019-03-18 13:58:08,703 INFO  Successfully generated verify response in HTML
+2019-03-18 13:58:08,703 INFO  Successfully processed the response from service
+2019-03-18 13:58:19,537 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 13:58:19,541 INFO  Displaying user solution
+2019-03-18 13:58:19,549 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 13:58:19,550 INFO  Invoking the service to submit the user solution
+2019-03-18 13:58:19,550 INFO  Initialising service address for Submit
+2019-03-18 13:58:19,550 INFO  Time before invoking service In SUPER:Mon Mar 18 13:58:19 IST 2019
+2019-03-18 13:58:19,898 INFO  Time after invoking service In SUPER:Mon Mar 18 13:58:19 IST 2019
+2019-03-18 13:58:19,898 INFO  Service responded successfully with required details
+2019-03-18 13:58:19,899 INFO  User solution successfully submitted
+2019-03-18 13:58:19,899 INFO  Displaying submission status
+2019-03-18 13:58:19,899 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 14:16:13,508 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:16:13,508 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:16:13,508 INFO  Starting to parse the user solution
+2019-03-18 14:16:13,508 INFO  Displaying user solution
+2019-03-18 14:16:13,585 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    count = 0\r\n    for i in range(start,end):\r\n        if(list1[i]<=list1[i+1]):\r\n            count+=1     \r\n    return list1.index(list1[i+1])\r\n\r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:16:13,586 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:16:13,587 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:16:13,587 INFO  Invoking the service to verify the user solution
+2019-03-18 14:16:13,587 INFO  Time before invoking service:Mon Mar 18 14:16:13 IST 2019
+2019-03-18 14:16:13,587 INFO  Initialising service address for VerifySolution
+2019-03-18 14:16:13,588 INFO  Time before invoking service In SUPER:Mon Mar 18 14:16:13 IST 2019
+2019-03-18 14:16:14,516 INFO  Time after invoking service In SUPER:Mon Mar 18 14:16:14 IST 2019
+2019-03-18 14:16:14,516 INFO  Service responded successfully with required details
+2019-03-18 14:16:14,517 INFO  Time after invoking service:Mon Mar 18 14:16:14 IST 2019
+2019-03-18 14:16:14,517 INFO  User solution successfully verified
+2019-03-18 14:16:14,517 INFO  Processing the response from verify service
+2019-03-18 14:16:14,522 INFO  Starting to parse JSON response
+2019-03-18 14:16:14,523 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:16:14,523 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:16:14,525 INFO  Successfully parsed JSON response
+2019-03-18 14:16:14,525 INFO  In the process of generating verify response in HTML
+2019-03-18 14:16:14,607 INFO  Successfully generated verify response in HTML
+2019-03-18 14:16:14,607 INFO  Successfully processed the response from service
+2019-03-18 14:20:15,687 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:20:15,687 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:20:15,687 INFO  Starting to parse the user solution
+2019-03-18 14:20:15,688 INFO  Displaying user solution
+2019-03-18 14:20:15,759 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    count = 0\r\n    for i in range(start,end):\r\n        if(list1[i]<=list1[i+1]):\r\n            count+=1     \r\n    return(list1.index(list1[i+1])) \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:20:15,759 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:20:15,760 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:20:15,760 INFO  Invoking the service to verify the user solution
+2019-03-18 14:20:15,760 INFO  Time before invoking service:Mon Mar 18 14:20:15 IST 2019
+2019-03-18 14:20:15,760 INFO  Initialising service address for VerifySolution
+2019-03-18 14:20:15,761 INFO  Time before invoking service In SUPER:Mon Mar 18 14:20:15 IST 2019
+2019-03-18 14:20:16,702 INFO  Time after invoking service In SUPER:Mon Mar 18 14:20:16 IST 2019
+2019-03-18 14:20:16,703 INFO  Service responded successfully with required details
+2019-03-18 14:20:16,703 INFO  Time after invoking service:Mon Mar 18 14:20:16 IST 2019
+2019-03-18 14:20:16,703 INFO  User solution successfully verified
+2019-03-18 14:20:16,703 INFO  Processing the response from verify service
+2019-03-18 14:20:16,706 INFO  Starting to parse JSON response
+2019-03-18 14:20:16,707 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:20:16,707 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:20:16,708 INFO  Successfully parsed JSON response
+2019-03-18 14:20:16,708 INFO  In the process of generating verify response in HTML
+2019-03-18 14:20:16,797 INFO  Successfully generated verify response in HTML
+2019-03-18 14:20:16,797 INFO  Successfully processed the response from service
+2019-03-18 14:20:26,417 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:20:26,417 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:20:26,417 INFO  Starting to parse the user solution
+2019-03-18 14:20:26,418 INFO  Displaying user solution
+2019-03-18 14:20:26,470 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    count = 0\r\n    for i in range(start,end):\r\n        if(list1[i]<=list1[i+1]):\r\n            count+=1     \r\n    return(list1.index(count+1)) \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:20:26,470 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:20:26,470 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:20:26,471 INFO  Invoking the service to verify the user solution
+2019-03-18 14:20:26,471 INFO  Time before invoking service:Mon Mar 18 14:20:26 IST 2019
+2019-03-18 14:20:26,471 INFO  Initialising service address for VerifySolution
+2019-03-18 14:20:26,472 INFO  Time before invoking service In SUPER:Mon Mar 18 14:20:26 IST 2019
+2019-03-18 14:20:27,349 INFO  Time after invoking service In SUPER:Mon Mar 18 14:20:27 IST 2019
+2019-03-18 14:20:27,349 INFO  Service responded successfully with required details
+2019-03-18 14:20:27,350 INFO  Time after invoking service:Mon Mar 18 14:20:27 IST 2019
+2019-03-18 14:20:27,350 INFO  User solution successfully verified
+2019-03-18 14:20:27,350 INFO  Processing the response from verify service
+2019-03-18 14:20:27,351 INFO  Starting to parse JSON response
+2019-03-18 14:20:27,352 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:20:27,352 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:20:27,353 INFO  Successfully parsed JSON response
+2019-03-18 14:20:27,354 INFO  In the process of generating verify response in HTML
+2019-03-18 14:20:27,424 INFO  Successfully generated verify response in HTML
+2019-03-18 14:20:27,424 INFO  Successfully processed the response from service
+2019-03-18 14:22:45,214 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:22:45,214 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:22:45,214 INFO  Starting to parse the user solution
+2019-03-18 14:22:45,214 INFO  Displaying user solution
+2019-03-18 14:22:45,263 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    count = 0\r\n    for i in range(start,end):\r\n        if(list1[i]>list1[i+1]):\r\n            return list1.index(list1[i+1])\r\n                 \r\n     \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:22:45,263 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:22:45,263 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:22:45,264 INFO  Invoking the service to verify the user solution
+2019-03-18 14:22:45,264 INFO  Time before invoking service:Mon Mar 18 14:22:45 IST 2019
+2019-03-18 14:22:45,264 INFO  Initialising service address for VerifySolution
+2019-03-18 14:22:45,265 INFO  Time before invoking service In SUPER:Mon Mar 18 14:22:45 IST 2019
+2019-03-18 14:22:46,241 INFO  Time after invoking service In SUPER:Mon Mar 18 14:22:46 IST 2019
+2019-03-18 14:22:46,241 INFO  Service responded successfully with required details
+2019-03-18 14:22:46,242 INFO  Time after invoking service:Mon Mar 18 14:22:46 IST 2019
+2019-03-18 14:22:46,242 INFO  User solution successfully verified
+2019-03-18 14:22:46,242 INFO  Processing the response from verify service
+2019-03-18 14:22:46,243 INFO  Starting to parse JSON response
+2019-03-18 14:22:46,244 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:22:46,244 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:22:46,245 INFO  Successfully parsed JSON response
+2019-03-18 14:22:46,245 INFO  In the process of generating verify response in HTML
+2019-03-18 14:22:46,319 INFO  Successfully generated verify response in HTML
+2019-03-18 14:22:46,320 INFO  Successfully processed the response from service
+2019-03-18 14:23:00,947 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:23:00,947 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:23:00,947 INFO  Starting to parse the user solution
+2019-03-18 14:23:00,948 INFO  Displaying user solution
+2019-03-18 14:23:00,992 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    for i in range(start,end):\r\n        if(list1[i]>list1[i+1]):\r\n            return list1.index(list1[i+1])\r\n                 \r\n     \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:23:00,993 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:23:00,993 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:23:00,993 INFO  Invoking the service to verify the user solution
+2019-03-18 14:23:00,993 INFO  Time before invoking service:Mon Mar 18 14:23:00 IST 2019
+2019-03-18 14:23:00,993 INFO  Initialising service address for VerifySolution
+2019-03-18 14:23:00,994 INFO  Time before invoking service In SUPER:Mon Mar 18 14:23:00 IST 2019
+2019-03-18 14:23:01,822 INFO  Time after invoking service In SUPER:Mon Mar 18 14:23:01 IST 2019
+2019-03-18 14:23:01,822 INFO  Service responded successfully with required details
+2019-03-18 14:23:01,822 INFO  Time after invoking service:Mon Mar 18 14:23:01 IST 2019
+2019-03-18 14:23:01,823 INFO  User solution successfully verified
+2019-03-18 14:23:01,823 INFO  Processing the response from verify service
+2019-03-18 14:23:01,824 INFO  Starting to parse JSON response
+2019-03-18 14:23:01,825 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:23:01,825 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:23:01,826 INFO  Successfully parsed JSON response
+2019-03-18 14:23:01,827 INFO  In the process of generating verify response in HTML
+2019-03-18 14:23:01,900 INFO  Successfully generated verify response in HTML
+2019-03-18 14:23:01,900 INFO  Successfully processed the response from service
+2019-03-18 14:23:50,161 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:23:50,162 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:23:50,162 INFO  Starting to parse the user solution
+2019-03-18 14:23:50,162 INFO  Displaying user solution
+2019-03-18 14:23:50,206 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    for i in range(start,end):\r\n        if(list1[i]>list1[i+1]):\r\n            return list1.index(list1[i+1])\r\n                 \r\n     \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the\"+\r\n       \"increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:23:50,207 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:23:50,207 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:23:50,207 INFO  Invoking the service to verify the user solution
+2019-03-18 14:23:50,207 INFO  Time before invoking service:Mon Mar 18 14:23:50 IST 2019
+2019-03-18 14:23:50,207 INFO  Initialising service address for VerifySolution
+2019-03-18 14:23:50,208 INFO  Time before invoking service In SUPER:Mon Mar 18 14:23:50 IST 2019
+2019-03-18 14:23:51,142 INFO  Time after invoking service In SUPER:Mon Mar 18 14:23:51 IST 2019
+2019-03-18 14:23:51,142 INFO  Service responded successfully with required details
+2019-03-18 14:23:51,142 INFO  Time after invoking service:Mon Mar 18 14:23:51 IST 2019
+2019-03-18 14:23:51,142 INFO  User solution successfully verified
+2019-03-18 14:23:51,142 INFO  Processing the response from verify service
+2019-03-18 14:23:51,145 INFO  Starting to parse JSON response
+2019-03-18 14:23:51,146 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:23:51,146 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:23:51,147 INFO  Successfully parsed JSON response
+2019-03-18 14:23:51,147 INFO  In the process of generating verify response in HTML
+2019-03-18 14:23:51,228 INFO  Successfully generated verify response in HTML
+2019-03-18 14:23:51,228 INFO  Successfully processed the response from service
+2019-03-18 14:25:10,457 INFO  Setting request parameters for VerifySolution
+2019-03-18 14:25:10,457 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 14:25:10,457 INFO  Starting to parse the user solution
+2019-03-18 14:25:10,458 INFO  Displaying user solution
+2019-03-18 14:25:10,522 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    for i in range(start,end):\r\n        if(list1[i]>list1[i+1]):\r\n            return list1.index(list1[i+1])\r\n                 \r\n     \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the\"+\r\n       \"increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 14:25:10,522 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 14:25:10,522 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 14:25:10,522 INFO  Invoking the service to verify the user solution
+2019-03-18 14:25:10,523 INFO  Time before invoking service:Mon Mar 18 14:25:10 IST 2019
+2019-03-18 14:25:10,523 INFO  Initialising service address for VerifySolution
+2019-03-18 14:25:10,523 INFO  Time before invoking service In SUPER:Mon Mar 18 14:25:10 IST 2019
+2019-03-18 14:25:11,524 INFO  Time after invoking service In SUPER:Mon Mar 18 14:25:11 IST 2019
+2019-03-18 14:25:11,525 INFO  Service responded successfully with required details
+2019-03-18 14:25:11,525 INFO  Time after invoking service:Mon Mar 18 14:25:11 IST 2019
+2019-03-18 14:25:11,525 INFO  User solution successfully verified
+2019-03-18 14:25:11,525 INFO  Processing the response from verify service
+2019-03-18 14:25:11,527 INFO  Starting to parse JSON response
+2019-03-18 14:25:11,528 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:25:11,528 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 14:25:11,529 INFO  Successfully parsed JSON response
+2019-03-18 14:25:11,529 INFO  In the process of generating verify response in HTML
+2019-03-18 14:25:11,599 INFO  Successfully generated verify response in HTML
+2019-03-18 14:25:11,600 INFO  Successfully processed the response from service
+2019-03-18 14:25:14,957 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 14:25:14,958 INFO  Displaying user solution
+2019-03-18 14:25:14,967 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 14:25:14,968 INFO  Invoking the service to submit the user solution
+2019-03-18 14:25:14,968 INFO  Initialising service address for Submit
+2019-03-18 14:25:14,968 INFO  Time before invoking service In SUPER:Mon Mar 18 14:25:14 IST 2019
+2019-03-18 14:25:15,224 INFO  Time after invoking service In SUPER:Mon Mar 18 14:25:15 IST 2019
+2019-03-18 14:25:15,224 INFO  Service responded successfully with required details
+2019-03-18 14:25:15,224 INFO  User solution successfully submitted
+2019-03-18 14:25:15,225 INFO  Displaying submission status
+2019-03-18 14:25:15,225 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 15:01:54,094 INFO  Setting request parameters for VerifySolution
+2019-03-18 15:01:54,094 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 15:01:54,094 INFO  Starting to parse the user solution
+2019-03-18 15:01:54,095 INFO  Displaying user solution
+2019-03-18 15:01:54,231 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n#This assignment needs DataStructures.py file in your package, you can get it from resources page\r\n\r\nfrom src.DataStructures import Stack,Queue\r\n\r\ndef separate_boxes(box_stack):\r\n    #Remove pass and write your logic here\r\n    new_queue = Queue(box_stack.get_max_size())\r\n    mod_stack = Stack(box_stack.get_max_size())\r\n    while(not(box_stack.is_empty())):\r\n        data = box_stack.pop()\r\n        if(data==\"Red\" or data==\"Green\" or data==\"Blue\"):\r\n            mod_stack.push(data)\r\n        else:\r\n            new_queue.enqueue(data)\r\n    return(new_queue.__str__())\r\n\r\n#Use different values for stack and test your program\r\nbox_stack=Stack(8)\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Magenta\")\r\nbox_stack.push(\"Yellow\")\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Orange\")\r\nbox_stack.push(\"Green\")\r\nbox_stack.push(\"White\")\r\nbox_stack.push(\"Purple\")\r\nprint(\"Boxes in the stack:\")\r\nbox_stack.display()\r\nresult=separate_boxes(box_stack)\r\nprint()\r\nprint(\"Boxes in the stack after modification:\")\r\nbox_stack.display()\r\nprint(\"Boxes in the queue:\")\r\nresult.display()\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 15:01:54,232 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 15:01:54,232 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 15:01:54,232 INFO  Invoking the service to verify the user solution
+2019-03-18 15:01:54,233 INFO  Time before invoking service:Mon Mar 18 15:01:54 IST 2019
+2019-03-18 15:01:54,233 INFO  Initialising service address for VerifySolution
+2019-03-18 15:01:54,234 INFO  Time before invoking service In SUPER:Mon Mar 18 15:01:54 IST 2019
+2019-03-18 15:01:55,207 INFO  Time after invoking service In SUPER:Mon Mar 18 15:01:55 IST 2019
+2019-03-18 15:01:55,207 INFO  Service responded successfully with required details
+2019-03-18 15:01:55,207 INFO  Time after invoking service:Mon Mar 18 15:01:55 IST 2019
+2019-03-18 15:01:55,208 INFO  User solution successfully verified
+2019-03-18 15:01:55,208 INFO  Processing the response from verify service
+2019-03-18 15:01:55,214 INFO  Starting to parse JSON response
+2019-03-18 15:01:55,216 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:01:55,217 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:01:55,217 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:01:55,217 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:01:55,219 INFO  Successfully parsed JSON response
+2019-03-18 15:01:55,219 INFO  In the process of generating verify response in HTML
+2019-03-18 15:01:55,320 INFO  Successfully generated verify response in HTML
+2019-03-18 15:01:55,320 INFO  Successfully processed the response from service
+2019-03-18 15:05:02,736 INFO  Setting request parameters for VerifySolution
+2019-03-18 15:05:02,736 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 15:05:02,736 INFO  Starting to parse the user solution
+2019-03-18 15:05:02,737 INFO  Displaying user solution
+2019-03-18 15:05:02,811 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n#This assignment needs DataStructures.py file in your package, you can get it from resources page\r\n\r\nfrom src.DataStructures import Stack,Queue\r\n\r\ndef separate_boxes(box_stack):\r\n    #Remove pass and write your logic here\r\n    new_queue = Queue(box_stack.get_max_size())\r\n    mod_stack = Stack(box_stack.get_max_size())\r\n    while(not(box_stack.is_empty())):\r\n        data = box_stack.pop()\r\n        if(data==\"Red\" or data==\"Green\" or data==\"Blue\"):\r\n            mod_stack.push(data)\r\n        else:\r\n            new_queue.enqueue(data)\r\n    while(not(mod_stack.is_empty())):\r\n        a = mod_stack.pop()\r\n        box_stack.push(a)\r\n    return(new_queue)\r\n\r\n#Use different values for stack and test your program\r\nbox_stack=Stack(8)\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Magenta\")\r\nbox_stack.push(\"Yellow\")\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Orange\")\r\nbox_stack.push(\"Green\")\r\nbox_stack.push(\"White\")\r\nbox_stack.push(\"Purple\")\r\nprint(\"Boxes in the stack:\")\r\nbox_stack.display()\r\nresult=separate_boxes(box_stack)\r\nprint()\r\nprint(\"Boxes in the stack after modification:\")\r\nbox_stack.display()\r\nprint(\"Boxes in the queue:\")\r\nresult.display()\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 15:05:02,812 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 15:05:02,813 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 15:05:02,813 INFO  Invoking the service to verify the user solution
+2019-03-18 15:05:02,813 INFO  Time before invoking service:Mon Mar 18 15:05:02 IST 2019
+2019-03-18 15:05:02,813 INFO  Initialising service address for VerifySolution
+2019-03-18 15:05:02,814 INFO  Time before invoking service In SUPER:Mon Mar 18 15:05:02 IST 2019
+2019-03-18 15:05:03,729 INFO  Time after invoking service In SUPER:Mon Mar 18 15:05:03 IST 2019
+2019-03-18 15:05:03,730 INFO  Service responded successfully with required details
+2019-03-18 15:05:03,730 INFO  Time after invoking service:Mon Mar 18 15:05:03 IST 2019
+2019-03-18 15:05:03,730 INFO  User solution successfully verified
+2019-03-18 15:05:03,731 INFO  Processing the response from verify service
+2019-03-18 15:05:03,732 INFO  Starting to parse JSON response
+2019-03-18 15:05:03,732 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:03,732 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:03,732 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:03,732 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:03,733 INFO  Successfully parsed JSON response
+2019-03-18 15:05:03,734 INFO  In the process of generating verify response in HTML
+2019-03-18 15:05:03,822 INFO  Successfully generated verify response in HTML
+2019-03-18 15:05:03,822 INFO  Successfully processed the response from service
+2019-03-18 15:05:04,093 INFO  Setting request parameters for VerifySolution
+2019-03-18 15:05:04,093 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 15:05:04,093 INFO  Starting to parse the user solution
+2019-03-18 15:05:04,094 INFO  Displaying user solution
+2019-03-18 15:05:04,148 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n#This assignment needs DataStructures.py file in your package, you can get it from resources page\r\n\r\nfrom src.DataStructures import Stack,Queue\r\n\r\ndef separate_boxes(box_stack):\r\n    #Remove pass and write your logic here\r\n    new_queue = Queue(box_stack.get_max_size())\r\n    mod_stack = Stack(box_stack.get_max_size())\r\n    while(not(box_stack.is_empty())):\r\n        data = box_stack.pop()\r\n        if(data==\"Red\" or data==\"Green\" or data==\"Blue\"):\r\n            mod_stack.push(data)\r\n        else:\r\n            new_queue.enqueue(data)\r\n    while(not(mod_stack.is_empty())):\r\n        a = mod_stack.pop()\r\n        box_stack.push(a)\r\n    return(new_queue)\r\n\r\n#Use different values for stack and test your program\r\nbox_stack=Stack(8)\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Magenta\")\r\nbox_stack.push(\"Yellow\")\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Orange\")\r\nbox_stack.push(\"Green\")\r\nbox_stack.push(\"White\")\r\nbox_stack.push(\"Purple\")\r\nprint(\"Boxes in the stack:\")\r\nbox_stack.display()\r\nresult=separate_boxes(box_stack)\r\nprint()\r\nprint(\"Boxes in the stack after modification:\")\r\nbox_stack.display()\r\nprint(\"Boxes in the queue:\")\r\nresult.display()\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 15:05:04,149 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 15:05:04,149 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 15:05:04,149 INFO  Invoking the service to verify the user solution
+2019-03-18 15:05:04,149 INFO  Time before invoking service:Mon Mar 18 15:05:04 IST 2019
+2019-03-18 15:05:04,149 INFO  Initialising service address for VerifySolution
+2019-03-18 15:05:04,150 INFO  Time before invoking service In SUPER:Mon Mar 18 15:05:04 IST 2019
+2019-03-18 15:05:04,976 INFO  Time after invoking service In SUPER:Mon Mar 18 15:05:04 IST 2019
+2019-03-18 15:05:04,976 INFO  Service responded successfully with required details
+2019-03-18 15:05:04,977 INFO  Time after invoking service:Mon Mar 18 15:05:04 IST 2019
+2019-03-18 15:05:04,977 INFO  User solution successfully verified
+2019-03-18 15:05:04,977 INFO  Processing the response from verify service
+2019-03-18 15:05:04,978 INFO  Starting to parse JSON response
+2019-03-18 15:05:04,979 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:04,979 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:04,979 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:04,979 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:04,980 INFO  Successfully parsed JSON response
+2019-03-18 15:05:04,980 INFO  In the process of generating verify response in HTML
+2019-03-18 15:05:05,059 INFO  Successfully generated verify response in HTML
+2019-03-18 15:05:05,060 INFO  Successfully processed the response from service
+2019-03-18 15:05:31,618 INFO  Setting request parameters for VerifySolution
+2019-03-18 15:05:31,618 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 15:05:31,618 INFO  Starting to parse the user solution
+2019-03-18 15:05:31,618 INFO  Displaying user solution
+2019-03-18 15:05:31,693 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\nfrom src.DataStructures import Stack,Queue\r\n\r\ndef separate_boxes(box_stack):\r\n    #Remove pass and write your logic here\r\n    new_queue = Queue(box_stack.get_max_size())\r\n    mod_stack = Stack(box_stack.get_max_size())\r\n    while(not(box_stack.is_empty())):\r\n        data = box_stack.pop()\r\n        if(data==\"Red\" or data==\"Green\" or data==\"Blue\"):\r\n            mod_stack.push(data)\r\n        else:\r\n            new_queue.enqueue(data)\r\n    while(not(mod_stack.is_empty())):\r\n        a = mod_stack.pop()\r\n        box_stack.push(a)\r\n    return(new_queue)\r\n\r\n#Use different values for stack and test your program\r\nbox_stack=Stack(8)\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Magenta\")\r\nbox_stack.push(\"Yellow\")\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Orange\")\r\nbox_stack.push(\"Green\")\r\nbox_stack.push(\"White\")\r\nbox_stack.push(\"Purple\")\r\nprint(\"Boxes in the stack:\")\r\nbox_stack.display()\r\nresult=separate_boxes(box_stack)\r\nprint()\r\nprint(\"Boxes in the stack after modification:\")\r\nbox_stack.display()\r\nprint(\"Boxes in the queue:\")\r\nresult.display()\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 15:05:31,694 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 15:05:31,694 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 15:05:31,694 INFO  Invoking the service to verify the user solution
+2019-03-18 15:05:31,695 INFO  Time before invoking service:Mon Mar 18 15:05:31 IST 2019
+2019-03-18 15:05:31,695 INFO  Initialising service address for VerifySolution
+2019-03-18 15:05:31,695 INFO  Time before invoking service In SUPER:Mon Mar 18 15:05:31 IST 2019
+2019-03-18 15:05:32,671 INFO  Time after invoking service In SUPER:Mon Mar 18 15:05:32 IST 2019
+2019-03-18 15:05:32,672 INFO  Service responded successfully with required details
+2019-03-18 15:05:32,673 INFO  Time after invoking service:Mon Mar 18 15:05:32 IST 2019
+2019-03-18 15:05:32,673 INFO  User solution successfully verified
+2019-03-18 15:05:32,673 INFO  Processing the response from verify service
+2019-03-18 15:05:32,678 INFO  Starting to parse JSON response
+2019-03-18 15:05:32,679 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:32,679 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:32,679 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:32,679 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 15:05:32,680 INFO  Successfully parsed JSON response
+2019-03-18 15:05:32,681 INFO  In the process of generating verify response in HTML
+2019-03-18 15:05:32,742 INFO  Successfully generated verify response in HTML
+2019-03-18 15:05:32,742 INFO  Successfully processed the response from service
+2019-03-18 15:05:38,934 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 15:05:38,935 INFO  Displaying user solution
+2019-03-18 15:05:38,947 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 15:05:38,947 INFO  Invoking the service to submit the user solution
+2019-03-18 15:05:38,947 INFO  Initialising service address for Submit
+2019-03-18 15:05:38,948 INFO  Time before invoking service In SUPER:Mon Mar 18 15:05:38 IST 2019
+2019-03-18 15:05:39,421 INFO  Time after invoking service In SUPER:Mon Mar 18 15:05:39 IST 2019
+2019-03-18 15:05:39,421 INFO  Service responded successfully with required details
+2019-03-18 15:05:39,421 INFO  User solution successfully submitted
+2019-03-18 15:05:39,422 INFO  Displaying submission status
+2019-03-18 15:05:39,422 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 15:05:42,181 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 15:05:42,182 INFO  Displaying user solution
+2019-03-18 15:05:42,193 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 15:05:42,193 INFO  Invoking the service to submit the user solution
+2019-03-18 15:05:42,193 INFO  Initialising service address for Submit
+2019-03-18 15:05:42,194 INFO  Time before invoking service In SUPER:Mon Mar 18 15:05:42 IST 2019
+2019-03-18 15:05:42,367 INFO  Time after invoking service In SUPER:Mon Mar 18 15:05:42 IST 2019
+2019-03-18 15:05:42,367 INFO  Service responded successfully with required details
+2019-03-18 15:05:42,367 INFO  User solution successfully submitted
+2019-03-18 15:05:42,367 INFO  Displaying submission status
+2019-03-18 15:05:42,367 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 15:15:45,546 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 15:17:25,809 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 15:58:49,828 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:10:31,247 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:15:16,309 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:15:19,197 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:23:31,664 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:24:38,142 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:25:34,198 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:26:15,223 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:32:57,838 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:39:28,101 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:44:29,045 INFO  Setting request parameters for VerifySolution
+2019-03-18 16:44:29,046 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 16:44:29,046 INFO  Starting to parse the user solution
+2019-03-18 16:44:29,046 INFO  Displaying user solution
+2019-03-18 16:44:29,123 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-15\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef pattern_search(text, pattern):\r\n    #Remove pass and write your logic here\r\n    text = text.split(pattern)\r\n    return len(text)-1\r\n    \r\n\r\n#Use different values for text and pattern and test your program\r\ntext = \"MESMERIZING MESSAGE\"\r\npattern = \"MES\"\r\nresult=pattern_search(text, pattern)\r\nprint(\"The given text:\",text)\r\nprint(\"Pattern:\",pattern)\r\nprint(\"No. of occurrences of the pattern :\",result)\r\n","asgnmtId":"15","SolutionFileName":"Excer15.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 16:44:29,123 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 16:44:29,123 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 16:44:29,123 INFO  Invoking the service to verify the user solution
+2019-03-18 16:44:29,124 INFO  Time before invoking service:Mon Mar 18 16:44:29 IST 2019
+2019-03-18 16:44:29,124 INFO  Initialising service address for VerifySolution
+2019-03-18 16:44:29,124 INFO  Time before invoking service In SUPER:Mon Mar 18 16:44:29 IST 2019
+2019-03-18 16:44:30,092 INFO  Time after invoking service In SUPER:Mon Mar 18 16:44:30 IST 2019
+2019-03-18 16:44:30,092 INFO  Service responded successfully with required details
+2019-03-18 16:44:30,092 INFO  Time after invoking service:Mon Mar 18 16:44:30 IST 2019
+2019-03-18 16:44:30,092 INFO  User solution successfully verified
+2019-03-18 16:44:30,093 INFO  Processing the response from verify service
+2019-03-18 16:44:30,096 INFO  Starting to parse JSON response
+2019-03-18 16:44:30,097 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:44:30,097 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:44:30,099 INFO  Successfully parsed JSON response
+2019-03-18 16:44:30,099 INFO  In the process of generating verify response in HTML
+2019-03-18 16:44:30,187 INFO  Successfully generated verify response in HTML
+2019-03-18 16:44:30,187 INFO  Successfully processed the response from service
+2019-03-18 16:44:39,988 INFO  Setting request parameters for VerifySolution
+2019-03-18 16:44:39,988 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 16:44:39,989 INFO  Starting to parse the user solution
+2019-03-18 16:44:39,989 INFO  Displaying user solution
+2019-03-18 16:44:40,053 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-15\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef pattern_search(text, pattern):\r\n    #Remove pass and write your logic here\r\n    text = text.split(pattern)\r\n    return len(text)-1\r\n    \r\n\r\n#Use different values for text and pattern and test your program\r\ntext = \"MESMERIZING MESSAGE\"\r\npattern = \"MES\"\r\nresult=pattern_search(text, pattern)\r\nprint(\"The given text:\",text)\r\nprint(\"Pattern:\",pattern)\r\nprint(\"No. of occurrences of the pattern :\",result)\r\n","asgnmtId":"15","SolutionFileName":"Excer15.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 16:44:40,053 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 16:44:40,053 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 16:44:40,053 INFO  Invoking the service to verify the user solution
+2019-03-18 16:44:40,054 INFO  Time before invoking service:Mon Mar 18 16:44:40 IST 2019
+2019-03-18 16:44:40,054 INFO  Initialising service address for VerifySolution
+2019-03-18 16:44:40,054 INFO  Time before invoking service In SUPER:Mon Mar 18 16:44:40 IST 2019
+2019-03-18 16:44:41,014 INFO  Time after invoking service In SUPER:Mon Mar 18 16:44:41 IST 2019
+2019-03-18 16:44:41,014 INFO  Service responded successfully with required details
+2019-03-18 16:44:41,015 INFO  Time after invoking service:Mon Mar 18 16:44:41 IST 2019
+2019-03-18 16:44:41,015 INFO  User solution successfully verified
+2019-03-18 16:44:41,015 INFO  Processing the response from verify service
+2019-03-18 16:44:41,016 INFO  Starting to parse JSON response
+2019-03-18 16:44:41,017 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:44:41,017 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:44:41,019 INFO  Successfully parsed JSON response
+2019-03-18 16:44:41,019 INFO  In the process of generating verify response in HTML
+2019-03-18 16:44:41,096 INFO  Successfully generated verify response in HTML
+2019-03-18 16:44:41,096 INFO  Successfully processed the response from service
+2019-03-18 16:44:56,399 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 16:44:56,400 INFO  Displaying user solution
+2019-03-18 16:44:56,409 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 16:44:56,409 INFO  Invoking the service to submit the user solution
+2019-03-18 16:44:56,409 INFO  Initialising service address for Submit
+2019-03-18 16:44:56,410 INFO  Time before invoking service In SUPER:Mon Mar 18 16:44:56 IST 2019
+2019-03-18 16:44:56,682 INFO  Time after invoking service In SUPER:Mon Mar 18 16:44:56 IST 2019
+2019-03-18 16:44:56,682 INFO  Service responded successfully with required details
+2019-03-18 16:44:56,682 INFO  User solution successfully submitted
+2019-03-18 16:44:56,682 INFO  Displaying submission status
+2019-03-18 16:44:56,682 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 16:44:59,395 INFO  Setting request parameters for VerifySolution
+2019-03-18 16:44:59,395 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 16:44:59,395 INFO  Starting to parse the user solution
+2019-03-18 16:44:59,396 INFO  Displaying user solution
+2019-03-18 16:44:59,456 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-15\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef pattern_search(text, pattern):\r\n    #Remove pass and write your logic here\r\n    text = text.split(pattern)\r\n    return len(text)-1\r\n    \r\n\r\n#Use different values for text and pattern and test your program\r\ntext = \"MESMERIZING MESSAGE\"\r\npattern = \"MES\"\r\nresult=pattern_search(text, pattern)\r\nprint(\"The given text:\",text)\r\nprint(\"Pattern:\",pattern)\r\nprint(\"No. of occurrences of the pattern :\",result)\r\n","asgnmtId":"15","SolutionFileName":"Excer15.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 16:44:59,457 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 16:44:59,457 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 16:44:59,457 INFO  Invoking the service to verify the user solution
+2019-03-18 16:44:59,457 INFO  Time before invoking service:Mon Mar 18 16:44:59 IST 2019
+2019-03-18 16:44:59,457 INFO  Initialising service address for VerifySolution
+2019-03-18 16:44:59,458 INFO  Time before invoking service In SUPER:Mon Mar 18 16:44:59 IST 2019
+2019-03-18 16:45:00,089 INFO  Time after invoking service In SUPER:Mon Mar 18 16:45:00 IST 2019
+2019-03-18 16:45:00,090 INFO  Service responded successfully with required details
+2019-03-18 16:45:00,090 INFO  Time after invoking service:Mon Mar 18 16:45:00 IST 2019
+2019-03-18 16:45:00,090 INFO  User solution successfully verified
+2019-03-18 16:45:00,090 INFO  Processing the response from verify service
+2019-03-18 16:45:00,092 INFO  Starting to parse JSON response
+2019-03-18 16:45:00,093 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:45:00,093 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:45:00,094 INFO  Successfully parsed JSON response
+2019-03-18 16:45:00,094 INFO  In the process of generating verify response in HTML
+2019-03-18 16:45:00,157 INFO  Successfully generated verify response in HTML
+2019-03-18 16:45:00,157 INFO  Successfully processed the response from service
+2019-03-18 16:45:26,259 INFO  Setting request parameters for VerifySolution
+2019-03-18 16:45:26,259 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 16:45:26,259 INFO  Starting to parse the user solution
+2019-03-18 16:45:26,260 INFO  Displaying user solution
+2019-03-18 16:45:26,315 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-15\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef pattern_search(text, pattern):\r\n    #Remove pass and write your logic here\r\n    text = text.split(pattern)\r\n    return len(text)-1\r\n    \r\n\r\n#Use different values for text and pattern and test your program\r\ntext = \"MESMERIZING MESSAGE\"\r\npattern = \"MES\"\r\nresult=pattern_search(text, pattern)\r\nprint(\"The given text:\",text)\r\nprint(\"Pattern:\",pattern)\r\nprint(\"No. of occurrences of the pattern :\",result)\r\n","asgnmtId":"15","SolutionFileName":"Excer15.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 16:45:26,315 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 16:45:26,315 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 16:45:26,315 INFO  Invoking the service to verify the user solution
+2019-03-18 16:45:26,316 INFO  Time before invoking service:Mon Mar 18 16:45:26 IST 2019
+2019-03-18 16:45:26,316 INFO  Initialising service address for VerifySolution
+2019-03-18 16:45:26,316 INFO  Time before invoking service In SUPER:Mon Mar 18 16:45:26 IST 2019
+2019-03-18 16:45:27,194 INFO  Time after invoking service In SUPER:Mon Mar 18 16:45:27 IST 2019
+2019-03-18 16:45:27,194 INFO  Service responded successfully with required details
+2019-03-18 16:45:27,195 INFO  Time after invoking service:Mon Mar 18 16:45:27 IST 2019
+2019-03-18 16:45:27,195 INFO  User solution successfully verified
+2019-03-18 16:45:27,195 INFO  Processing the response from verify service
+2019-03-18 16:45:27,197 INFO  Starting to parse JSON response
+2019-03-18 16:45:27,199 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:45:27,199 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 16:45:27,200 INFO  Successfully parsed JSON response
+2019-03-18 16:45:27,200 INFO  In the process of generating verify response in HTML
+2019-03-18 16:45:27,263 INFO  Successfully generated verify response in HTML
+2019-03-18 16:45:27,263 INFO  Successfully processed the response from service
+2019-03-18 16:45:30,671 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 16:45:30,672 INFO  Displaying user solution
+2019-03-18 16:45:30,683 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 16:45:30,683 INFO  Invoking the service to submit the user solution
+2019-03-18 16:45:30,683 INFO  Initialising service address for Submit
+2019-03-18 16:45:30,684 INFO  Time before invoking service In SUPER:Mon Mar 18 16:45:30 IST 2019
+2019-03-18 16:45:30,785 INFO  Time after invoking service In SUPER:Mon Mar 18 16:45:30 IST 2019
+2019-03-18 16:45:30,785 INFO  Service responded successfully with required details
+2019-03-18 16:45:30,785 INFO  User solution successfully submitted
+2019-03-18 16:45:30,786 INFO  Displaying submission status
+2019-03-18 16:45:30,786 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 16:45:33,312 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 16:45:33,313 INFO  Displaying user solution
+2019-03-18 16:45:33,323 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 16:45:33,323 INFO  Invoking the service to submit the user solution
+2019-03-18 16:45:33,323 INFO  Initialising service address for Submit
+2019-03-18 16:45:33,324 INFO  Time before invoking service In SUPER:Mon Mar 18 16:45:33 IST 2019
+2019-03-18 16:45:33,392 INFO  Time after invoking service In SUPER:Mon Mar 18 16:45:33 IST 2019
+2019-03-18 16:45:33,393 INFO  Service responded successfully with required details
+2019-03-18 16:45:33,393 INFO  User solution successfully submitted
+2019-03-18 16:45:33,393 INFO  Displaying submission status
+2019-03-18 16:45:33,393 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 16:47:03,770 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 16:48:53,876 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 17:46:21,215 INFO  Setting request parameters for VerifySolution
+2019-03-18 17:46:21,215 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 17:46:21,215 INFO  Starting to parse the user solution
+2019-03-18 17:46:21,216 INFO  Displaying user solution
+2019-03-18 17:46:21,356 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split(\" \")\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 17:46:21,356 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 17:46:21,356 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 17:46:21,356 INFO  Invoking the service to verify the user solution
+2019-03-18 17:46:21,357 INFO  Time before invoking service:Mon Mar 18 17:46:21 IST 2019
+2019-03-18 17:46:21,357 INFO  Initialising service address for VerifySolution
+2019-03-18 17:46:21,358 INFO  Time before invoking service In SUPER:Mon Mar 18 17:46:21 IST 2019
+2019-03-18 17:46:22,241 INFO  Time after invoking service In SUPER:Mon Mar 18 17:46:22 IST 2019
+2019-03-18 17:46:22,241 INFO  Service responded successfully with required details
+2019-03-18 17:46:22,241 INFO  Time after invoking service:Mon Mar 18 17:46:22 IST 2019
+2019-03-18 17:46:22,241 INFO  User solution successfully verified
+2019-03-18 17:46:22,242 INFO  Processing the response from verify service
+2019-03-18 17:46:22,244 INFO  Starting to parse JSON response
+2019-03-18 17:46:22,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:46:22,246 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:46:22,247 INFO  Successfully parsed JSON response
+2019-03-18 17:46:22,247 INFO  In the process of generating verify response in HTML
+2019-03-18 17:46:22,323 INFO  Successfully generated verify response in HTML
+2019-03-18 17:46:22,323 INFO  Successfully processed the response from service
+2019-03-18 17:49:55,495 INFO  Setting request parameters for VerifySolution
+2019-03-18 17:49:55,495 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 17:49:55,495 INFO  Starting to parse the user solution
+2019-03-18 17:49:55,496 INFO  Displaying user solution
+2019-03-18 17:49:55,570 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    list2 = []\r\n    set1 = {}\r\n    text = text[0:len(text)-1].split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 17:49:55,570 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 17:49:55,570 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 17:49:55,570 INFO  Invoking the service to verify the user solution
+2019-03-18 17:49:55,571 INFO  Time before invoking service:Mon Mar 18 17:49:55 IST 2019
+2019-03-18 17:49:55,571 INFO  Initialising service address for VerifySolution
+2019-03-18 17:49:55,571 INFO  Time before invoking service In SUPER:Mon Mar 18 17:49:55 IST 2019
+2019-03-18 17:49:56,455 INFO  Time after invoking service In SUPER:Mon Mar 18 17:49:56 IST 2019
+2019-03-18 17:49:56,456 INFO  Service responded successfully with required details
+2019-03-18 17:49:56,456 INFO  Time after invoking service:Mon Mar 18 17:49:56 IST 2019
+2019-03-18 17:49:56,456 INFO  User solution successfully verified
+2019-03-18 17:49:56,457 INFO  Processing the response from verify service
+2019-03-18 17:49:56,460 INFO  Starting to parse JSON response
+2019-03-18 17:49:56,461 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:49:56,461 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:49:56,462 INFO  Successfully parsed JSON response
+2019-03-18 17:49:56,463 INFO  In the process of generating verify response in HTML
+2019-03-18 17:49:56,531 INFO  Successfully generated verify response in HTML
+2019-03-18 17:49:56,531 INFO  Successfully processed the response from service
+2019-03-18 17:50:36,745 INFO  Setting request parameters for VerifySolution
+2019-03-18 17:50:36,745 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 17:50:36,745 INFO  Starting to parse the user solution
+2019-03-18 17:50:36,745 INFO  Displaying user solution
+2019-03-18 17:50:36,806 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    list2 = []\r\n    set1 = {}\r\n    text = text[0:len(text)-1].split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 17:50:36,808 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 17:50:36,808 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 17:50:36,808 INFO  Invoking the service to verify the user solution
+2019-03-18 17:50:36,808 INFO  Time before invoking service:Mon Mar 18 17:50:36 IST 2019
+2019-03-18 17:50:36,808 INFO  Initialising service address for VerifySolution
+2019-03-18 17:50:36,809 INFO  Time before invoking service In SUPER:Mon Mar 18 17:50:36 IST 2019
+2019-03-18 17:50:37,624 INFO  Time after invoking service In SUPER:Mon Mar 18 17:50:37 IST 2019
+2019-03-18 17:50:37,625 INFO  Service responded successfully with required details
+2019-03-18 17:50:37,625 INFO  Time after invoking service:Mon Mar 18 17:50:37 IST 2019
+2019-03-18 17:50:37,625 INFO  User solution successfully verified
+2019-03-18 17:50:37,625 INFO  Processing the response from verify service
+2019-03-18 17:50:37,626 INFO  Starting to parse JSON response
+2019-03-18 17:50:37,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:50:37,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:50:37,628 INFO  Successfully parsed JSON response
+2019-03-18 17:50:37,629 INFO  In the process of generating verify response in HTML
+2019-03-18 17:50:37,682 INFO  Successfully generated verify response in HTML
+2019-03-18 17:50:37,682 INFO  Successfully processed the response from service
+2019-03-18 17:50:55,668 INFO  Setting request parameters for VerifySolution
+2019-03-18 17:50:55,668 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 17:50:55,668 INFO  Starting to parse the user solution
+2019-03-18 17:50:55,669 INFO  Displaying user solution
+2019-03-18 17:50:55,741 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    list2 = []\r\n    set1 = {}\r\n    text = text[0:len(text)-1].split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 17:50:55,741 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 17:50:55,742 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 17:50:55,742 INFO  Invoking the service to verify the user solution
+2019-03-18 17:50:55,742 INFO  Time before invoking service:Mon Mar 18 17:50:55 IST 2019
+2019-03-18 17:50:55,742 INFO  Initialising service address for VerifySolution
+2019-03-18 17:50:55,743 INFO  Time before invoking service In SUPER:Mon Mar 18 17:50:55 IST 2019
+2019-03-18 17:50:56,623 INFO  Time after invoking service In SUPER:Mon Mar 18 17:50:56 IST 2019
+2019-03-18 17:50:56,624 INFO  Service responded successfully with required details
+2019-03-18 17:50:56,624 INFO  Time after invoking service:Mon Mar 18 17:50:56 IST 2019
+2019-03-18 17:50:56,624 INFO  User solution successfully verified
+2019-03-18 17:50:56,624 INFO  Processing the response from verify service
+2019-03-18 17:50:56,626 INFO  Starting to parse JSON response
+2019-03-18 17:50:56,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:50:56,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:50:56,628 INFO  Successfully parsed JSON response
+2019-03-18 17:50:56,628 INFO  In the process of generating verify response in HTML
+2019-03-18 17:50:56,725 INFO  Successfully generated verify response in HTML
+2019-03-18 17:50:56,725 INFO  Successfully processed the response from service
+2019-03-18 17:51:01,872 INFO  Setting request parameters for VerifySolution
+2019-03-18 17:51:01,872 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 17:51:01,872 INFO  Starting to parse the user solution
+2019-03-18 17:51:01,873 INFO  Displaying user solution
+2019-03-18 17:51:01,942 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    list2 = []\r\n    set1 = {}\r\n    text = text[0:len(text)-1].split(\" \")\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 17:51:01,942 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 17:51:01,943 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 17:51:01,943 INFO  Invoking the service to verify the user solution
+2019-03-18 17:51:01,943 INFO  Time before invoking service:Mon Mar 18 17:51:01 IST 2019
+2019-03-18 17:51:01,943 INFO  Initialising service address for VerifySolution
+2019-03-18 17:51:01,943 INFO  Time before invoking service In SUPER:Mon Mar 18 17:51:01 IST 2019
+2019-03-18 17:51:02,777 INFO  Time after invoking service In SUPER:Mon Mar 18 17:51:02 IST 2019
+2019-03-18 17:51:02,777 INFO  Service responded successfully with required details
+2019-03-18 17:51:02,778 INFO  Time after invoking service:Mon Mar 18 17:51:02 IST 2019
+2019-03-18 17:51:02,778 INFO  User solution successfully verified
+2019-03-18 17:51:02,778 INFO  Processing the response from verify service
+2019-03-18 17:51:02,779 INFO  Starting to parse JSON response
+2019-03-18 17:51:02,780 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:51:02,780 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 17:51:02,781 INFO  Successfully parsed JSON response
+2019-03-18 17:51:02,781 INFO  In the process of generating verify response in HTML
+2019-03-18 17:51:02,841 INFO  Successfully generated verify response in HTML
+2019-03-18 17:51:02,841 INFO  Successfully processed the response from service
+2019-03-18 17:53:43,475 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 17:54:32,500 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 18:00:03,456 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-18 18:01:10,279 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:01:10,279 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:01:10,279 INFO  Starting to parse the user solution
+2019-03-18 18:01:10,280 INFO  Displaying user solution
+2019-03-18 18:01:10,364 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    list2 = []\r\n    set1 = {}\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:01:10,365 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:01:10,365 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:01:10,365 INFO  Invoking the service to verify the user solution
+2019-03-18 18:01:10,365 INFO  Time before invoking service:Mon Mar 18 18:01:10 IST 2019
+2019-03-18 18:01:10,365 INFO  Initialising service address for VerifySolution
+2019-03-18 18:01:10,366 INFO  Time before invoking service In SUPER:Mon Mar 18 18:01:10 IST 2019
+2019-03-18 18:01:11,267 INFO  Time after invoking service In SUPER:Mon Mar 18 18:01:11 IST 2019
+2019-03-18 18:01:11,267 INFO  Service responded successfully with required details
+2019-03-18 18:01:11,267 INFO  Time after invoking service:Mon Mar 18 18:01:11 IST 2019
+2019-03-18 18:01:11,268 INFO  User solution successfully verified
+2019-03-18 18:01:11,268 INFO  Processing the response from verify service
+2019-03-18 18:01:11,271 INFO  Starting to parse JSON response
+2019-03-18 18:01:11,272 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:11,272 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:11,273 INFO  Successfully parsed JSON response
+2019-03-18 18:01:11,274 INFO  In the process of generating verify response in HTML
+2019-03-18 18:01:11,403 INFO  Successfully generated verify response in HTML
+2019-03-18 18:01:11,404 INFO  Successfully processed the response from service
+2019-03-18 18:01:26,893 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:01:26,893 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:01:26,893 INFO  Starting to parse the user solution
+2019-03-18 18:01:26,893 INFO  Displaying user solution
+2019-03-18 18:01:26,956 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:01:26,957 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:01:26,957 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:01:26,957 INFO  Invoking the service to verify the user solution
+2019-03-18 18:01:26,957 INFO  Time before invoking service:Mon Mar 18 18:01:26 IST 2019
+2019-03-18 18:01:26,957 INFO  Initialising service address for VerifySolution
+2019-03-18 18:01:26,958 INFO  Time before invoking service In SUPER:Mon Mar 18 18:01:26 IST 2019
+2019-03-18 18:01:28,151 INFO  Time after invoking service In SUPER:Mon Mar 18 18:01:28 IST 2019
+2019-03-18 18:01:28,151 INFO  Service responded successfully with required details
+2019-03-18 18:01:28,151 INFO  Time after invoking service:Mon Mar 18 18:01:28 IST 2019
+2019-03-18 18:01:28,152 INFO  User solution successfully verified
+2019-03-18 18:01:28,152 INFO  Processing the response from verify service
+2019-03-18 18:01:28,153 INFO  Starting to parse JSON response
+2019-03-18 18:01:28,156 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:28,156 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:28,161 INFO  Successfully parsed JSON response
+2019-03-18 18:01:28,161 INFO  In the process of generating verify response in HTML
+2019-03-18 18:01:28,229 INFO  Successfully generated verify response in HTML
+2019-03-18 18:01:28,229 INFO  Successfully processed the response from service
+2019-03-18 18:01:48,686 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:01:48,686 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:01:48,686 INFO  Starting to parse the user solution
+2019-03-18 18:01:48,686 INFO  Displaying user solution
+2019-03-18 18:01:48,781 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values of text and vocabulary to the function and test your program\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:01:48,782 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:01:48,782 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:01:48,782 INFO  Invoking the service to verify the user solution
+2019-03-18 18:01:48,782 INFO  Time before invoking service:Mon Mar 18 18:01:48 IST 2019
+2019-03-18 18:01:48,782 INFO  Initialising service address for VerifySolution
+2019-03-18 18:01:48,783 INFO  Time before invoking service In SUPER:Mon Mar 18 18:01:48 IST 2019
+2019-03-18 18:01:49,623 INFO  Time after invoking service In SUPER:Mon Mar 18 18:01:49 IST 2019
+2019-03-18 18:01:49,624 INFO  Service responded successfully with required details
+2019-03-18 18:01:49,624 INFO  Time after invoking service:Mon Mar 18 18:01:49 IST 2019
+2019-03-18 18:01:49,624 INFO  User solution successfully verified
+2019-03-18 18:01:49,625 INFO  Processing the response from verify service
+2019-03-18 18:01:49,626 INFO  Starting to parse JSON response
+2019-03-18 18:01:49,627 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:49,628 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:49,628 INFO  Successfully parsed JSON response
+2019-03-18 18:01:49,629 INFO  In the process of generating verify response in HTML
+2019-03-18 18:01:49,693 INFO  Successfully generated verify response in HTML
+2019-03-18 18:01:49,693 INFO  Successfully processed the response from service
+2019-03-18 18:01:55,856 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:01:55,856 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:01:55,856 INFO  Starting to parse the user solution
+2019-03-18 18:01:55,856 INFO  Displaying user solution
+2019-03-18 18:01:55,927 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:01:55,927 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:01:55,927 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:01:55,927 INFO  Invoking the service to verify the user solution
+2019-03-18 18:01:55,928 INFO  Time before invoking service:Mon Mar 18 18:01:55 IST 2019
+2019-03-18 18:01:55,928 INFO  Initialising service address for VerifySolution
+2019-03-18 18:01:55,928 INFO  Time before invoking service In SUPER:Mon Mar 18 18:01:55 IST 2019
+2019-03-18 18:01:56,785 INFO  Time after invoking service In SUPER:Mon Mar 18 18:01:56 IST 2019
+2019-03-18 18:01:56,785 INFO  Service responded successfully with required details
+2019-03-18 18:01:56,785 INFO  Time after invoking service:Mon Mar 18 18:01:56 IST 2019
+2019-03-18 18:01:56,786 INFO  User solution successfully verified
+2019-03-18 18:01:56,786 INFO  Processing the response from verify service
+2019-03-18 18:01:56,787 INFO  Starting to parse JSON response
+2019-03-18 18:01:56,787 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:56,787 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:01:56,788 INFO  Successfully parsed JSON response
+2019-03-18 18:01:56,788 INFO  In the process of generating verify response in HTML
+2019-03-18 18:01:56,883 INFO  Successfully generated verify response in HTML
+2019-03-18 18:01:56,883 INFO  Successfully processed the response from service
+2019-03-18 18:03:24,276 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:03:24,276 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:03:24,276 INFO  Starting to parse the user solution
+2019-03-18 18:03:24,277 INFO  Displaying user solution
+2019-03-18 18:03:24,388 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    return set(list1)\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:03:24,389 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:03:24,389 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:03:24,389 INFO  Invoking the service to verify the user solution
+2019-03-18 18:03:24,389 INFO  Time before invoking service:Mon Mar 18 18:03:24 IST 2019
+2019-03-18 18:03:24,389 INFO  Initialising service address for VerifySolution
+2019-03-18 18:03:24,390 INFO  Time before invoking service In SUPER:Mon Mar 18 18:03:24 IST 2019
+2019-03-18 18:03:25,273 INFO  Time after invoking service In SUPER:Mon Mar 18 18:03:25 IST 2019
+2019-03-18 18:03:25,273 INFO  Service responded successfully with required details
+2019-03-18 18:03:25,273 INFO  Time after invoking service:Mon Mar 18 18:03:25 IST 2019
+2019-03-18 18:03:25,273 INFO  User solution successfully verified
+2019-03-18 18:03:25,273 INFO  Processing the response from verify service
+2019-03-18 18:03:25,278 INFO  Starting to parse JSON response
+2019-03-18 18:03:25,279 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:03:25,279 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:03:25,281 INFO  Successfully parsed JSON response
+2019-03-18 18:03:25,281 INFO  In the process of generating verify response in HTML
+2019-03-18 18:03:25,399 INFO  Successfully generated verify response in HTML
+2019-03-18 18:03:25,400 INFO  Successfully processed the response from service
+2019-03-18 18:05:17,673 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:05:17,673 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:05:17,673 INFO  Starting to parse the user solution
+2019-03-18 18:05:17,674 INFO  Displaying user solution
+2019-03-18 18:05:17,752 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    set1=set(list1)\r\n    return \r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:05:17,756 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:05:17,756 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:05:17,756 INFO  Invoking the service to verify the user solution
+2019-03-18 18:05:17,756 INFO  Time before invoking service:Mon Mar 18 18:05:17 IST 2019
+2019-03-18 18:05:17,756 INFO  Initialising service address for VerifySolution
+2019-03-18 18:05:17,757 INFO  Time before invoking service In SUPER:Mon Mar 18 18:05:17 IST 2019
+2019-03-18 18:05:18,694 INFO  Time after invoking service In SUPER:Mon Mar 18 18:05:18 IST 2019
+2019-03-18 18:05:18,694 INFO  Service responded successfully with required details
+2019-03-18 18:05:18,694 INFO  Time after invoking service:Mon Mar 18 18:05:18 IST 2019
+2019-03-18 18:05:18,695 INFO  User solution successfully verified
+2019-03-18 18:05:18,695 INFO  Processing the response from verify service
+2019-03-18 18:05:18,700 INFO  Starting to parse JSON response
+2019-03-18 18:05:18,702 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:05:18,702 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:05:18,703 INFO  Successfully parsed JSON response
+2019-03-18 18:05:18,703 INFO  In the process of generating verify response in HTML
+2019-03-18 18:05:18,789 INFO  Successfully generated verify response in HTML
+2019-03-18 18:05:18,789 INFO  Successfully processed the response from service
+2019-03-18 18:05:23,467 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:05:23,468 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:05:23,468 INFO  Starting to parse the user solution
+2019-03-18 18:05:23,468 INFO  Displaying user solution
+2019-03-18 18:05:23,547 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    set1=set(list1)\r\n    return set1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:05:23,547 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:05:23,548 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:05:23,548 INFO  Invoking the service to verify the user solution
+2019-03-18 18:05:23,548 INFO  Time before invoking service:Mon Mar 18 18:05:23 IST 2019
+2019-03-18 18:05:23,548 INFO  Initialising service address for VerifySolution
+2019-03-18 18:05:23,549 INFO  Time before invoking service In SUPER:Mon Mar 18 18:05:23 IST 2019
+2019-03-18 18:05:24,312 INFO  Time after invoking service In SUPER:Mon Mar 18 18:05:24 IST 2019
+2019-03-18 18:05:24,312 INFO  Service responded successfully with required details
+2019-03-18 18:05:24,312 INFO  Time after invoking service:Mon Mar 18 18:05:24 IST 2019
+2019-03-18 18:05:24,312 INFO  User solution successfully verified
+2019-03-18 18:05:24,312 INFO  Processing the response from verify service
+2019-03-18 18:05:24,313 INFO  Starting to parse JSON response
+2019-03-18 18:05:24,314 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:05:24,314 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:05:24,315 INFO  Successfully parsed JSON response
+2019-03-18 18:05:24,315 INFO  In the process of generating verify response in HTML
+2019-03-18 18:05:24,397 INFO  Successfully generated verify response in HTML
+2019-03-18 18:05:24,397 INFO  Successfully processed the response from service
+2019-03-18 18:06:16,415 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:06:16,415 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:06:16,415 INFO  Starting to parse the user solution
+2019-03-18 18:06:16,415 INFO  Displaying user solution
+2019-03-18 18:06:16,502 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        set1=set(list1)\r\n    return set1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:06:16,502 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:06:16,502 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:06:16,502 INFO  Invoking the service to verify the user solution
+2019-03-18 18:06:16,503 INFO  Time before invoking service:Mon Mar 18 18:06:16 IST 2019
+2019-03-18 18:06:16,503 INFO  Initialising service address for VerifySolution
+2019-03-18 18:06:16,504 INFO  Time before invoking service In SUPER:Mon Mar 18 18:06:16 IST 2019
+2019-03-18 18:06:17,360 INFO  Time after invoking service In SUPER:Mon Mar 18 18:06:17 IST 2019
+2019-03-18 18:06:17,361 INFO  Service responded successfully with required details
+2019-03-18 18:06:17,363 INFO  Time after invoking service:Mon Mar 18 18:06:17 IST 2019
+2019-03-18 18:06:17,363 INFO  User solution successfully verified
+2019-03-18 18:06:17,363 INFO  Processing the response from verify service
+2019-03-18 18:06:17,364 INFO  Starting to parse JSON response
+2019-03-18 18:06:17,365 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:06:17,365 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:06:17,367 INFO  Successfully parsed JSON response
+2019-03-18 18:06:17,367 INFO  In the process of generating verify response in HTML
+2019-03-18 18:06:17,454 INFO  Successfully generated verify response in HTML
+2019-03-18 18:06:17,455 INFO  Successfully processed the response from service
+2019-03-18 18:06:35,329 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:06:35,329 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:06:35,329 INFO  Starting to parse the user solution
+2019-03-18 18:06:35,329 INFO  Displaying user solution
+2019-03-18 18:06:35,437 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        set1=set(list1)\r\n        \r\n    return set1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:06:35,437 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:06:35,437 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:06:35,437 INFO  Invoking the service to verify the user solution
+2019-03-18 18:06:35,437 INFO  Time before invoking service:Mon Mar 18 18:06:35 IST 2019
+2019-03-18 18:06:35,438 INFO  Initialising service address for VerifySolution
+2019-03-18 18:06:35,438 INFO  Time before invoking service In SUPER:Mon Mar 18 18:06:35 IST 2019
+2019-03-18 18:06:36,263 INFO  Time after invoking service In SUPER:Mon Mar 18 18:06:36 IST 2019
+2019-03-18 18:06:36,264 INFO  Service responded successfully with required details
+2019-03-18 18:06:36,264 INFO  Time after invoking service:Mon Mar 18 18:06:36 IST 2019
+2019-03-18 18:06:36,264 INFO  User solution successfully verified
+2019-03-18 18:06:36,264 INFO  Processing the response from verify service
+2019-03-18 18:06:36,266 INFO  Starting to parse JSON response
+2019-03-18 18:06:36,270 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:06:36,270 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:06:36,271 INFO  Successfully parsed JSON response
+2019-03-18 18:06:36,271 INFO  In the process of generating verify response in HTML
+2019-03-18 18:06:36,341 INFO  Successfully generated verify response in HTML
+2019-03-18 18:06:36,342 INFO  Successfully processed the response from service
+2019-03-18 18:07:24,247 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:07:24,248 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:07:24,248 INFO  Starting to parse the user solution
+2019-03-18 18:07:24,248 INFO  Displaying user solution
+2019-03-18 18:07:24,359 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        return set(list1)\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:07:24,360 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:07:24,360 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:07:24,360 INFO  Invoking the service to verify the user solution
+2019-03-18 18:07:24,360 INFO  Time before invoking service:Mon Mar 18 18:07:24 IST 2019
+2019-03-18 18:07:24,360 INFO  Initialising service address for VerifySolution
+2019-03-18 18:07:24,361 INFO  Time before invoking service In SUPER:Mon Mar 18 18:07:24 IST 2019
+2019-03-18 18:07:25,262 INFO  Time after invoking service In SUPER:Mon Mar 18 18:07:25 IST 2019
+2019-03-18 18:07:25,262 INFO  Service responded successfully with required details
+2019-03-18 18:07:25,262 INFO  Time after invoking service:Mon Mar 18 18:07:25 IST 2019
+2019-03-18 18:07:25,262 INFO  User solution successfully verified
+2019-03-18 18:07:25,263 INFO  Processing the response from verify service
+2019-03-18 18:07:25,264 INFO  Starting to parse JSON response
+2019-03-18 18:07:25,264 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:07:25,265 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:07:25,266 INFO  Successfully parsed JSON response
+2019-03-18 18:07:25,266 INFO  In the process of generating verify response in HTML
+2019-03-18 18:07:25,352 INFO  Successfully generated verify response in HTML
+2019-03-18 18:07:25,352 INFO  Successfully processed the response from service
+2019-03-18 18:07:34,445 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:07:34,445 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:07:34,445 INFO  Starting to parse the user solution
+2019-03-18 18:07:34,445 INFO  Displaying user solution
+2019-03-18 18:07:34,534 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        return set(list1)\r\n    else:\r\n        return 0\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:07:34,534 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:07:34,534 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:07:34,534 INFO  Invoking the service to verify the user solution
+2019-03-18 18:07:34,535 INFO  Time before invoking service:Mon Mar 18 18:07:34 IST 2019
+2019-03-18 18:07:34,535 INFO  Initialising service address for VerifySolution
+2019-03-18 18:07:34,535 INFO  Time before invoking service In SUPER:Mon Mar 18 18:07:34 IST 2019
+2019-03-18 18:07:35,942 INFO  Time after invoking service In SUPER:Mon Mar 18 18:07:35 IST 2019
+2019-03-18 18:07:35,942 INFO  Service responded successfully with required details
+2019-03-18 18:07:35,942 INFO  Time after invoking service:Mon Mar 18 18:07:35 IST 2019
+2019-03-18 18:07:35,943 INFO  User solution successfully verified
+2019-03-18 18:07:35,943 INFO  Processing the response from verify service
+2019-03-18 18:07:35,950 INFO  Starting to parse JSON response
+2019-03-18 18:07:35,951 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:07:35,951 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:07:35,952 INFO  Successfully parsed JSON response
+2019-03-18 18:07:35,953 INFO  In the process of generating verify response in HTML
+2019-03-18 18:07:36,036 INFO  Successfully generated verify response in HTML
+2019-03-18 18:07:36,036 INFO  Successfully processed the response from service
+2019-03-18 18:09:03,910 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:09:03,910 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:09:03,910 INFO  Starting to parse the user solution
+2019-03-18 18:09:03,910 INFO  Displaying user solution
+2019-03-18 18:09:04,029 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        return set(list1)\r\n    else:\r\n        return -1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:09:04,032 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:09:04,032 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:09:04,032 INFO  Invoking the service to verify the user solution
+2019-03-18 18:09:04,033 INFO  Time before invoking service:Mon Mar 18 18:09:04 IST 2019
+2019-03-18 18:09:04,033 INFO  Initialising service address for VerifySolution
+2019-03-18 18:09:04,033 INFO  Time before invoking service In SUPER:Mon Mar 18 18:09:04 IST 2019
+2019-03-18 18:09:04,889 INFO  Time after invoking service In SUPER:Mon Mar 18 18:09:04 IST 2019
+2019-03-18 18:09:04,890 INFO  Service responded successfully with required details
+2019-03-18 18:09:04,890 INFO  Time after invoking service:Mon Mar 18 18:09:04 IST 2019
+2019-03-18 18:09:04,890 INFO  User solution successfully verified
+2019-03-18 18:09:04,890 INFO  Processing the response from verify service
+2019-03-18 18:09:04,896 INFO  Starting to parse JSON response
+2019-03-18 18:09:04,898 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:09:04,898 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:09:04,899 INFO  Successfully parsed JSON response
+2019-03-18 18:09:04,899 INFO  In the process of generating verify response in HTML
+2019-03-18 18:09:04,976 INFO  Successfully generated verify response in HTML
+2019-03-18 18:09:04,977 INFO  Successfully processed the response from service
+2019-03-18 18:09:14,426 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:09:14,426 INFO  Displaying user solution
+2019-03-18 18:09:14,438 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:09:14,439 INFO  Invoking the service to submit the user solution
+2019-03-18 18:09:14,439 INFO  Initialising service address for Submit
+2019-03-18 18:09:14,439 INFO  Time before invoking service In SUPER:Mon Mar 18 18:09:14 IST 2019
+2019-03-18 18:09:14,775 INFO  Time after invoking service In SUPER:Mon Mar 18 18:09:14 IST 2019
+2019-03-18 18:09:14,775 INFO  Service responded successfully with required details
+2019-03-18 18:09:14,775 INFO  User solution successfully submitted
+2019-03-18 18:09:14,776 INFO  Displaying submission status
+2019-03-18 18:09:14,776 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 18:10:39,400 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:10:39,401 INFO  Displaying user solution
+2019-03-18 18:10:39,410 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:10:39,411 INFO  Invoking the service to submit the user solution
+2019-03-18 18:10:39,411 INFO  Initialising service address for Submit
+2019-03-18 18:10:39,411 INFO  Time before invoking service In SUPER:Mon Mar 18 18:10:39 IST 2019
+2019-03-18 18:10:39,675 INFO  Time after invoking service In SUPER:Mon Mar 18 18:10:39 IST 2019
+2019-03-18 18:10:39,675 INFO  Service responded successfully with required details
+2019-03-18 18:10:39,675 INFO  User solution successfully submitted
+2019-03-18 18:10:39,676 INFO  Displaying submission status
+2019-03-18 18:10:39,676 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 18:10:42,427 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:10:42,427 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:10:42,427 INFO  Starting to parse the user solution
+2019-03-18 18:10:42,427 INFO  Displaying user solution
+2019-03-18 18:10:42,505 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        return set(list1)\r\n    else:\r\n        return -1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:10:42,505 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:10:42,505 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:10:42,506 INFO  Invoking the service to verify the user solution
+2019-03-18 18:10:42,506 INFO  Time before invoking service:Mon Mar 18 18:10:42 IST 2019
+2019-03-18 18:10:42,506 INFO  Initialising service address for VerifySolution
+2019-03-18 18:10:42,507 INFO  Time before invoking service In SUPER:Mon Mar 18 18:10:42 IST 2019
+2019-03-18 18:10:43,300 INFO  Time after invoking service In SUPER:Mon Mar 18 18:10:43 IST 2019
+2019-03-18 18:10:43,300 INFO  Service responded successfully with required details
+2019-03-18 18:10:43,300 INFO  Time after invoking service:Mon Mar 18 18:10:43 IST 2019
+2019-03-18 18:10:43,300 INFO  User solution successfully verified
+2019-03-18 18:10:43,301 INFO  Processing the response from verify service
+2019-03-18 18:10:43,301 INFO  Starting to parse JSON response
+2019-03-18 18:10:43,302 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:10:43,302 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:10:43,303 INFO  Successfully parsed JSON response
+2019-03-18 18:10:43,303 INFO  In the process of generating verify response in HTML
+2019-03-18 18:10:43,373 INFO  Successfully generated verify response in HTML
+2019-03-18 18:10:43,373 INFO  Successfully processed the response from service
+2019-03-18 18:10:46,416 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:10:46,417 INFO  Displaying user solution
+2019-03-18 18:10:46,426 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:10:46,426 INFO  Invoking the service to submit the user solution
+2019-03-18 18:10:46,426 INFO  Initialising service address for Submit
+2019-03-18 18:10:46,428 INFO  Time before invoking service In SUPER:Mon Mar 18 18:10:46 IST 2019
+2019-03-18 18:10:46,508 INFO  Time after invoking service In SUPER:Mon Mar 18 18:10:46 IST 2019
+2019-03-18 18:10:46,508 INFO  Service responded successfully with required details
+2019-03-18 18:10:46,509 INFO  User solution successfully submitted
+2019-03-18 18:10:46,509 INFO  Displaying submission status
+2019-03-18 18:10:46,509 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 18:27:34,559 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:27:34,559 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:27:34,559 INFO  Starting to parse the user solution
+2019-03-18 18:27:34,560 INFO  Displaying user solution
+2019-03-18 18:27:34,639 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    #Remove pass and write your logic here\r\n    count =0\r\n    for i in range(start,end):\r\n        if num_list[i]  in num_list[i+1:len(num_list)]:\r\n               count+=1\r\n        return count\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:27:34,639 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:27:34,639 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:27:34,639 INFO  Invoking the service to verify the user solution
+2019-03-18 18:27:34,640 INFO  Time before invoking service:Mon Mar 18 18:27:34 IST 2019
+2019-03-18 18:27:34,640 INFO  Initialising service address for VerifySolution
+2019-03-18 18:27:34,640 INFO  Time before invoking service In SUPER:Mon Mar 18 18:27:34 IST 2019
+2019-03-18 18:27:35,568 INFO  Time after invoking service In SUPER:Mon Mar 18 18:27:35 IST 2019
+2019-03-18 18:27:35,568 INFO  Service responded successfully with required details
+2019-03-18 18:27:35,568 INFO  Time after invoking service:Mon Mar 18 18:27:35 IST 2019
+2019-03-18 18:27:35,568 INFO  User solution successfully verified
+2019-03-18 18:27:35,569 INFO  Processing the response from verify service
+2019-03-18 18:27:35,578 INFO  Starting to parse JSON response
+2019-03-18 18:27:35,580 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:27:35,580 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:27:35,581 INFO  Successfully parsed JSON response
+2019-03-18 18:27:35,581 INFO  In the process of generating verify response in HTML
+2019-03-18 18:27:35,663 INFO  Successfully generated verify response in HTML
+2019-03-18 18:27:35,663 INFO  Successfully processed the response from service
+2019-03-18 18:40:45,421 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:40:45,421 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:40:45,421 INFO  Starting to parse the user solution
+2019-03-18 18:40:45,422 INFO  Displaying user solution
+2019-03-18 18:40:45,510 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    country_match = []\r\n    for detail in match_list:\r\n        if (detail[:3]) == country_name:\r\n            country_match.append(detail)\r\n    return country_match\r\n\r\ndef max_wins():\r\n    cham,wor,t20,tmp,ret = [],[],[],[],dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"CHAM\":\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"T20\":\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"WOR\"] = wor \r\n    return ret\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        print (split_detail[1])\r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:40:45,512 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:40:45,513 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:40:45,513 INFO  Invoking the service to verify the user solution
+2019-03-18 18:40:45,513 INFO  Time before invoking service:Mon Mar 18 18:40:45 IST 2019
+2019-03-18 18:40:45,513 INFO  Initialising service address for VerifySolution
+2019-03-18 18:40:45,515 INFO  Time before invoking service In SUPER:Mon Mar 18 18:40:45 IST 2019
+2019-03-18 18:40:46,441 INFO  Time after invoking service In SUPER:Mon Mar 18 18:40:46 IST 2019
+2019-03-18 18:40:46,442 INFO  Service responded successfully with required details
+2019-03-18 18:40:46,442 INFO  Time after invoking service:Mon Mar 18 18:40:46 IST 2019
+2019-03-18 18:40:46,443 INFO  User solution successfully verified
+2019-03-18 18:40:46,443 INFO  Processing the response from verify service
+2019-03-18 18:40:46,446 INFO  Starting to parse JSON response
+2019-03-18 18:40:46,448 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:40:46,448 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:40:46,448 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:40:46,448 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:40:46,449 INFO  Successfully parsed JSON response
+2019-03-18 18:40:46,449 INFO  In the process of generating verify response in HTML
+2019-03-18 18:40:46,512 INFO  Successfully generated verify response in HTML
+2019-03-18 18:40:46,512 INFO  Successfully processed the response from service
+2019-03-18 18:41:27,181 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:41:27,181 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:41:27,181 INFO  Starting to parse the user solution
+2019-03-18 18:41:27,182 INFO  Displaying user solution
+2019-03-18 18:41:27,264 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    country_match = []\r\n    for detail in match_list:\r\n        if (detail[:3]) == country_name:\r\n            country_match.append(detail)\r\n    return country_match\r\n\r\ndef max_wins():\r\n    cham,wor,t20,tmp,ret = [],[],[],[],dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"CHAM\":\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"T20\":\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"WOR\"] = wor \r\n    return ret\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:41:27,264 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:41:27,265 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:41:27,265 INFO  Invoking the service to verify the user solution
+2019-03-18 18:41:27,265 INFO  Time before invoking service:Mon Mar 18 18:41:27 IST 2019
+2019-03-18 18:41:27,265 INFO  Initialising service address for VerifySolution
+2019-03-18 18:41:27,265 INFO  Time before invoking service In SUPER:Mon Mar 18 18:41:27 IST 2019
+2019-03-18 18:41:28,212 INFO  Time after invoking service In SUPER:Mon Mar 18 18:41:28 IST 2019
+2019-03-18 18:41:28,212 INFO  Service responded successfully with required details
+2019-03-18 18:41:28,213 INFO  Time after invoking service:Mon Mar 18 18:41:28 IST 2019
+2019-03-18 18:41:28,213 INFO  User solution successfully verified
+2019-03-18 18:41:28,213 INFO  Processing the response from verify service
+2019-03-18 18:41:28,218 INFO  Starting to parse JSON response
+2019-03-18 18:41:28,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:41:28,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:41:28,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:41:28,219 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:41:28,220 INFO  Successfully parsed JSON response
+2019-03-18 18:41:28,220 INFO  In the process of generating verify response in HTML
+2019-03-18 18:41:28,303 INFO  Successfully generated verify response in HTML
+2019-03-18 18:41:28,303 INFO  Successfully processed the response from service
+2019-03-18 18:42:01,919 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:42:01,920 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:42:01,920 INFO  Starting to parse the user solution
+2019-03-18 18:42:01,920 INFO  Displaying user solution
+2019-03-18 18:42:01,992 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    country_match = []\r\n    for detail in match_list:\r\n        if (detail[:3]) == country_name:\r\n            country_match.append(detail)\r\n    return country_match\r\n\r\ndef max_wins():\r\n    cham,wor,t20,tmp,ret = [],[],[],[],dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"CHAM\":\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"T20\":\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if len(tmp) !=0:\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        ret [\"WOR\"] = wor \r\n    return ret\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:42:01,992 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:42:01,992 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:42:01,992 INFO  Invoking the service to verify the user solution
+2019-03-18 18:42:01,993 INFO  Time before invoking service:Mon Mar 18 18:42:01 IST 2019
+2019-03-18 18:42:01,993 INFO  Initialising service address for VerifySolution
+2019-03-18 18:42:01,994 INFO  Time before invoking service In SUPER:Mon Mar 18 18:42:01 IST 2019
+2019-03-18 18:42:02,889 INFO  Time after invoking service In SUPER:Mon Mar 18 18:42:02 IST 2019
+2019-03-18 18:42:02,890 INFO  Service responded successfully with required details
+2019-03-18 18:42:02,890 INFO  Time after invoking service:Mon Mar 18 18:42:02 IST 2019
+2019-03-18 18:42:02,890 INFO  User solution successfully verified
+2019-03-18 18:42:02,890 INFO  Processing the response from verify service
+2019-03-18 18:42:02,892 INFO  Starting to parse JSON response
+2019-03-18 18:42:02,893 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:42:02,893 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:42:02,893 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:42:02,893 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:42:02,894 INFO  Successfully parsed JSON response
+2019-03-18 18:42:02,894 INFO  In the process of generating verify response in HTML
+2019-03-18 18:42:02,969 INFO  Successfully generated verify response in HTML
+2019-03-18 18:42:02,969 INFO  Successfully processed the response from service
+2019-03-18 18:42:06,726 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:42:06,727 INFO  Displaying user solution
+2019-03-18 18:42:06,735 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:42:06,735 INFO  Invoking the service to submit the user solution
+2019-03-18 18:42:06,735 INFO  Initialising service address for Submit
+2019-03-18 18:42:06,736 INFO  Time before invoking service In SUPER:Mon Mar 18 18:42:06 IST 2019
+2019-03-18 18:42:07,063 INFO  Time after invoking service In SUPER:Mon Mar 18 18:42:07 IST 2019
+2019-03-18 18:42:07,063 INFO  Service responded successfully with required details
+2019-03-18 18:42:07,063 INFO  User solution successfully submitted
+2019-03-18 18:42:07,063 INFO  Displaying submission status
+2019-03-18 18:42:07,063 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 18:55:35,065 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:55:35,065 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:55:35,065 INFO  Starting to parse the user solution
+2019-03-18 18:55:35,066 INFO  Displaying user solution
+2019-03-18 18:55:35,145 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    list1 = []\r\n    for i in match_list:\r\n        if((i[:3]) == country_name):\r\n            list1.append(i)\r\n    return list1\r\n\r\ndef max_wins():\r\n    champion = []\r\n    world_cup = []\r\n    t20 = []\r\n    tmp = []\r\n    new = dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"CHAM\"):\r\n            champion.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):        \r\n        while (min(tmp)!=max(tmp)):\r\n            champion.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"CHAM\"] =champion\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"T20\"):\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp) !=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            world_cup.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            world_cup.pop(tmp.index(min(tmp)))\r\n            world_cup.pop(tmp.index(min(tmp)))\r\n        new [\"WOR\"] = world_cup \r\n    return new\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:55:35,146 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:55:35,146 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:55:35,146 INFO  Invoking the service to verify the user solution
+2019-03-18 18:55:35,146 INFO  Time before invoking service:Mon Mar 18 18:55:35 IST 2019
+2019-03-18 18:55:35,146 INFO  Initialising service address for VerifySolution
+2019-03-18 18:55:35,147 INFO  Time before invoking service In SUPER:Mon Mar 18 18:55:35 IST 2019
+2019-03-18 18:55:36,088 INFO  Time after invoking service In SUPER:Mon Mar 18 18:55:36 IST 2019
+2019-03-18 18:55:36,088 INFO  Service responded successfully with required details
+2019-03-18 18:55:36,089 INFO  Time after invoking service:Mon Mar 18 18:55:36 IST 2019
+2019-03-18 18:55:36,089 INFO  User solution successfully verified
+2019-03-18 18:55:36,089 INFO  Processing the response from verify service
+2019-03-18 18:55:36,093 INFO  Starting to parse JSON response
+2019-03-18 18:55:36,094 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:36,095 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:36,095 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:36,095 INFO  Successfully parsed JSON response
+2019-03-18 18:55:36,096 INFO  In the process of generating verify response in HTML
+2019-03-18 18:55:36,162 INFO  Successfully generated verify response in HTML
+2019-03-18 18:55:36,162 INFO  Successfully processed the response from service
+2019-03-18 18:55:51,752 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:55:51,752 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:55:51,752 INFO  Starting to parse the user solution
+2019-03-18 18:55:51,752 INFO  Displaying user solution
+2019-03-18 18:55:51,816 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    list1 = []\r\n    for i in match_list:\r\n        if((i[:3]) == country_name):\r\n            list1.append(i)\r\n    return list1\r\n\r\ndef max_wins():\r\n    champion = []\r\n    world_cup = []\r\n    t20 = []\r\n    tmp = []\r\n    new = dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"CHAM\"):\r\n            champion.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):        \r\n        while (min(tmp)!=max(tmp)):\r\n            champion.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"CHAM\"] =champion\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"T20\"):\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp) !=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            world_cup.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            world_cup.pop(tmp.index(min(tmp)))\r\n            world_cup.pop(tmp.index(min(tmp)))\r\n        new [\"WOR\"] = world_cup \r\n    return new\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:55:51,817 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:55:51,817 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:55:51,817 INFO  Invoking the service to verify the user solution
+2019-03-18 18:55:51,817 INFO  Time before invoking service:Mon Mar 18 18:55:51 IST 2019
+2019-03-18 18:55:51,817 INFO  Initialising service address for VerifySolution
+2019-03-18 18:55:51,818 INFO  Time before invoking service In SUPER:Mon Mar 18 18:55:51 IST 2019
+2019-03-18 18:55:52,742 INFO  Time after invoking service In SUPER:Mon Mar 18 18:55:52 IST 2019
+2019-03-18 18:55:52,743 INFO  Service responded successfully with required details
+2019-03-18 18:55:52,743 INFO  Time after invoking service:Mon Mar 18 18:55:52 IST 2019
+2019-03-18 18:55:52,743 INFO  User solution successfully verified
+2019-03-18 18:55:52,744 INFO  Processing the response from verify service
+2019-03-18 18:55:52,745 INFO  Starting to parse JSON response
+2019-03-18 18:55:52,747 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:52,747 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:52,747 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:55:52,748 INFO  Successfully parsed JSON response
+2019-03-18 18:55:52,748 INFO  In the process of generating verify response in HTML
+2019-03-18 18:55:52,807 INFO  Successfully generated verify response in HTML
+2019-03-18 18:55:52,807 INFO  Successfully processed the response from service
+2019-03-18 18:56:47,262 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:56:47,262 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:56:47,262 INFO  Starting to parse the user solution
+2019-03-18 18:56:47,263 INFO  Displaying user solution
+2019-03-18 18:56:47,328 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    list1 = []\r\n    for i in match_list:\r\n        if((i[:3]) == country_name):\r\n            list1.append(i)\r\n    return list1\r\n\r\ndef max_wins():\r\n    cham = []\r\n    wor = []\r\n    t20 = []\r\n    tmp = []\r\n    new = dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"CHAM\"):\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"T20\"):\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp) !=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"WOR\"] = wor \r\n    return new\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:56:47,328 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:56:47,328 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:56:47,328 INFO  Invoking the service to verify the user solution
+2019-03-18 18:56:47,329 INFO  Time before invoking service:Mon Mar 18 18:56:47 IST 2019
+2019-03-18 18:56:47,329 INFO  Initialising service address for VerifySolution
+2019-03-18 18:56:47,329 INFO  Time before invoking service In SUPER:Mon Mar 18 18:56:47 IST 2019
+2019-03-18 18:56:48,147 INFO  Time after invoking service In SUPER:Mon Mar 18 18:56:48 IST 2019
+2019-03-18 18:56:48,147 INFO  Service responded successfully with required details
+2019-03-18 18:56:48,147 INFO  Time after invoking service:Mon Mar 18 18:56:48 IST 2019
+2019-03-18 18:56:48,147 INFO  User solution successfully verified
+2019-03-18 18:56:48,148 INFO  Processing the response from verify service
+2019-03-18 18:56:48,149 INFO  Starting to parse JSON response
+2019-03-18 18:56:48,150 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:48,150 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:48,150 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:48,150 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:48,151 INFO  Successfully parsed JSON response
+2019-03-18 18:56:48,152 INFO  In the process of generating verify response in HTML
+2019-03-18 18:56:48,212 INFO  Successfully generated verify response in HTML
+2019-03-18 18:56:48,213 INFO  Successfully processed the response from service
+2019-03-18 18:56:54,613 INFO  Setting request parameters for VerifySolution
+2019-03-18 18:56:54,613 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 18:56:54,613 INFO  Starting to parse the user solution
+2019-03-18 18:56:54,614 INFO  Displaying user solution
+2019-03-18 18:56:54,697 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    list1 = []\r\n    for i in match_list:\r\n        if((i[:3]) == country_name):\r\n            list1.append(i)\r\n    return list1\r\n\r\ndef max_wins():\r\n    cham = []\r\n    wor = []\r\n    t20 = []\r\n    tmp = []\r\n    new = dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"CHAM\"):\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"T20\"):\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp) !=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"WOR\"] = wor \r\n    return new\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 18:56:54,698 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 18:56:54,698 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 18:56:54,698 INFO  Invoking the service to verify the user solution
+2019-03-18 18:56:54,699 INFO  Time before invoking service:Mon Mar 18 18:56:54 IST 2019
+2019-03-18 18:56:54,699 INFO  Initialising service address for VerifySolution
+2019-03-18 18:56:54,699 INFO  Time before invoking service In SUPER:Mon Mar 18 18:56:54 IST 2019
+2019-03-18 18:56:55,615 INFO  Time after invoking service In SUPER:Mon Mar 18 18:56:55 IST 2019
+2019-03-18 18:56:55,615 INFO  Service responded successfully with required details
+2019-03-18 18:56:55,615 INFO  Time after invoking service:Mon Mar 18 18:56:55 IST 2019
+2019-03-18 18:56:55,615 INFO  User solution successfully verified
+2019-03-18 18:56:55,616 INFO  Processing the response from verify service
+2019-03-18 18:56:55,617 INFO  Starting to parse JSON response
+2019-03-18 18:56:55,618 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:55,618 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:55,618 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:55,618 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 18:56:55,619 INFO  Successfully parsed JSON response
+2019-03-18 18:56:55,619 INFO  In the process of generating verify response in HTML
+2019-03-18 18:56:55,675 INFO  Successfully generated verify response in HTML
+2019-03-18 18:56:55,675 INFO  Successfully processed the response from service
+2019-03-18 18:56:59,196 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:56:59,197 INFO  Displaying user solution
+2019-03-18 18:56:59,205 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:56:59,205 INFO  Invoking the service to submit the user solution
+2019-03-18 18:56:59,206 INFO  Initialising service address for Submit
+2019-03-18 18:56:59,206 INFO  Time before invoking service In SUPER:Mon Mar 18 18:56:59 IST 2019
+2019-03-18 18:56:59,477 INFO  Time after invoking service In SUPER:Mon Mar 18 18:56:59 IST 2019
+2019-03-18 18:56:59,477 INFO  Service responded successfully with required details
+2019-03-18 18:56:59,477 INFO  User solution successfully submitted
+2019-03-18 18:56:59,477 INFO  Displaying submission status
+2019-03-18 18:56:59,477 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 18:57:01,835 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 18:57:01,836 INFO  Displaying user solution
+2019-03-18 18:57:01,846 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 18:57:01,846 INFO  Invoking the service to submit the user solution
+2019-03-18 18:57:01,846 INFO  Initialising service address for Submit
+2019-03-18 18:57:01,847 INFO  Time before invoking service In SUPER:Mon Mar 18 18:57:01 IST 2019
+2019-03-18 18:57:01,965 INFO  Time after invoking service In SUPER:Mon Mar 18 18:57:01 IST 2019
+2019-03-18 18:57:01,965 INFO  Service responded successfully with required details
+2019-03-18 18:57:01,965 INFO  User solution successfully submitted
+2019-03-18 18:57:01,966 INFO  Displaying submission status
+2019-03-18 18:57:01,966 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:00:59,436 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:00:59,436 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:00:59,436 INFO  Starting to parse the user solution
+2019-03-18 19:00:59,436 INFO  Displaying user solution
+2019-03-18 19:00:59,519 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = len(num_list)-num_list.index(key)-1\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:00:59,520 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:00:59,520 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:00:59,520 INFO  Invoking the service to verify the user solution
+2019-03-18 19:00:59,521 INFO  Time before invoking service:Mon Mar 18 19:00:59 IST 2019
+2019-03-18 19:00:59,521 INFO  Initialising service address for VerifySolution
+2019-03-18 19:00:59,522 INFO  Time before invoking service In SUPER:Mon Mar 18 19:00:59 IST 2019
+2019-03-18 19:01:00,411 INFO  Time after invoking service In SUPER:Mon Mar 18 19:01:00 IST 2019
+2019-03-18 19:01:00,411 INFO  Service responded successfully with required details
+2019-03-18 19:01:00,412 INFO  Time after invoking service:Mon Mar 18 19:01:00 IST 2019
+2019-03-18 19:01:00,412 INFO  User solution successfully verified
+2019-03-18 19:01:00,412 INFO  Processing the response from verify service
+2019-03-18 19:01:00,413 INFO  Starting to parse JSON response
+2019-03-18 19:01:00,414 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:00,414 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:00,415 INFO  Successfully parsed JSON response
+2019-03-18 19:01:00,415 INFO  In the process of generating verify response in HTML
+2019-03-18 19:01:00,493 INFO  Successfully generated verify response in HTML
+2019-03-18 19:01:00,493 INFO  Successfully processed the response from service
+2019-03-18 19:01:27,975 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:01:27,976 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:01:27,976 INFO  Starting to parse the user solution
+2019-03-18 19:01:27,976 INFO  Displaying user solution
+2019-03-18 19:01:28,068 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = end-num_list.index(key)\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:01:28,069 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:01:28,069 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:01:28,069 INFO  Invoking the service to verify the user solution
+2019-03-18 19:01:28,070 INFO  Time before invoking service:Mon Mar 18 19:01:28 IST 2019
+2019-03-18 19:01:28,070 INFO  Initialising service address for VerifySolution
+2019-03-18 19:01:28,070 INFO  Time before invoking service In SUPER:Mon Mar 18 19:01:28 IST 2019
+2019-03-18 19:01:28,982 INFO  Time after invoking service In SUPER:Mon Mar 18 19:01:28 IST 2019
+2019-03-18 19:01:28,982 INFO  Service responded successfully with required details
+2019-03-18 19:01:28,982 INFO  Time after invoking service:Mon Mar 18 19:01:28 IST 2019
+2019-03-18 19:01:28,982 INFO  User solution successfully verified
+2019-03-18 19:01:28,983 INFO  Processing the response from verify service
+2019-03-18 19:01:28,983 INFO  Starting to parse JSON response
+2019-03-18 19:01:28,984 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:28,984 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:28,985 INFO  Successfully parsed JSON response
+2019-03-18 19:01:28,985 INFO  In the process of generating verify response in HTML
+2019-03-18 19:01:29,042 INFO  Successfully generated verify response in HTML
+2019-03-18 19:01:29,042 INFO  Successfully processed the response from service
+2019-03-18 19:01:34,624 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:01:34,624 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:01:34,624 INFO  Starting to parse the user solution
+2019-03-18 19:01:34,625 INFO  Displaying user solution
+2019-03-18 19:01:34,696 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = end-num_list.index(key)\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:01:34,696 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:01:34,696 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:01:34,697 INFO  Invoking the service to verify the user solution
+2019-03-18 19:01:34,697 INFO  Time before invoking service:Mon Mar 18 19:01:34 IST 2019
+2019-03-18 19:01:34,697 INFO  Initialising service address for VerifySolution
+2019-03-18 19:01:34,697 INFO  Time before invoking service In SUPER:Mon Mar 18 19:01:34 IST 2019
+2019-03-18 19:01:35,546 INFO  Time after invoking service In SUPER:Mon Mar 18 19:01:35 IST 2019
+2019-03-18 19:01:35,546 INFO  Service responded successfully with required details
+2019-03-18 19:01:35,547 INFO  Time after invoking service:Mon Mar 18 19:01:35 IST 2019
+2019-03-18 19:01:35,547 INFO  User solution successfully verified
+2019-03-18 19:01:35,547 INFO  Processing the response from verify service
+2019-03-18 19:01:35,549 INFO  Starting to parse JSON response
+2019-03-18 19:01:35,550 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:35,551 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:01:35,553 INFO  Successfully parsed JSON response
+2019-03-18 19:01:35,553 INFO  In the process of generating verify response in HTML
+2019-03-18 19:01:35,612 INFO  Successfully generated verify response in HTML
+2019-03-18 19:01:35,612 INFO  Successfully processed the response from service
+2019-03-18 19:04:43,131 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:04:43,131 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:04:43,131 INFO  Starting to parse the user solution
+2019-03-18 19:04:43,132 INFO  Displaying user solution
+2019-03-18 19:04:43,200 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = end-num_list.index(key)\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:04:43,200 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:04:43,201 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:04:43,201 INFO  Invoking the service to verify the user solution
+2019-03-18 19:04:43,201 INFO  Time before invoking service:Mon Mar 18 19:04:43 IST 2019
+2019-03-18 19:04:43,201 INFO  Initialising service address for VerifySolution
+2019-03-18 19:04:43,202 INFO  Time before invoking service In SUPER:Mon Mar 18 19:04:43 IST 2019
+2019-03-18 19:04:44,154 INFO  Time after invoking service In SUPER:Mon Mar 18 19:04:44 IST 2019
+2019-03-18 19:04:44,155 INFO  Service responded successfully with required details
+2019-03-18 19:04:44,155 INFO  Time after invoking service:Mon Mar 18 19:04:44 IST 2019
+2019-03-18 19:04:44,155 INFO  User solution successfully verified
+2019-03-18 19:04:44,155 INFO  Processing the response from verify service
+2019-03-18 19:04:44,158 INFO  Starting to parse JSON response
+2019-03-18 19:04:44,159 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:04:44,159 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:04:44,160 INFO  Successfully parsed JSON response
+2019-03-18 19:04:44,160 INFO  In the process of generating verify response in HTML
+2019-03-18 19:04:44,222 INFO  Successfully generated verify response in HTML
+2019-03-18 19:04:44,222 INFO  Successfully processed the response from service
+2019-03-18 19:04:52,130 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:04:52,130 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:04:52,130 INFO  Starting to parse the user solution
+2019-03-18 19:04:52,131 INFO  Displaying user solution
+2019-03-18 19:04:52,201 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = end-num_list.index(key)\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:04:52,202 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:04:52,202 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:04:52,202 INFO  Invoking the service to verify the user solution
+2019-03-18 19:04:52,202 INFO  Time before invoking service:Mon Mar 18 19:04:52 IST 2019
+2019-03-18 19:04:52,202 INFO  Initialising service address for VerifySolution
+2019-03-18 19:04:52,203 INFO  Time before invoking service In SUPER:Mon Mar 18 19:04:52 IST 2019
+2019-03-18 19:04:53,046 INFO  Time after invoking service In SUPER:Mon Mar 18 19:04:53 IST 2019
+2019-03-18 19:04:53,046 INFO  Service responded successfully with required details
+2019-03-18 19:04:53,047 INFO  Time after invoking service:Mon Mar 18 19:04:53 IST 2019
+2019-03-18 19:04:53,047 INFO  User solution successfully verified
+2019-03-18 19:04:53,047 INFO  Processing the response from verify service
+2019-03-18 19:04:53,048 INFO  Starting to parse JSON response
+2019-03-18 19:04:53,049 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:04:53,049 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:04:53,050 INFO  Successfully parsed JSON response
+2019-03-18 19:04:53,051 INFO  In the process of generating verify response in HTML
+2019-03-18 19:04:53,111 INFO  Successfully generated verify response in HTML
+2019-03-18 19:04:53,111 INFO  Successfully processed the response from service
+2019-03-18 19:04:56,470 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:04:56,470 INFO  Displaying user solution
+2019-03-18 19:04:56,479 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:04:56,479 INFO  Invoking the service to submit the user solution
+2019-03-18 19:04:56,479 INFO  Initialising service address for Submit
+2019-03-18 19:04:56,480 INFO  Time before invoking service In SUPER:Mon Mar 18 19:04:56 IST 2019
+2019-03-18 19:04:56,764 INFO  Time after invoking service In SUPER:Mon Mar 18 19:04:56 IST 2019
+2019-03-18 19:04:56,764 INFO  Service responded successfully with required details
+2019-03-18 19:04:56,764 INFO  User solution successfully submitted
+2019-03-18 19:04:56,765 INFO  Displaying submission status
+2019-03-18 19:04:56,765 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:05:57,391 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:05:57,392 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:05:57,392 INFO  Starting to parse the user solution
+2019-03-18 19:05:57,393 INFO  Displaying user solution
+2019-03-18 19:05:57,480 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\n\r\nfrom src.DataStructures import Stack,Queue\r\n\r\ndef separate_boxes(box_stack):\r\n    #Remove pass and write your logic here\r\n    new_queue = Queue(box_stack.get_max_size())\r\n    mod_stack = Stack(box_stack.get_max_size())\r\n    while(not(box_stack.is_empty())):\r\n        data = box_stack.pop()\r\n        if(data==\"Red\" or data==\"Green\" or data==\"Blue\"):\r\n            mod_stack.push(data)\r\n        else:\r\n            new_queue.enqueue(data)\r\n    while(not(mod_stack.is_empty())):\r\n        a = mod_stack.pop()\r\n        box_stack.push(a)\r\n    return(new_queue)\r\n\r\n#Use different values for stack and test your program\r\nbox_stack=Stack(8)\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Magenta\")\r\nbox_stack.push(\"Yellow\")\r\nbox_stack.push(\"Red\")\r\nbox_stack.push(\"Orange\")\r\nbox_stack.push(\"Green\")\r\nbox_stack.push(\"White\")\r\nbox_stack.push(\"Purple\")\r\nprint(\"Boxes in the stack:\")\r\nbox_stack.display()\r\nresult=separate_boxes(box_stack)\r\nprint()\r\nprint(\"Boxes in the stack after modification:\")\r\nbox_stack.display()\r\nprint(\"Boxes in the queue:\")\r\nresult.display()\r\n","asgnmtId":"16","SolutionFileName":"Assign16.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:05:57,481 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:05:57,481 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:05:57,481 INFO  Invoking the service to verify the user solution
+2019-03-18 19:05:57,481 INFO  Time before invoking service:Mon Mar 18 19:05:57 IST 2019
+2019-03-18 19:05:57,481 INFO  Initialising service address for VerifySolution
+2019-03-18 19:05:57,482 INFO  Time before invoking service In SUPER:Mon Mar 18 19:05:57 IST 2019
+2019-03-18 19:05:58,473 INFO  Time after invoking service In SUPER:Mon Mar 18 19:05:58 IST 2019
+2019-03-18 19:05:58,473 INFO  Service responded successfully with required details
+2019-03-18 19:05:58,473 INFO  Time after invoking service:Mon Mar 18 19:05:58 IST 2019
+2019-03-18 19:05:58,473 INFO  User solution successfully verified
+2019-03-18 19:05:58,473 INFO  Processing the response from verify service
+2019-03-18 19:05:58,475 INFO  Starting to parse JSON response
+2019-03-18 19:05:58,475 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:05:58,476 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:05:58,476 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:05:58,476 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:05:58,477 INFO  Successfully parsed JSON response
+2019-03-18 19:05:58,477 INFO  In the process of generating verify response in HTML
+2019-03-18 19:05:58,534 INFO  Successfully generated verify response in HTML
+2019-03-18 19:05:58,534 INFO  Successfully processed the response from service
+2019-03-18 19:06:01,912 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:01,913 INFO  Displaying user solution
+2019-03-18 19:06:01,922 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:01,922 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:01,922 INFO  Initialising service address for Submit
+2019-03-18 19:06:01,923 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:01 IST 2019
+2019-03-18 19:06:02,083 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:02 IST 2019
+2019-03-18 19:06:02,083 INFO  Service responded successfully with required details
+2019-03-18 19:06:02,083 INFO  User solution successfully submitted
+2019-03-18 19:06:02,084 INFO  Displaying submission status
+2019-03-18 19:06:02,084 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:06:20,733 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:06:20,733 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:06:20,733 INFO  Starting to parse the user solution
+2019-03-18 19:06:20,734 INFO  Displaying user solution
+2019-03-18 19:06:20,803 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-16\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_decreasing_start(list1,start,end):\r\n    #Remove pass and write your logic here\r\n    for i in range(start,end):\r\n        if(list1[i]>list1[i+1]):\r\n            return list1.index(list1[i+1])\r\n                 \r\n     \r\n#Use different values for list1 and test your program\r\nlist1=[1,4,7,8,9,5,4]\r\nstart=0\r\nend=len(list1)-1\r\nresult=find_decreasing_start(list1,start,end)\r\nprint(\"The index position at which the\"+\r\n       \"increasing array starts decreasing is:\",result)\r\n","asgnmtId":"16","SolutionFileName":"Excer16.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-18 19:06:20,804 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:06:20,804 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:06:20,804 INFO  Invoking the service to verify the user solution
+2019-03-18 19:06:20,804 INFO  Time before invoking service:Mon Mar 18 19:06:20 IST 2019
+2019-03-18 19:06:20,804 INFO  Initialising service address for VerifySolution
+2019-03-18 19:06:20,805 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:20 IST 2019
+2019-03-18 19:06:21,684 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:21 IST 2019
+2019-03-18 19:06:21,684 INFO  Service responded successfully with required details
+2019-03-18 19:06:21,685 INFO  Time after invoking service:Mon Mar 18 19:06:21 IST 2019
+2019-03-18 19:06:21,685 INFO  User solution successfully verified
+2019-03-18 19:06:21,685 INFO  Processing the response from verify service
+2019-03-18 19:06:21,686 INFO  Starting to parse JSON response
+2019-03-18 19:06:21,686 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:21,686 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:21,687 INFO  Successfully parsed JSON response
+2019-03-18 19:06:21,687 INFO  In the process of generating verify response in HTML
+2019-03-18 19:06:21,756 INFO  Successfully generated verify response in HTML
+2019-03-18 19:06:21,757 INFO  Successfully processed the response from service
+2019-03-18 19:06:25,598 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:25,599 INFO  Displaying user solution
+2019-03-18 19:06:25,608 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:25,608 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:25,608 INFO  Initialising service address for Submit
+2019-03-18 19:06:25,608 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:25 IST 2019
+2019-03-18 19:06:25,790 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:25 IST 2019
+2019-03-18 19:06:25,790 INFO  Service responded successfully with required details
+2019-03-18 19:06:25,791 INFO  User solution successfully submitted
+2019-03-18 19:06:25,791 INFO  Displaying submission status
+2019-03-18 19:06:25,791 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:06:30,838 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:06:30,838 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:06:30,838 INFO  Starting to parse the user solution
+2019-03-18 19:06:30,839 INFO  Displaying user solution
+2019-03-18 19:06:30,907 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-17\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_matches(country_name):\r\n    list1 = []\r\n    for i in match_list:\r\n        if((i[:3]) == country_name):\r\n            list1.append(i)\r\n    return list1\r\n\r\ndef max_wins():\r\n    cham = []\r\n    wor = []\r\n    t20 = []\r\n    tmp = []\r\n    new = dict()\r\n    \"\"\"ChampionShip Check\"\"\"\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"CHAM\"):\r\n            cham.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):        \r\n        while (min(tmp)!=max(tmp)):\r\n            cham.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"CHAM\"] = cham\r\n    \"\"\"T20 Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if(split_detail[1] == \"T20\"):\r\n            t20.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp) !=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            t20.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"T20\"] = t20\r\n\r\n    \"\"\"World Cup Check\"\"\"\r\n    tmp = []\r\n    for i in match_list:\r\n        split_detail = i.split(\":\")\r\n        if split_detail[1] == \"WOR\":\r\n            wor.append(split_detail[0])\r\n            tmp.append(split_detail[3])\r\n    if(len(tmp)!=0):\r\n        while (min(tmp)!=max(tmp)):\r\n            wor.pop(tmp.index(min(tmp)))\r\n            tmp.pop(tmp.index(min(tmp)))\r\n        new [\"WOR\"] = wor \r\n    return new\r\n\r\ndef find_winner(country1,country2):\r\n    c1 = 0\r\n    c2 = 0\r\n    for detail in match_list:\r\n        split_detail = detail.split(\":\")\r\n        \r\n        if split_detail[0] == country1:\r\n            c1+=int(split_detail[3])\r\n        elif split_detail[0] == country2:\r\n            c2+=int(split_detail[3])\r\n    if c1 > c2:\r\n        return country1\r\n    elif c2 > c1:\r\n        return country2\r\n    return \"Tie\"    \r\n\r\n#Consider match_list to be a global variable\r\n#match_list=[\"AUS:CHAM:5:2\",\"AUS:WOR:2:1\",\"ENG:WOR:2:0\",\r\n#\"IND:T20:5:3\",\"IND:WOR:2:1\",\"PAK:WOR:2:0\",\r\n#\"PAK:T20:5:1\",\"SA:WOR:2:0\",\"SA:CHAM:5:1\",\"SA:T20:5:0\"]\r\nmatch_list=['AUS:WOR:6:4', 'ENG:CHAM:5:4']\r\n#Pass different values to each function and test your program\r\nprint(\"The match status list details are:\")\r\nprint(match_list)\r\nprint()\r\nfind_matches(\"AUS\")\r\nmax_wins()\r\nfind_winner(\"IND\", \"AUS\")\r\n","asgnmtId":"17","SolutionFileName":"Assign17.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:06:30,908 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:06:30,908 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:06:30,908 INFO  Invoking the service to verify the user solution
+2019-03-18 19:06:30,909 INFO  Time before invoking service:Mon Mar 18 19:06:30 IST 2019
+2019-03-18 19:06:30,909 INFO  Initialising service address for VerifySolution
+2019-03-18 19:06:30,909 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:30 IST 2019
+2019-03-18 19:06:31,942 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:31 IST 2019
+2019-03-18 19:06:31,942 INFO  Service responded successfully with required details
+2019-03-18 19:06:31,943 INFO  Time after invoking service:Mon Mar 18 19:06:31 IST 2019
+2019-03-18 19:06:31,943 INFO  User solution successfully verified
+2019-03-18 19:06:31,943 INFO  Processing the response from verify service
+2019-03-18 19:06:31,945 INFO  Starting to parse JSON response
+2019-03-18 19:06:31,945 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:31,945 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:31,945 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:31,946 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:31,947 INFO  Successfully parsed JSON response
+2019-03-18 19:06:31,947 INFO  In the process of generating verify response in HTML
+2019-03-18 19:06:31,999 INFO  Successfully generated verify response in HTML
+2019-03-18 19:06:31,999 INFO  Successfully processed the response from service
+2019-03-18 19:06:35,546 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:35,547 INFO  Displaying user solution
+2019-03-18 19:06:35,554 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:35,554 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:35,554 INFO  Initialising service address for Submit
+2019-03-18 19:06:35,554 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:35 IST 2019
+2019-03-18 19:06:35,672 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:35 IST 2019
+2019-03-18 19:06:35,672 INFO  Service responded successfully with required details
+2019-03-18 19:06:35,672 INFO  User solution successfully submitted
+2019-03-18 19:06:35,672 INFO  Displaying submission status
+2019-03-18 19:06:35,672 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:06:40,919 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:06:40,919 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:06:40,919 INFO  Starting to parse the user solution
+2019-03-18 19:06:40,920 INFO  Displaying user solution
+2019-03-18 19:06:40,998 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-18\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_unknown_words(text,vocabulary):\r\n    #Remove pass and write your logic here\r\n    list1 = []\r\n    text = text.split()\r\n    for i in text:\r\n        if i not in vocabulary:\r\n            list1.append(i)\r\n    if(len(list1)!=0):\r\n        return set(list1)\r\n    else:\r\n        return -1\r\n#Pass different values\r\ntext=\"The sun rises in the east and sets in the west.\"\r\nvocabulary = [\"sun\",\"in\",\"rises\",\"the\",\"east\"]\r\nunknown_words=find_unknown_words(text,vocabulary)\r\nprint(\"The unknown words in the file are:\",unknown_words)\r\n","asgnmtId":"18","SolutionFileName":"Assign18.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:06:40,999 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:06:40,999 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:06:40,999 INFO  Invoking the service to verify the user solution
+2019-03-18 19:06:40,999 INFO  Time before invoking service:Mon Mar 18 19:06:40 IST 2019
+2019-03-18 19:06:40,999 INFO  Initialising service address for VerifySolution
+2019-03-18 19:06:41,000 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:40 IST 2019
+2019-03-18 19:06:41,896 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:41 IST 2019
+2019-03-18 19:06:41,896 INFO  Service responded successfully with required details
+2019-03-18 19:06:41,897 INFO  Time after invoking service:Mon Mar 18 19:06:41 IST 2019
+2019-03-18 19:06:41,897 INFO  User solution successfully verified
+2019-03-18 19:06:41,897 INFO  Processing the response from verify service
+2019-03-18 19:06:41,898 INFO  Starting to parse JSON response
+2019-03-18 19:06:41,899 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:41,899 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:41,901 INFO  Successfully parsed JSON response
+2019-03-18 19:06:41,901 INFO  In the process of generating verify response in HTML
+2019-03-18 19:06:41,956 INFO  Successfully generated verify response in HTML
+2019-03-18 19:06:41,957 INFO  Successfully processed the response from service
+2019-03-18 19:06:44,750 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:44,751 INFO  Displaying user solution
+2019-03-18 19:06:44,758 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:44,758 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:44,758 INFO  Initialising service address for Submit
+2019-03-18 19:06:44,759 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:44 IST 2019
+2019-03-18 19:06:44,860 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:44 IST 2019
+2019-03-18 19:06:44,861 INFO  Service responded successfully with required details
+2019-03-18 19:06:44,861 INFO  User solution successfully submitted
+2019-03-18 19:06:44,861 INFO  Displaying submission status
+2019-03-18 19:06:44,861 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:06:47,581 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:47,582 INFO  Displaying user solution
+2019-03-18 19:06:47,591 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:47,591 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:47,591 INFO  Initialising service address for Submit
+2019-03-18 19:06:47,591 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:47 IST 2019
+2019-03-18 19:06:47,648 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:47 IST 2019
+2019-03-18 19:06:47,648 INFO  Service responded successfully with required details
+2019-03-18 19:06:47,648 INFO  User solution successfully submitted
+2019-03-18 19:06:47,648 INFO  Displaying submission status
+2019-03-18 19:06:47,649 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-18 19:06:51,494 INFO  Setting request parameters for VerifySolution
+2019-03-18 19:06:51,494 INFO  Initiating to process and prepare Input for the verify service
+2019-03-18 19:06:51,494 INFO  Starting to parse the user solution
+2019-03-18 19:06:51,495 INFO  Displaying user solution
+2019-03-18 19:06:51,573 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-19\r\n'''\r\nCreated on Mar 18, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef last_instance( num_list,  start,  end,  key):\r\n    num_list = num_list[::-1]\r\n    try:\r\n        indx = end-num_list.index(key)\r\n    except ValueError:\r\n        indx = -1\r\n    return indx\r\n\r\nnum_list=[1,1,2,2,3,4,5,5,5,5]\r\nstart=0\r\nend=len(num_list)-1\r\nkey=5 #Number to be searched\r\n#Pass different values for num_list, start,end and key and test your program\r\nresult=last_instance(num_list, start,end,key)\r\n\r\nif(result!=-1):\r\n    print(\"The index position of the last occurrence of the number:\",result)\r\nelse:\r\n    print(\"Number not found\")\r\n","asgnmtId":"19","SolutionFileName":"Assign19.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-18 19:06:51,574 INFO  Successfully processed and prepared the input for the verify service
+2019-03-18 19:06:51,574 INFO  Successfully set the request parameters for VerifySolution
+2019-03-18 19:06:51,574 INFO  Invoking the service to verify the user solution
+2019-03-18 19:06:51,574 INFO  Time before invoking service:Mon Mar 18 19:06:51 IST 2019
+2019-03-18 19:06:51,574 INFO  Initialising service address for VerifySolution
+2019-03-18 19:06:51,575 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:51 IST 2019
+2019-03-18 19:06:52,369 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:52 IST 2019
+2019-03-18 19:06:52,370 INFO  Service responded successfully with required details
+2019-03-18 19:06:52,370 INFO  Time after invoking service:Mon Mar 18 19:06:52 IST 2019
+2019-03-18 19:06:52,370 INFO  User solution successfully verified
+2019-03-18 19:06:52,370 INFO  Processing the response from verify service
+2019-03-18 19:06:52,372 INFO  Starting to parse JSON response
+2019-03-18 19:06:52,372 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:52,372 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-18 19:06:52,373 INFO  Successfully parsed JSON response
+2019-03-18 19:06:52,373 INFO  In the process of generating verify response in HTML
+2019-03-18 19:06:52,444 INFO  Successfully generated verify response in HTML
+2019-03-18 19:06:52,444 INFO  Successfully processed the response from service
+2019-03-18 19:06:55,426 INFO  Initiating to process and prepare Input for the submit service
+2019-03-18 19:06:55,426 INFO  Displaying user solution
+2019-03-18 19:06:55,435 INFO  Successfully processed and prepared the input for the submit service
+2019-03-18 19:06:55,435 INFO  Invoking the service to submit the user solution
+2019-03-18 19:06:55,435 INFO  Initialising service address for Submit
+2019-03-18 19:06:55,437 INFO  Time before invoking service In SUPER:Mon Mar 18 19:06:55 IST 2019
+2019-03-18 19:06:55,613 INFO  Time after invoking service In SUPER:Mon Mar 18 19:06:55 IST 2019
+2019-03-18 19:06:55,613 INFO  Service responded successfully with required details
+2019-03-18 19:06:55,614 INFO  User solution successfully submitted
+2019-03-18 19:06:55,614 INFO  Displaying submission status
+2019-03-18 19:06:55,614 INFO  Displayed submission status successfullySuccessfully Submitted!

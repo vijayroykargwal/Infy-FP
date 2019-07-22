@@ -1,0 +1,30 @@
+2019-03-24 12:10:14,380 INFO  Loading Baseframework Plugin
+2019-03-24 12:10:14,384 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-24 12:10:14,387 INFO  Loading the Menu - HandsOn
+2019-03-24 12:10:14,391 INFO  Successfully loaded the Menu - HandsOn
+2019-03-24 13:11:26,676 INFO  Loading Programming Assignment Plugin
+2019-03-24 13:11:26,682 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-24 13:12:47,006 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-24 15:56:23,548 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-24 20:11:06,155 INFO  Setting request parameters for VerifySolution
+2019-03-24 20:11:06,156 INFO  Initiating to process and prepare Input for the verify service
+2019-03-24 20:11:06,160 INFO  Starting to parse the user solution
+2019-03-24 20:11:06,161 INFO  Displaying user solution
+2019-03-24 20:11:06,301 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-302\r\n'''\r\nCreated on Mar 24, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n#This assignment needs DataStructures.py file in your package, you can get it from resources page\r\n\r\nfrom src.DataStructures import Queue,Stack\r\n\r\ndef queue_ordering(input_queue,input_stack):\r\n    #Do not modify the size of output_queue\r\n    output_queue=Queue(input_queue.get_max_size())\r\n    list1=[]\r\n    list2=[]\r\n    while(not(input_queue.is_empty())):\r\n        list1.append(input_queue.dequeue())\r\n    while(not(input_stack.is_empty())):\r\n        list2.append(input_stack.pop())\r\n    for i in list2:\r\n        if(i==1):\r\n            list1.append(list1[0])\r\n            list1.pop(0)\r\n            print(list1)\r\n        elif(i==2):\r\n            list1.insert(0, list1[-1])\r\n            list1.pop(-1)\r\n    for i in list1:\r\n        output_queue.enqueue(i)\r\n    #Write your code here\r\n    return output_queue\r\n\r\n#You may modify the below code for testing\r\ninput_stack=Stack(5)\r\ninput_stack.push(1)\r\ninput_stack.push(2)\r\ninput_stack.push(1)\r\ninput_stack.push(1)\r\ninput_stack.push(1)\r\n\r\ninput_queue=Queue(3)\r\ninput_queue.enqueue('A')\r\ninput_queue.enqueue('C')\r\ninput_queue.enqueue('B')\r\noutput_queue=queue_ordering(input_queue, input_stack)\r\noutput_queue.display()\r\n","asgnmtId":"302","SolutionFileName":"mock.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-24 20:11:06,307 INFO  Successfully processed and prepared the input for the verify service
+2019-03-24 20:11:06,308 INFO  Successfully set the request parameters for VerifySolution
+2019-03-24 20:11:06,308 INFO  Invoking the service to verify the user solution
+2019-03-24 20:11:06,308 INFO  Time before invoking service:Sun Mar 24 20:11:06 IST 2019
+2019-03-24 20:11:06,309 INFO  Initialising service address for VerifySolution
+2019-03-24 20:11:06,310 INFO  Time before invoking service In SUPER:Sun Mar 24 20:11:06 IST 2019
+2019-03-24 20:11:07,607 INFO  Time after invoking service In SUPER:Sun Mar 24 20:11:07 IST 2019
+2019-03-24 20:11:07,607 INFO  Service responded successfully with required details
+2019-03-24 20:11:07,607 INFO  Time after invoking service:Sun Mar 24 20:11:07 IST 2019
+2019-03-24 20:11:07,607 INFO  User solution successfully verified
+2019-03-24 20:11:07,608 INFO  Processing the response from verify service
+2019-03-24 20:11:07,609 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)

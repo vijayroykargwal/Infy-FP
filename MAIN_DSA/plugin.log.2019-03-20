@@ -1,0 +1,1014 @@
+2019-03-20 14:27:27,726 INFO  Loading Baseframework Plugin
+2019-03-20 14:27:27,729 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-20 14:27:27,744 INFO  Loading the Menu - HandsOn
+2019-03-20 14:27:27,826 INFO  Successfully loaded the Menu - HandsOn
+2019-03-20 14:52:01,724 INFO  Loading Programming Assignment Plugin
+2019-03-20 14:52:02,413 INFO  Setting request parameters for VerifySolution
+2019-03-20 14:52:02,414 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 14:52:02,420 INFO  Starting to parse the user solution
+2019-03-20 14:52:02,422 INFO  Displaying user solution
+2019-03-20 14:52:02,579 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 14:52:02,584 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 14:52:02,585 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 14:52:02,585 INFO  Invoking the service to verify the user solution
+2019-03-20 14:52:02,585 INFO  Time before invoking service:Wed Mar 20 14:52:02 IST 2019
+2019-03-20 14:52:02,586 INFO  Initialising service address for VerifySolution
+2019-03-20 14:52:02,588 INFO  Time before invoking service In SUPER:Wed Mar 20 14:52:02 IST 2019
+2019-03-20 14:52:03,658 INFO  Time after invoking service In SUPER:Wed Mar 20 14:52:03 IST 2019
+2019-03-20 14:52:03,658 INFO  Service responded successfully with required details
+2019-03-20 14:52:03,659 INFO  Time after invoking service:Wed Mar 20 14:52:03 IST 2019
+2019-03-20 14:52:03,659 INFO  User solution successfully verified
+2019-03-20 14:52:03,660 INFO  Processing the response from verify service
+2019-03-20 14:52:03,662 INFO  Starting to parse JSON response
+2019-03-20 14:52:03,666 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 14:52:03,667 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 14:52:03,669 INFO  Successfully parsed JSON response
+2019-03-20 14:52:03,670 INFO  In the process of generating verify response in HTML
+2019-03-20 14:52:03,979 INFO  Successfully generated verify response in HTML
+2019-03-20 14:52:03,979 INFO  Successfully processed the response from service
+2019-03-20 14:59:54,363 INFO  Setting request parameters for VerifySolution
+2019-03-20 14:59:54,364 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 14:59:54,364 INFO  Starting to parse the user solution
+2019-03-20 14:59:54,366 INFO  Displaying user solution
+2019-03-20 14:59:54,415 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    for i in denomination_list:\r\n        for x in range(0,amount):\r\n            if((i*x+(i+1)*x+(i+2)*x)==amount):\r\n                number_of_notes = x\r\n                return x\r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 14:59:54,416 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 14:59:54,416 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 14:59:54,416 INFO  Invoking the service to verify the user solution
+2019-03-20 14:59:54,417 INFO  Time before invoking service:Wed Mar 20 14:59:54 IST 2019
+2019-03-20 14:59:54,417 INFO  Initialising service address for VerifySolution
+2019-03-20 14:59:54,419 INFO  Time before invoking service In SUPER:Wed Mar 20 14:59:54 IST 2019
+2019-03-20 14:59:55,340 INFO  Time after invoking service In SUPER:Wed Mar 20 14:59:55 IST 2019
+2019-03-20 14:59:55,340 INFO  Service responded successfully with required details
+2019-03-20 14:59:55,341 INFO  Time after invoking service:Wed Mar 20 14:59:55 IST 2019
+2019-03-20 14:59:55,341 INFO  User solution successfully verified
+2019-03-20 14:59:55,342 INFO  Processing the response from verify service
+2019-03-20 14:59:55,348 INFO  Starting to parse JSON response
+2019-03-20 14:59:55,350 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 14:59:55,350 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 14:59:55,352 INFO  Successfully parsed JSON response
+2019-03-20 14:59:55,352 INFO  In the process of generating verify response in HTML
+2019-03-20 14:59:55,476 INFO  Successfully generated verify response in HTML
+2019-03-20 14:59:55,476 INFO  Successfully processed the response from service
+2019-03-20 15:06:54,709 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:06:54,709 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:06:54,709 INFO  Starting to parse the user solution
+2019-03-20 15:06:54,710 INFO  Displaying user solution
+2019-03-20 15:06:54,744 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    for i in denomination_list:\r\n        for x in range(0,amount):\r\n            if(i*x==amount):\r\n                return x\r\n            elif((i+1)*x==amount):\r\n                return x\r\n            elif((i+2)*x==amount):\r\n                return x\r\n            \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:06:54,744 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:06:54,745 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:06:54,745 INFO  Invoking the service to verify the user solution
+2019-03-20 15:06:54,745 INFO  Time before invoking service:Wed Mar 20 15:06:54 IST 2019
+2019-03-20 15:06:54,745 INFO  Initialising service address for VerifySolution
+2019-03-20 15:06:54,746 INFO  Time before invoking service In SUPER:Wed Mar 20 15:06:54 IST 2019
+2019-03-20 15:06:55,652 INFO  Time after invoking service In SUPER:Wed Mar 20 15:06:55 IST 2019
+2019-03-20 15:06:55,652 INFO  Service responded successfully with required details
+2019-03-20 15:06:55,652 INFO  Time after invoking service:Wed Mar 20 15:06:55 IST 2019
+2019-03-20 15:06:55,652 INFO  User solution successfully verified
+2019-03-20 15:06:55,653 INFO  Processing the response from verify service
+2019-03-20 15:06:55,655 INFO  Starting to parse JSON response
+2019-03-20 15:06:55,656 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:06:55,657 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:06:55,658 INFO  Successfully parsed JSON response
+2019-03-20 15:06:55,658 INFO  In the process of generating verify response in HTML
+2019-03-20 15:06:55,748 INFO  Successfully generated verify response in HTML
+2019-03-20 15:06:55,748 INFO  Successfully processed the response from service
+2019-03-20 15:17:16,858 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:17:16,861 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:17:16,861 INFO  Starting to parse the user solution
+2019-03-20 15:17:16,862 INFO  Displaying user solution
+2019-03-20 15:17:16,898 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    for i in denomination_list:\r\n        for x in range(0,amount):\r\n            if(i*x==amount):\r\n                return x\r\n            elif((i+1)*x==amount):\r\n                return x\r\n            elif((i+2)*x==amount):\r\n                return x\r\n            \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:17:16,898 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:17:16,899 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:17:16,899 INFO  Invoking the service to verify the user solution
+2019-03-20 15:17:16,899 INFO  Time before invoking service:Wed Mar 20 15:17:16 IST 2019
+2019-03-20 15:17:16,899 INFO  Initialising service address for VerifySolution
+2019-03-20 15:17:16,900 INFO  Time before invoking service In SUPER:Wed Mar 20 15:17:16 IST 2019
+2019-03-20 15:17:17,906 INFO  Time after invoking service In SUPER:Wed Mar 20 15:17:17 IST 2019
+2019-03-20 15:17:17,907 INFO  Service responded successfully with required details
+2019-03-20 15:17:17,907 INFO  Time after invoking service:Wed Mar 20 15:17:17 IST 2019
+2019-03-20 15:17:17,907 INFO  User solution successfully verified
+2019-03-20 15:17:17,907 INFO  Processing the response from verify service
+2019-03-20 15:17:17,909 INFO  Starting to parse JSON response
+2019-03-20 15:17:17,910 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:17:17,910 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:17:17,912 INFO  Successfully parsed JSON response
+2019-03-20 15:17:17,912 INFO  In the process of generating verify response in HTML
+2019-03-20 15:17:18,041 INFO  Successfully generated verify response in HTML
+2019-03-20 15:17:18,041 INFO  Successfully processed the response from service
+2019-03-20 15:47:45,010 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:47:45,010 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:47:45,010 INFO  Starting to parse the user solution
+2019-03-20 15:47:45,011 INFO  Displaying user solution
+2019-03-20 15:47:45,067 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0):\r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    \r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:47:45,067 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:47:45,068 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:47:45,068 INFO  Invoking the service to verify the user solution
+2019-03-20 15:47:45,068 INFO  Time before invoking service:Wed Mar 20 15:47:45 IST 2019
+2019-03-20 15:47:45,068 INFO  Initialising service address for VerifySolution
+2019-03-20 15:47:45,069 INFO  Time before invoking service In SUPER:Wed Mar 20 15:47:45 IST 2019
+2019-03-20 15:47:46,090 INFO  Time after invoking service In SUPER:Wed Mar 20 15:47:46 IST 2019
+2019-03-20 15:47:46,090 INFO  Service responded successfully with required details
+2019-03-20 15:47:46,090 INFO  Time after invoking service:Wed Mar 20 15:47:46 IST 2019
+2019-03-20 15:47:46,090 INFO  User solution successfully verified
+2019-03-20 15:47:46,091 INFO  Processing the response from verify service
+2019-03-20 15:47:46,094 INFO  Starting to parse JSON response
+2019-03-20 15:47:46,095 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:47:46,095 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:47:46,096 INFO  Successfully parsed JSON response
+2019-03-20 15:47:46,096 INFO  In the process of generating verify response in HTML
+2019-03-20 15:47:46,187 INFO  Successfully generated verify response in HTML
+2019-03-20 15:47:46,187 INFO  Successfully processed the response from service
+2019-03-20 15:48:11,992 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:48:11,992 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:48:11,992 INFO  Starting to parse the user solution
+2019-03-20 15:48:11,993 INFO  Displaying user solution
+2019-03-20 15:48:12,028 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0):\r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:48:12,029 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:48:12,029 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:48:12,029 INFO  Invoking the service to verify the user solution
+2019-03-20 15:48:12,030 INFO  Time before invoking service:Wed Mar 20 15:48:12 IST 2019
+2019-03-20 15:48:12,030 INFO  Initialising service address for VerifySolution
+2019-03-20 15:48:12,030 INFO  Time before invoking service In SUPER:Wed Mar 20 15:48:12 IST 2019
+2019-03-20 15:48:12,954 INFO  Time after invoking service In SUPER:Wed Mar 20 15:48:12 IST 2019
+2019-03-20 15:48:12,955 INFO  Service responded successfully with required details
+2019-03-20 15:48:12,955 INFO  Time after invoking service:Wed Mar 20 15:48:12 IST 2019
+2019-03-20 15:48:12,955 INFO  User solution successfully verified
+2019-03-20 15:48:12,955 INFO  Processing the response from verify service
+2019-03-20 15:48:12,957 INFO  Starting to parse JSON response
+2019-03-20 15:48:12,957 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:48:12,957 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:48:12,958 INFO  Successfully parsed JSON response
+2019-03-20 15:48:12,959 INFO  In the process of generating verify response in HTML
+2019-03-20 15:48:13,048 INFO  Successfully generated verify response in HTML
+2019-03-20 15:48:13,048 INFO  Successfully processed the response from service
+2019-03-20 15:52:03,356 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:52:03,356 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:52:03,356 INFO  Starting to parse the user solution
+2019-03-20 15:52:03,357 INFO  Displaying user solution
+2019-03-20 15:52:03,386 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    while(amount!=0 or len(denomination_list)!=1):\r\n        maximum_value = max(denomination_list)\r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:52:03,386 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:52:03,386 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:52:03,386 INFO  Invoking the service to verify the user solution
+2019-03-20 15:52:03,387 INFO  Time before invoking service:Wed Mar 20 15:52:03 IST 2019
+2019-03-20 15:52:03,387 INFO  Initialising service address for VerifySolution
+2019-03-20 15:52:03,388 INFO  Time before invoking service In SUPER:Wed Mar 20 15:52:03 IST 2019
+2019-03-20 15:52:04,296 INFO  Time after invoking service In SUPER:Wed Mar 20 15:52:04 IST 2019
+2019-03-20 15:52:04,296 INFO  Service responded successfully with required details
+2019-03-20 15:52:04,297 INFO  Time after invoking service:Wed Mar 20 15:52:04 IST 2019
+2019-03-20 15:52:04,297 INFO  User solution successfully verified
+2019-03-20 15:52:04,297 INFO  Processing the response from verify service
+2019-03-20 15:52:04,300 INFO  Starting to parse JSON response
+2019-03-20 15:52:04,301 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:52:04,301 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:52:04,302 INFO  Successfully parsed JSON response
+2019-03-20 15:52:04,302 INFO  In the process of generating verify response in HTML
+2019-03-20 15:52:04,390 INFO  Successfully generated verify response in HTML
+2019-03-20 15:52:04,390 INFO  Successfully processed the response from service
+2019-03-20 15:52:20,870 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:52:20,870 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:52:20,870 INFO  Starting to parse the user solution
+2019-03-20 15:52:20,871 INFO  Displaying user solution
+2019-03-20 15:52:20,899 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    while(amount!=0 or len(denomination_list)!=1):\r\n        maximum_value = max(denomination_list)\r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:52:20,900 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:52:20,900 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:52:20,900 INFO  Invoking the service to verify the user solution
+2019-03-20 15:52:20,900 INFO  Time before invoking service:Wed Mar 20 15:52:20 IST 2019
+2019-03-20 15:52:20,900 INFO  Initialising service address for VerifySolution
+2019-03-20 15:52:20,901 INFO  Time before invoking service In SUPER:Wed Mar 20 15:52:20 IST 2019
+2019-03-20 15:52:21,708 INFO  Time after invoking service In SUPER:Wed Mar 20 15:52:21 IST 2019
+2019-03-20 15:52:21,709 INFO  Service responded successfully with required details
+2019-03-20 15:52:21,709 INFO  Time after invoking service:Wed Mar 20 15:52:21 IST 2019
+2019-03-20 15:52:21,709 INFO  User solution successfully verified
+2019-03-20 15:52:21,709 INFO  Processing the response from verify service
+2019-03-20 15:52:21,710 INFO  Starting to parse JSON response
+2019-03-20 15:52:21,711 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:52:21,711 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:52:21,712 INFO  Successfully parsed JSON response
+2019-03-20 15:52:21,712 INFO  In the process of generating verify response in HTML
+2019-03-20 15:52:21,780 INFO  Successfully generated verify response in HTML
+2019-03-20 15:52:21,780 INFO  Successfully processed the response from service
+2019-03-20 15:53:11,567 INFO  Setting request parameters for VerifySolution
+2019-03-20 15:53:11,567 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 15:53:11,567 INFO  Starting to parse the user solution
+2019-03-20 15:53:11,568 INFO  Displaying user solution
+2019-03-20 15:53:11,593 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    while(amount!=0 or len(denomination_list)!=1):\r\n        maximum_value = max(denomination_list)\r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 20\r\ndenomination_list = [1,15,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 15:53:11,594 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 15:53:11,594 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 15:53:11,594 INFO  Invoking the service to verify the user solution
+2019-03-20 15:53:11,594 INFO  Time before invoking service:Wed Mar 20 15:53:11 IST 2019
+2019-03-20 15:53:11,594 INFO  Initialising service address for VerifySolution
+2019-03-20 15:53:11,595 INFO  Time before invoking service In SUPER:Wed Mar 20 15:53:11 IST 2019
+2019-03-20 15:53:12,365 INFO  Time after invoking service In SUPER:Wed Mar 20 15:53:12 IST 2019
+2019-03-20 15:53:12,365 INFO  Service responded successfully with required details
+2019-03-20 15:53:12,366 INFO  Time after invoking service:Wed Mar 20 15:53:12 IST 2019
+2019-03-20 15:53:12,366 INFO  User solution successfully verified
+2019-03-20 15:53:12,367 INFO  Processing the response from verify service
+2019-03-20 15:53:12,368 INFO  Starting to parse JSON response
+2019-03-20 15:53:12,370 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:53:12,370 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 15:53:12,372 INFO  Successfully parsed JSON response
+2019-03-20 15:53:12,372 INFO  In the process of generating verify response in HTML
+2019-03-20 15:53:12,442 INFO  Successfully generated verify response in HTML
+2019-03-20 15:53:12,442 INFO  Successfully processed the response from service
+2019-03-20 16:01:03,764 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:01:03,764 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:01:03,764 INFO  Starting to parse the user solution
+2019-03-20 16:01:03,766 INFO  Displaying user solution
+2019-03-20 16:01:03,813 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0 and (len(denomination_list)!=1)): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30,20,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:01:03,813 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:01:03,814 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:01:03,814 INFO  Invoking the service to verify the user solution
+2019-03-20 16:01:03,814 INFO  Time before invoking service:Wed Mar 20 16:01:03 IST 2019
+2019-03-20 16:01:03,814 INFO  Initialising service address for VerifySolution
+2019-03-20 16:01:03,815 INFO  Time before invoking service In SUPER:Wed Mar 20 16:01:03 IST 2019
+2019-03-20 16:01:04,740 INFO  Time after invoking service In SUPER:Wed Mar 20 16:01:04 IST 2019
+2019-03-20 16:01:04,740 INFO  Service responded successfully with required details
+2019-03-20 16:01:04,740 INFO  Time after invoking service:Wed Mar 20 16:01:04 IST 2019
+2019-03-20 16:01:04,741 INFO  User solution successfully verified
+2019-03-20 16:01:04,741 INFO  Processing the response from verify service
+2019-03-20 16:01:04,744 INFO  Starting to parse JSON response
+2019-03-20 16:01:04,745 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:01:04,745 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:01:04,746 INFO  Successfully parsed JSON response
+2019-03-20 16:01:04,746 INFO  In the process of generating verify response in HTML
+2019-03-20 16:01:04,854 INFO  Successfully generated verify response in HTML
+2019-03-20 16:01:04,854 INFO  Successfully processed the response from service
+2019-03-20 16:01:22,368 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:01:22,368 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:01:22,369 INFO  Starting to parse the user solution
+2019-03-20 16:01:22,370 INFO  Displaying user solution
+2019-03-20 16:01:22,397 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0 and (len(denomination_list)!=1)): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            maximum_value = max(denomination_list)\r\n            number_of_notes-=1\r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30,20,10]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:01:22,397 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:01:22,397 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:01:22,398 INFO  Invoking the service to verify the user solution
+2019-03-20 16:01:22,398 INFO  Time before invoking service:Wed Mar 20 16:01:22 IST 2019
+2019-03-20 16:01:22,398 INFO  Initialising service address for VerifySolution
+2019-03-20 16:01:22,399 INFO  Time before invoking service In SUPER:Wed Mar 20 16:01:22 IST 2019
+2019-03-20 16:01:23,253 INFO  Time after invoking service In SUPER:Wed Mar 20 16:01:23 IST 2019
+2019-03-20 16:01:23,253 INFO  Service responded successfully with required details
+2019-03-20 16:01:23,253 INFO  Time after invoking service:Wed Mar 20 16:01:23 IST 2019
+2019-03-20 16:01:23,254 INFO  User solution successfully verified
+2019-03-20 16:01:23,254 INFO  Processing the response from verify service
+2019-03-20 16:01:23,255 INFO  Starting to parse JSON response
+2019-03-20 16:01:23,256 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:01:23,256 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:01:23,257 INFO  Successfully parsed JSON response
+2019-03-20 16:01:23,257 INFO  In the process of generating verify response in HTML
+2019-03-20 16:01:23,332 INFO  Successfully generated verify response in HTML
+2019-03-20 16:01:23,333 INFO  Successfully processed the response from service
+2019-03-20 16:04:51,700 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:04:51,701 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:04:51,701 INFO  Starting to parse the user solution
+2019-03-20 16:04:51,701 INFO  Displaying user solution
+2019-03-20 16:04:51,729 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            number_of_notes-=1\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            if(len(denomination_list)==0):\r\n                break\r\n            maximum_value = max(denomination_list)\r\n            \r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30, 10, 20]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:04:51,729 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:04:51,729 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:04:51,729 INFO  Invoking the service to verify the user solution
+2019-03-20 16:04:51,730 INFO  Time before invoking service:Wed Mar 20 16:04:51 IST 2019
+2019-03-20 16:04:51,730 INFO  Initialising service address for VerifySolution
+2019-03-20 16:04:51,730 INFO  Time before invoking service In SUPER:Wed Mar 20 16:04:51 IST 2019
+2019-03-20 16:04:52,726 INFO  Time after invoking service In SUPER:Wed Mar 20 16:04:52 IST 2019
+2019-03-20 16:04:52,726 INFO  Service responded successfully with required details
+2019-03-20 16:04:52,726 INFO  Time after invoking service:Wed Mar 20 16:04:52 IST 2019
+2019-03-20 16:04:52,727 INFO  User solution successfully verified
+2019-03-20 16:04:52,727 INFO  Processing the response from verify service
+2019-03-20 16:04:52,731 INFO  Starting to parse JSON response
+2019-03-20 16:04:52,732 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:04:52,733 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:04:52,734 INFO  Successfully parsed JSON response
+2019-03-20 16:04:52,734 INFO  In the process of generating verify response in HTML
+2019-03-20 16:04:52,824 INFO  Successfully generated verify response in HTML
+2019-03-20 16:04:52,824 INFO  Successfully processed the response from service
+2019-03-20 16:06:37,541 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:06:37,541 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:06:37,541 INFO  Starting to parse the user solution
+2019-03-20 16:06:37,542 INFO  Displaying user solution
+2019-03-20 16:06:37,569 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy approach to make the change for the amount using the currencies in the denomination list.\r\n    The function should return the total number of notes needed to make the change. If change cannot be obtained for the given amount, then return -1. Return 1 if the amount is equal to one of the currencies available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            number_of_notes-=1\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            if(len(denomination_list)==0):\r\n                return -1\r\n            maximum_value = max(denomination_list)\r\n            \r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30, 10, 20]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:06:37,571 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:06:37,571 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:06:37,571 INFO  Invoking the service to verify the user solution
+2019-03-20 16:06:37,572 INFO  Time before invoking service:Wed Mar 20 16:06:37 IST 2019
+2019-03-20 16:06:37,572 INFO  Initialising service address for VerifySolution
+2019-03-20 16:06:37,572 INFO  Time before invoking service In SUPER:Wed Mar 20 16:06:37 IST 2019
+2019-03-20 16:06:38,461 INFO  Time after invoking service In SUPER:Wed Mar 20 16:06:38 IST 2019
+2019-03-20 16:06:38,461 INFO  Service responded successfully with required details
+2019-03-20 16:06:38,461 INFO  Time after invoking service:Wed Mar 20 16:06:38 IST 2019
+2019-03-20 16:06:38,461 INFO  User solution successfully verified
+2019-03-20 16:06:38,462 INFO  Processing the response from verify service
+2019-03-20 16:06:38,463 INFO  Starting to parse JSON response
+2019-03-20 16:06:38,464 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:06:38,464 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:06:38,465 INFO  Successfully parsed JSON response
+2019-03-20 16:06:38,465 INFO  In the process of generating verify response in HTML
+2019-03-20 16:06:38,546 INFO  Successfully generated verify response in HTML
+2019-03-20 16:06:38,546 INFO  Successfully processed the response from service
+2019-03-20 16:08:18,426 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:08:18,426 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:08:18,426 INFO  Starting to parse the user solution
+2019-03-20 16:08:18,427 INFO  Displaying user solution
+2019-03-20 16:08:18,450 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy \r\n    approach to make the change for the amount \r\n    using the currencies in the denomination list.\r\n    The function should return the total number of\r\n     notes needed to make the change. If change cannot \r\n     be obtained for the given amount, then return -1. \r\n     Return 1 if the amount is equal to one of the currencies \r\n     available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            number_of_notes-=1\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            if(len(denomination_list)==0):\r\n                return -1\r\n            maximum_value = max(denomination_list)\r\n            \r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30, 10, 20]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:08:18,450 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:08:18,451 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:08:18,451 INFO  Invoking the service to verify the user solution
+2019-03-20 16:08:18,451 INFO  Time before invoking service:Wed Mar 20 16:08:18 IST 2019
+2019-03-20 16:08:18,451 INFO  Initialising service address for VerifySolution
+2019-03-20 16:08:18,452 INFO  Time before invoking service In SUPER:Wed Mar 20 16:08:18 IST 2019
+2019-03-20 16:08:19,281 INFO  Time after invoking service In SUPER:Wed Mar 20 16:08:19 IST 2019
+2019-03-20 16:08:19,282 INFO  Service responded successfully with required details
+2019-03-20 16:08:19,282 INFO  Time after invoking service:Wed Mar 20 16:08:19 IST 2019
+2019-03-20 16:08:19,282 INFO  User solution successfully verified
+2019-03-20 16:08:19,282 INFO  Processing the response from verify service
+2019-03-20 16:08:19,283 INFO  Starting to parse JSON response
+2019-03-20 16:08:19,284 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:08:19,284 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:08:19,285 INFO  Successfully parsed JSON response
+2019-03-20 16:08:19,285 INFO  In the process of generating verify response in HTML
+2019-03-20 16:08:19,366 INFO  Successfully generated verify response in HTML
+2019-03-20 16:08:19,366 INFO  Successfully processed the response from service
+2019-03-20 16:08:23,164 INFO  Initiating to process and prepare Input for the submit service
+2019-03-20 16:08:23,167 INFO  Displaying user solution
+2019-03-20 16:08:23,176 INFO  Successfully processed and prepared the input for the submit service
+2019-03-20 16:08:23,176 INFO  Invoking the service to submit the user solution
+2019-03-20 16:08:23,176 INFO  Initialising service address for Submit
+2019-03-20 16:08:23,177 INFO  Time before invoking service In SUPER:Wed Mar 20 16:08:23 IST 2019
+2019-03-20 16:08:23,413 INFO  Time after invoking service In SUPER:Wed Mar 20 16:08:23 IST 2019
+2019-03-20 16:08:23,413 INFO  Service responded successfully with required details
+2019-03-20 16:08:23,413 INFO  User solution successfully submitted
+2019-03-20 16:08:23,414 INFO  Displaying submission status
+2019-03-20 16:08:23,414 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-20 16:08:25,643 INFO  Initiating to process and prepare Input for the submit service
+2019-03-20 16:08:25,644 INFO  Displaying user solution
+2019-03-20 16:08:25,653 INFO  Successfully processed and prepared the input for the submit service
+2019-03-20 16:08:25,654 INFO  Invoking the service to submit the user solution
+2019-03-20 16:08:25,654 INFO  Initialising service address for Submit
+2019-03-20 16:08:25,654 INFO  Time before invoking service In SUPER:Wed Mar 20 16:08:25 IST 2019
+2019-03-20 16:08:25,849 INFO  Time after invoking service In SUPER:Wed Mar 20 16:08:25 IST 2019
+2019-03-20 16:08:25,849 INFO  Service responded successfully with required details
+2019-03-20 16:08:25,849 INFO  User solution successfully submitted
+2019-03-20 16:08:25,849 INFO  Displaying submission status
+2019-03-20 16:08:25,849 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-20 16:18:49,234 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:18:49,234 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:18:49,234 INFO  Starting to parse the user solution
+2019-03-20 16:18:49,234 INFO  Displaying user solution
+2019-03-20 16:18:49,278 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-24\r\n\r\ndef make_change(denomination_list, amount):\r\n    '''Remove pass and implement the Greedy \r\n    approach to make the change for the amount \r\n    using the currencies in the denomination list.\r\n    The function should return the total number of\r\n     notes needed to make the change. If change cannot \r\n     be obtained for the given amount, then return -1. \r\n     Return 1 if the amount is equal to one of the currencies \r\n     available in the denomination list.  '''\r\n    number_of_notes = 0\r\n    if(amount in denomination_list):\r\n        return 1\r\n    maximum_value = max(denomination_list)\r\n    while(amount!=0): \r\n        number_of_notes+=1\r\n        if(maximum_value<=amount):\r\n            amount = amount-maximum_value\r\n            index = denomination_list.index(maximum_value)\r\n            maximum_value = max(denomination_list)\r\n        else:\r\n            number_of_notes-=1\r\n            index = denomination_list.index(maximum_value)\r\n            denomination_list.pop(index)\r\n            if(len(denomination_list)==0):\r\n                return -1\r\n            maximum_value = max(denomination_list)\r\n            \r\n        continue\r\n    return number_of_notes\r\n                \r\n                \r\n          \r\n#Pass different values to the function and test your program\r\namount= 3\r\ndenomination_list = [30, 10, 20]\r\nmake_change(denomination_list, amount)\r\n","asgnmtId":"24","SolutionFileName":"Excer24.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:18:49,280 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:18:49,280 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:18:49,280 INFO  Invoking the service to verify the user solution
+2019-03-20 16:18:49,281 INFO  Time before invoking service:Wed Mar 20 16:18:49 IST 2019
+2019-03-20 16:18:49,281 INFO  Initialising service address for VerifySolution
+2019-03-20 16:18:49,281 INFO  Time before invoking service In SUPER:Wed Mar 20 16:18:49 IST 2019
+2019-03-20 16:18:50,196 INFO  Time after invoking service In SUPER:Wed Mar 20 16:18:50 IST 2019
+2019-03-20 16:18:50,196 INFO  Service responded successfully with required details
+2019-03-20 16:18:50,196 INFO  Time after invoking service:Wed Mar 20 16:18:50 IST 2019
+2019-03-20 16:18:50,196 INFO  User solution successfully verified
+2019-03-20 16:18:50,197 INFO  Processing the response from verify service
+2019-03-20 16:18:50,199 INFO  Starting to parse JSON response
+2019-03-20 16:18:50,200 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:18:50,200 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:18:50,201 INFO  Successfully parsed JSON response
+2019-03-20 16:18:50,201 INFO  In the process of generating verify response in HTML
+2019-03-20 16:18:50,319 INFO  Successfully generated verify response in HTML
+2019-03-20 16:18:50,319 INFO  Successfully processed the response from service
+2019-03-20 16:18:55,607 INFO  Initiating to process and prepare Input for the submit service
+2019-03-20 16:18:55,607 INFO  Displaying user solution
+2019-03-20 16:18:55,617 INFO  Successfully processed and prepared the input for the submit service
+2019-03-20 16:18:55,617 INFO  Invoking the service to submit the user solution
+2019-03-20 16:18:55,617 INFO  Initialising service address for Submit
+2019-03-20 16:18:55,618 INFO  Time before invoking service In SUPER:Wed Mar 20 16:18:55 IST 2019
+2019-03-20 16:18:55,864 INFO  Time after invoking service In SUPER:Wed Mar 20 16:18:55 IST 2019
+2019-03-20 16:18:55,864 INFO  Service responded successfully with required details
+2019-03-20 16:18:55,864 INFO  User solution successfully submitted
+2019-03-20 16:18:55,865 INFO  Displaying submission status
+2019-03-20 16:18:55,865 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-20 16:37:02,362 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:37:02,363 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:37:02,363 INFO  Starting to parse the user solution
+2019-03-20 16:37:02,363 INFO  Displaying user solution
+2019-03-20 16:37:02,418 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n        \r\n\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:37:02,418 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:37:02,418 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:37:02,418 INFO  Invoking the service to verify the user solution
+2019-03-20 16:37:02,419 INFO  Time before invoking service:Wed Mar 20 16:37:02 IST 2019
+2019-03-20 16:37:02,419 INFO  Initialising service address for VerifySolution
+2019-03-20 16:37:02,421 INFO  Time before invoking service In SUPER:Wed Mar 20 16:37:02 IST 2019
+2019-03-20 16:37:03,359 INFO  Time after invoking service In SUPER:Wed Mar 20 16:37:03 IST 2019
+2019-03-20 16:37:03,359 INFO  Service responded successfully with required details
+2019-03-20 16:37:03,361 INFO  Time after invoking service:Wed Mar 20 16:37:03 IST 2019
+2019-03-20 16:37:03,361 INFO  User solution successfully verified
+2019-03-20 16:37:03,362 INFO  Processing the response from verify service
+2019-03-20 16:37:03,365 INFO  Starting to parse JSON response
+2019-03-20 16:37:03,366 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:37:03,366 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:37:03,367 INFO  Successfully parsed JSON response
+2019-03-20 16:37:03,367 INFO  In the process of generating verify response in HTML
+2019-03-20 16:37:03,471 INFO  Successfully generated verify response in HTML
+2019-03-20 16:37:03,472 INFO  Successfully processed the response from service
+2019-03-20 16:37:28,100 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:37:28,100 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:37:28,100 INFO  Starting to parse the user solution
+2019-03-20 16:37:28,101 INFO  Displaying user solution
+2019-03-20 16:37:28,127 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n        \r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:37:28,128 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:37:28,128 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:37:28,128 INFO  Invoking the service to verify the user solution
+2019-03-20 16:37:28,128 INFO  Time before invoking service:Wed Mar 20 16:37:28 IST 2019
+2019-03-20 16:37:28,128 INFO  Initialising service address for VerifySolution
+2019-03-20 16:37:28,129 INFO  Time before invoking service In SUPER:Wed Mar 20 16:37:28 IST 2019
+2019-03-20 16:37:29,115 INFO  Time after invoking service In SUPER:Wed Mar 20 16:37:29 IST 2019
+2019-03-20 16:37:29,115 INFO  Service responded successfully with required details
+2019-03-20 16:37:29,116 INFO  Time after invoking service:Wed Mar 20 16:37:29 IST 2019
+2019-03-20 16:37:29,116 INFO  User solution successfully verified
+2019-03-20 16:37:29,116 INFO  Processing the response from verify service
+2019-03-20 16:37:29,118 INFO  Starting to parse JSON response
+2019-03-20 16:37:29,119 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:37:29,119 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:37:29,120 INFO  Successfully parsed JSON response
+2019-03-20 16:37:29,120 INFO  In the process of generating verify response in HTML
+2019-03-20 16:37:29,199 INFO  Successfully generated verify response in HTML
+2019-03-20 16:37:29,199 INFO  Successfully processed the response from service
+2019-03-20 16:49:27,398 INFO  Setting request parameters for VerifySolution
+2019-03-20 16:49:27,399 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 16:49:27,399 INFO  Starting to parse the user solution
+2019-03-20 16:49:27,400 INFO  Displaying user solution
+2019-03-20 16:49:27,466 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    start_time_list.append(finish_time_list[-1])\r\n    for i in range(0,len(activity_list)):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n        \r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 16:49:27,466 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 16:49:27,467 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 16:49:27,467 INFO  Invoking the service to verify the user solution
+2019-03-20 16:49:27,467 INFO  Time before invoking service:Wed Mar 20 16:49:27 IST 2019
+2019-03-20 16:49:27,467 INFO  Initialising service address for VerifySolution
+2019-03-20 16:49:27,468 INFO  Time before invoking service In SUPER:Wed Mar 20 16:49:27 IST 2019
+2019-03-20 16:49:28,323 INFO  Time after invoking service In SUPER:Wed Mar 20 16:49:28 IST 2019
+2019-03-20 16:49:28,323 INFO  Service responded successfully with required details
+2019-03-20 16:49:28,323 INFO  Time after invoking service:Wed Mar 20 16:49:28 IST 2019
+2019-03-20 16:49:28,323 INFO  User solution successfully verified
+2019-03-20 16:49:28,324 INFO  Processing the response from verify service
+2019-03-20 16:49:28,326 INFO  Starting to parse JSON response
+2019-03-20 16:49:28,328 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:49:28,328 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 16:49:28,329 INFO  Successfully parsed JSON response
+2019-03-20 16:49:28,330 INFO  In the process of generating verify response in HTML
+2019-03-20 16:49:28,421 INFO  Successfully generated verify response in HTML
+2019-03-20 16:49:28,421 INFO  Successfully processed the response from service
+2019-03-20 17:59:12,933 INFO  Setting request parameters for VerifySolution
+2019-03-20 17:59:12,933 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 17:59:12,933 INFO  Starting to parse the user solution
+2019-03-20 17:59:12,934 INFO  Displaying user solution
+2019-03-20 17:59:13,003 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 17:59:13,003 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 17:59:13,003 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 17:59:13,003 INFO  Invoking the service to verify the user solution
+2019-03-20 17:59:13,004 INFO  Time before invoking service:Wed Mar 20 17:59:13 IST 2019
+2019-03-20 17:59:13,004 INFO  Initialising service address for VerifySolution
+2019-03-20 17:59:13,004 INFO  Time before invoking service In SUPER:Wed Mar 20 17:59:13 IST 2019
+2019-03-20 17:59:13,917 INFO  Time after invoking service In SUPER:Wed Mar 20 17:59:13 IST 2019
+2019-03-20 17:59:13,918 INFO  Service responded successfully with required details
+2019-03-20 17:59:13,918 INFO  Time after invoking service:Wed Mar 20 17:59:13 IST 2019
+2019-03-20 17:59:13,918 INFO  User solution successfully verified
+2019-03-20 17:59:13,918 INFO  Processing the response from verify service
+2019-03-20 17:59:13,920 INFO  Starting to parse JSON response
+2019-03-20 17:59:13,922 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 17:59:13,922 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 17:59:13,924 INFO  Successfully parsed JSON response
+2019-03-20 17:59:13,924 INFO  In the process of generating verify response in HTML
+2019-03-20 17:59:14,001 INFO  Successfully generated verify response in HTML
+2019-03-20 17:59:14,001 INFO  Successfully processed the response from service
+2019-03-20 17:59:21,134 INFO  Setting request parameters for VerifySolution
+2019-03-20 17:59:21,134 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 17:59:21,134 INFO  Starting to parse the user solution
+2019-03-20 17:59:21,134 INFO  Displaying user solution
+2019-03-20 17:59:21,159 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 17:59:21,160 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 17:59:21,160 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 17:59:21,160 INFO  Invoking the service to verify the user solution
+2019-03-20 17:59:21,160 INFO  Time before invoking service:Wed Mar 20 17:59:21 IST 2019
+2019-03-20 17:59:21,160 INFO  Initialising service address for VerifySolution
+2019-03-20 17:59:21,160 INFO  Time before invoking service In SUPER:Wed Mar 20 17:59:21 IST 2019
+2019-03-20 17:59:21,984 INFO  Time after invoking service In SUPER:Wed Mar 20 17:59:21 IST 2019
+2019-03-20 17:59:21,985 INFO  Service responded successfully with required details
+2019-03-20 17:59:21,985 INFO  Time after invoking service:Wed Mar 20 17:59:21 IST 2019
+2019-03-20 17:59:21,985 INFO  User solution successfully verified
+2019-03-20 17:59:21,985 INFO  Processing the response from verify service
+2019-03-20 17:59:21,986 INFO  Starting to parse JSON response
+2019-03-20 17:59:21,987 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 17:59:21,987 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 17:59:21,988 INFO  Successfully parsed JSON response
+2019-03-20 17:59:21,988 INFO  In the process of generating verify response in HTML
+2019-03-20 17:59:22,062 INFO  Successfully generated verify response in HTML
+2019-03-20 17:59:22,063 INFO  Successfully processed the response from service
+2019-03-20 18:12:34,272 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:12:34,272 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:12:34,272 INFO  Starting to parse the user solution
+2019-03-20 18:12:34,273 INFO  Displaying user solution
+2019-03-20 18:12:34,309 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:12:34,313 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:12:34,313 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:12:34,313 INFO  Invoking the service to verify the user solution
+2019-03-20 18:12:34,313 INFO  Time before invoking service:Wed Mar 20 18:12:34 IST 2019
+2019-03-20 18:12:34,313 INFO  Initialising service address for VerifySolution
+2019-03-20 18:12:34,314 INFO  Time before invoking service In SUPER:Wed Mar 20 18:12:34 IST 2019
+2019-03-20 18:12:35,224 INFO  Time after invoking service In SUPER:Wed Mar 20 18:12:35 IST 2019
+2019-03-20 18:12:35,226 INFO  Service responded successfully with required details
+2019-03-20 18:12:35,226 INFO  Time after invoking service:Wed Mar 20 18:12:35 IST 2019
+2019-03-20 18:12:35,226 INFO  User solution successfully verified
+2019-03-20 18:12:35,226 INFO  Processing the response from verify service
+2019-03-20 18:12:35,228 INFO  Starting to parse JSON response
+2019-03-20 18:12:35,228 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:12:35,228 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:12:35,229 INFO  Successfully parsed JSON response
+2019-03-20 18:12:35,229 INFO  In the process of generating verify response in HTML
+2019-03-20 18:12:35,324 INFO  Successfully generated verify response in HTML
+2019-03-20 18:12:35,324 INFO  Successfully processed the response from service
+2019-03-20 18:13:40,011 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:13:40,011 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:13:40,011 INFO  Starting to parse the user solution
+2019-03-20 18:13:40,012 INFO  Displaying user solution
+2019-03-20 18:13:40,049 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    start_time_list.append(finish_time_list[-1])\r\n    for i in range(0,len(activity_list)):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:13:40,050 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:13:40,050 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:13:40,050 INFO  Invoking the service to verify the user solution
+2019-03-20 18:13:40,051 INFO  Time before invoking service:Wed Mar 20 18:13:40 IST 2019
+2019-03-20 18:13:40,051 INFO  Initialising service address for VerifySolution
+2019-03-20 18:13:40,052 INFO  Time before invoking service In SUPER:Wed Mar 20 18:13:40 IST 2019
+2019-03-20 18:13:41,025 INFO  Time after invoking service In SUPER:Wed Mar 20 18:13:41 IST 2019
+2019-03-20 18:13:41,026 INFO  Service responded successfully with required details
+2019-03-20 18:13:41,026 INFO  Time after invoking service:Wed Mar 20 18:13:41 IST 2019
+2019-03-20 18:13:41,026 INFO  User solution successfully verified
+2019-03-20 18:13:41,026 INFO  Processing the response from verify service
+2019-03-20 18:13:41,029 INFO  Starting to parse JSON response
+2019-03-20 18:13:41,030 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:13:41,030 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:13:41,031 INFO  Successfully parsed JSON response
+2019-03-20 18:13:41,031 INFO  In the process of generating verify response in HTML
+2019-03-20 18:13:41,113 INFO  Successfully generated verify response in HTML
+2019-03-20 18:13:41,114 INFO  Successfully processed the response from service
+2019-03-20 18:14:52,827 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:14:52,827 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:14:52,827 INFO  Starting to parse the user solution
+2019-03-20 18:14:52,827 INFO  Displaying user solution
+2019-03-20 18:14:52,854 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    start_time_list.append(finish_time_list[-1])\r\n    for i in range(0,len(activity_list)):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:14:52,854 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:14:52,855 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:14:52,855 INFO  Invoking the service to verify the user solution
+2019-03-20 18:14:52,855 INFO  Time before invoking service:Wed Mar 20 18:14:52 IST 2019
+2019-03-20 18:14:52,855 INFO  Initialising service address for VerifySolution
+2019-03-20 18:14:52,856 INFO  Time before invoking service In SUPER:Wed Mar 20 18:14:52 IST 2019
+2019-03-20 18:14:53,851 INFO  Time after invoking service In SUPER:Wed Mar 20 18:14:53 IST 2019
+2019-03-20 18:14:53,852 INFO  Service responded successfully with required details
+2019-03-20 18:14:53,852 INFO  Time after invoking service:Wed Mar 20 18:14:53 IST 2019
+2019-03-20 18:14:53,852 INFO  User solution successfully verified
+2019-03-20 18:14:53,852 INFO  Processing the response from verify service
+2019-03-20 18:14:53,854 INFO  Starting to parse JSON response
+2019-03-20 18:14:53,855 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:14:53,855 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:14:53,856 INFO  Successfully parsed JSON response
+2019-03-20 18:14:53,856 INFO  In the process of generating verify response in HTML
+2019-03-20 18:14:53,931 INFO  Successfully generated verify response in HTML
+2019-03-20 18:14:53,931 INFO  Successfully processed the response from service
+2019-03-20 18:15:07,731 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:15:07,731 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:15:07,731 INFO  Starting to parse the user solution
+2019-03-20 18:15:07,732 INFO  Displaying user solution
+2019-03-20 18:15:07,773 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:15:07,773 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:15:07,774 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:15:07,774 INFO  Invoking the service to verify the user solution
+2019-03-20 18:15:07,774 INFO  Time before invoking service:Wed Mar 20 18:15:07 IST 2019
+2019-03-20 18:15:07,774 INFO  Initialising service address for VerifySolution
+2019-03-20 18:15:07,774 INFO  Time before invoking service In SUPER:Wed Mar 20 18:15:07 IST 2019
+2019-03-20 18:15:08,705 INFO  Time after invoking service In SUPER:Wed Mar 20 18:15:08 IST 2019
+2019-03-20 18:15:08,705 INFO  Service responded successfully with required details
+2019-03-20 18:15:08,705 INFO  Time after invoking service:Wed Mar 20 18:15:08 IST 2019
+2019-03-20 18:15:08,705 INFO  User solution successfully verified
+2019-03-20 18:15:08,706 INFO  Processing the response from verify service
+2019-03-20 18:15:08,707 INFO  Starting to parse JSON response
+2019-03-20 18:15:08,707 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:15:08,707 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:15:08,708 INFO  Successfully parsed JSON response
+2019-03-20 18:15:08,708 INFO  In the process of generating verify response in HTML
+2019-03-20 18:15:08,781 INFO  Successfully generated verify response in HTML
+2019-03-20 18:15:08,782 INFO  Successfully processed the response from service
+2019-03-20 18:15:28,431 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:15:28,431 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:15:28,431 INFO  Starting to parse the user solution
+2019-03-20 18:15:28,432 INFO  Displaying user solution
+2019-03-20 18:15:28,460 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list = []\r\n    for i in range(0,len(activity_list)-1):\r\n        if(finish_time_list[i]<=start_time_list[i+1]):\r\n            new_list.append(activity_list[i])\r\n    return new_list\r\n#Pass different values to the function and test your program\r\nactivity_list=[1,2,3,4,5,6,7]\r\nstart_time_list=[1,4,2,3,6,8,6]\r\nfinish_time_list=[2,6,4,5,7,10,9]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:15:28,461 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:15:28,461 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:15:28,461 INFO  Invoking the service to verify the user solution
+2019-03-20 18:15:28,461 INFO  Time before invoking service:Wed Mar 20 18:15:28 IST 2019
+2019-03-20 18:15:28,461 INFO  Initialising service address for VerifySolution
+2019-03-20 18:15:28,462 INFO  Time before invoking service In SUPER:Wed Mar 20 18:15:28 IST 2019
+2019-03-20 18:15:29,354 INFO  Time after invoking service In SUPER:Wed Mar 20 18:15:29 IST 2019
+2019-03-20 18:15:29,354 INFO  Service responded successfully with required details
+2019-03-20 18:15:29,355 INFO  Time after invoking service:Wed Mar 20 18:15:29 IST 2019
+2019-03-20 18:15:29,355 INFO  User solution successfully verified
+2019-03-20 18:15:29,355 INFO  Processing the response from verify service
+2019-03-20 18:15:29,356 INFO  Starting to parse JSON response
+2019-03-20 18:15:29,357 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:15:29,357 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 18:15:29,358 INFO  Successfully parsed JSON response
+2019-03-20 18:15:29,358 INFO  In the process of generating verify response in HTML
+2019-03-20 18:15:29,446 INFO  Successfully generated verify response in HTML
+2019-03-20 18:15:29,447 INFO  Successfully processed the response from service
+2019-03-20 18:49:16,022 INFO  Setting request parameters for VerifySolution
+2019-03-20 18:49:16,022 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 18:49:16,022 INFO  Starting to parse the user solution
+2019-03-20 18:49:16,023 INFO  Displaying user solution
+2019-03-20 18:49:16,097 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-27\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef max_sum_is(num_list):\r\n    #Remove pass and write your logic here\r\n    \r\n\r\n\r\n#Pass different values to the function and test your program\r\nnum_list=[1, 101, 2, 3, 100, 4, 5]\r\nprint(\"Sum of the maximum sum increasing subsequence is :\" ,max_sum_is(num_list))\r\n","asgnmtId":"27","SolutionFileName":"Excer27.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 18:49:16,098 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 18:49:16,098 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 18:49:16,098 INFO  Invoking the service to verify the user solution
+2019-03-20 18:49:16,099 INFO  Time before invoking service:Wed Mar 20 18:49:16 IST 2019
+2019-03-20 18:49:16,099 INFO  Initialising service address for VerifySolution
+2019-03-20 18:49:16,099 INFO  Time before invoking service In SUPER:Wed Mar 20 18:49:16 IST 2019
+2019-03-20 18:49:17,023 INFO  Time after invoking service In SUPER:Wed Mar 20 18:49:17 IST 2019
+2019-03-20 18:49:17,023 INFO  Service responded successfully with required details
+2019-03-20 18:49:17,024 INFO  Time after invoking service:Wed Mar 20 18:49:17 IST 2019
+2019-03-20 18:49:17,024 INFO  User solution successfully verified
+2019-03-20 18:49:17,024 INFO  Processing the response from verify service
+2019-03-20 18:49:17,026 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)
+2019-03-20 19:07:20,411 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:07:20,411 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:07:20,411 INFO  Starting to parse the user solution
+2019-03-20 19:07:20,412 INFO  Displaying user solution
+2019-03-20 19:07:20,467 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0] * (n+1)  \r\n    count[0] = 1\r\n    count[1] = 1\r\n  \r\n    for i in range(2, n+1): \r\n      \r\n        count[i] = 0\r\n  \r\n        # If the last digit is not 0, \r\n                # then last digit must add to \r\n        # the number of words \r\n        if (digit_list[i-1] > 0): \r\n            count[i] = count[i-1] \r\n  \r\n        # If second last digit is smaller \r\n                # than 2 and last digit is \r\n        # smaller than 7, then last two \r\n                # digits form a valid character \r\n        if (digit_list[i-2] == 1 or (digit_list[i-2] == 2 and digit_list[i-1] < 7) ): \r\n            count[i] += count[i-2] \r\n      \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:07:20,467 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:07:20,467 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:07:20,467 INFO  Invoking the service to verify the user solution
+2019-03-20 19:07:20,468 INFO  Time before invoking service:Wed Mar 20 19:07:20 IST 2019
+2019-03-20 19:07:20,468 INFO  Initialising service address for VerifySolution
+2019-03-20 19:07:20,469 INFO  Time before invoking service In SUPER:Wed Mar 20 19:07:20 IST 2019
+2019-03-20 19:07:21,343 INFO  Time after invoking service In SUPER:Wed Mar 20 19:07:21 IST 2019
+2019-03-20 19:07:21,343 INFO  Service responded successfully with required details
+2019-03-20 19:07:21,343 INFO  Time after invoking service:Wed Mar 20 19:07:21 IST 2019
+2019-03-20 19:07:21,344 INFO  User solution successfully verified
+2019-03-20 19:07:21,344 INFO  Processing the response from verify service
+2019-03-20 19:07:21,346 INFO  Starting to parse JSON response
+2019-03-20 19:07:21,347 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:07:21,347 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:07:21,347 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:07:21,347 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:07:21,349 INFO  Successfully parsed JSON response
+2019-03-20 19:07:21,349 INFO  In the process of generating verify response in HTML
+2019-03-20 19:07:21,427 INFO  Successfully generated verify response in HTML
+2019-03-20 19:07:21,427 INFO  Successfully processed the response from service
+2019-03-20 19:09:15,759 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:09:15,760 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:09:15,760 INFO  Starting to parse the user solution
+2019-03-20 19:09:15,766 INFO  Displaying user solution
+2019-03-20 19:09:15,827 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0]*(n+1)  \r\n    count[0]=1\r\n    count[1]=1\r\n  \r\n    for i in range(2, n+1):\r\n        count[i] = 0\r\n  \r\n        # If the last digit is not 0, \r\n                # then last digit must add to \r\n        # the number of words \r\n        if (digit_list[i-1] > 0): \r\n            count[i] = count[i-1] \r\n  \r\n        # If second last digit is smaller \r\n                # than 2 and last digit is \r\n        # smaller than 7, then last two \r\n                # digits form a valid character \r\n        if (digit_list[i-2] == 1 or (digit_list[i-2] == 2 and digit_list[i-1] < 7) ): \r\n            count[i] += count[i-2] \r\n      \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:09:15,828 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:09:15,828 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:09:15,828 INFO  Invoking the service to verify the user solution
+2019-03-20 19:09:15,829 INFO  Time before invoking service:Wed Mar 20 19:09:15 IST 2019
+2019-03-20 19:09:15,829 INFO  Initialising service address for VerifySolution
+2019-03-20 19:09:15,829 INFO  Time before invoking service In SUPER:Wed Mar 20 19:09:15 IST 2019
+2019-03-20 19:09:16,706 INFO  Time after invoking service In SUPER:Wed Mar 20 19:09:16 IST 2019
+2019-03-20 19:09:16,706 INFO  Service responded successfully with required details
+2019-03-20 19:09:16,706 INFO  Time after invoking service:Wed Mar 20 19:09:16 IST 2019
+2019-03-20 19:09:16,706 INFO  User solution successfully verified
+2019-03-20 19:09:16,707 INFO  Processing the response from verify service
+2019-03-20 19:09:16,708 INFO  Starting to parse JSON response
+2019-03-20 19:09:16,709 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:16,709 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:16,709 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:16,709 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:16,710 INFO  Successfully parsed JSON response
+2019-03-20 19:09:16,710 INFO  In the process of generating verify response in HTML
+2019-03-20 19:09:16,815 INFO  Successfully generated verify response in HTML
+2019-03-20 19:09:16,815 INFO  Successfully processed the response from service
+2019-03-20 19:09:21,755 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:09:21,755 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:09:21,755 INFO  Starting to parse the user solution
+2019-03-20 19:09:21,760 INFO  Displaying user solution
+2019-03-20 19:09:21,812 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0]*(n+1)  \r\n    count[0]=1\r\n    count[1]=1\r\n  \r\n    for i in range(2, n+1):\r\n        count[i] = 0\r\n  \r\n        # If the last digit is not 0, \r\n                # then last digit must add to \r\n        # the number of words \r\n        if (digit_list[i-1] > 0): \r\n            count[i] = count[i-1] \r\n  \r\n        # If second last digit is smaller \r\n                # than 2 and last digit is \r\n        # smaller than 7, then last two \r\n                # digits form a valid character \r\n        if (digit_list[i-2] == 1 or (digit_list[i-2] == 2 and digit_list[i-1] < 7) ): \r\n            count[i] += count[i-2] \r\n      \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:09:21,812 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:09:21,812 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:09:21,812 INFO  Invoking the service to verify the user solution
+2019-03-20 19:09:21,813 INFO  Time before invoking service:Wed Mar 20 19:09:21 IST 2019
+2019-03-20 19:09:21,813 INFO  Initialising service address for VerifySolution
+2019-03-20 19:09:21,813 INFO  Time before invoking service In SUPER:Wed Mar 20 19:09:21 IST 2019
+2019-03-20 19:09:24,070 INFO  Time after invoking service In SUPER:Wed Mar 20 19:09:24 IST 2019
+2019-03-20 19:09:24,070 INFO  Service responded successfully with required details
+2019-03-20 19:09:24,071 INFO  Time after invoking service:Wed Mar 20 19:09:24 IST 2019
+2019-03-20 19:09:24,071 INFO  User solution successfully verified
+2019-03-20 19:09:24,071 INFO  Processing the response from verify service
+2019-03-20 19:09:24,072 INFO  Starting to parse JSON response
+2019-03-20 19:09:24,073 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:24,073 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:24,073 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:24,073 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:09:24,074 INFO  Successfully parsed JSON response
+2019-03-20 19:09:24,075 INFO  In the process of generating verify response in HTML
+2019-03-20 19:09:24,151 INFO  Successfully generated verify response in HTML
+2019-03-20 19:09:24,151 INFO  Successfully processed the response from service
+2019-03-20 19:19:19,111 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:19:19,111 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:19:19,111 INFO  Starting to parse the user solution
+2019-03-20 19:19:19,112 INFO  Displaying user solution
+2019-03-20 19:19:19,172 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0]*(n+1)  \r\n    count[0]=1\r\n    count[1]=1\r\n  \r\n    for i in range(2, n+1):\r\n        count[i] = 0\r\n        if(digit_list[i-1] > 0): \r\n            count[i] = count[i-1]  \r\n        if(digit_list[i-2] == 1 or (digit_list[i-2] == 2 and digit_list[i-1] < 7)): \r\n            count[i] += count[i-2]   \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:19:19,173 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:19:19,173 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:19:19,173 INFO  Invoking the service to verify the user solution
+2019-03-20 19:19:19,174 INFO  Time before invoking service:Wed Mar 20 19:19:19 IST 2019
+2019-03-20 19:19:19,174 INFO  Initialising service address for VerifySolution
+2019-03-20 19:19:19,175 INFO  Time before invoking service In SUPER:Wed Mar 20 19:19:19 IST 2019
+2019-03-20 19:19:20,055 INFO  Time after invoking service In SUPER:Wed Mar 20 19:19:20 IST 2019
+2019-03-20 19:19:20,055 INFO  Service responded successfully with required details
+2019-03-20 19:19:20,055 INFO  Time after invoking service:Wed Mar 20 19:19:20 IST 2019
+2019-03-20 19:19:20,056 INFO  User solution successfully verified
+2019-03-20 19:19:20,056 INFO  Processing the response from verify service
+2019-03-20 19:19:20,058 INFO  Starting to parse JSON response
+2019-03-20 19:19:20,060 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:20,060 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:20,060 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:20,060 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:20,061 INFO  Successfully parsed JSON response
+2019-03-20 19:19:20,061 INFO  In the process of generating verify response in HTML
+2019-03-20 19:19:20,142 INFO  Successfully generated verify response in HTML
+2019-03-20 19:19:20,142 INFO  Successfully processed the response from service
+2019-03-20 19:19:53,132 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:19:53,133 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:19:53,133 INFO  Starting to parse the user solution
+2019-03-20 19:19:53,133 INFO  Displaying user solution
+2019-03-20 19:19:53,178 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0]*(n+1)  \r\n    count[0]=1\r\n    count[1]=1\r\n  \r\n    for i in range(2, n+1):\r\n        count[i] = 0\r\n        if(digit_list[i-1] > 0): \r\n            count[i] = count[i-1]  \r\n        if(digit_list[i-2] == 1 or \r\n           (digit_list[i-2] == 2 and digit_list[i-1] < 7)): \r\n            count[i] += count[i-2]   \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",\r\n      count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:19:53,179 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:19:53,179 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:19:53,179 INFO  Invoking the service to verify the user solution
+2019-03-20 19:19:53,180 INFO  Time before invoking service:Wed Mar 20 19:19:53 IST 2019
+2019-03-20 19:19:53,180 INFO  Initialising service address for VerifySolution
+2019-03-20 19:19:53,181 INFO  Time before invoking service In SUPER:Wed Mar 20 19:19:53 IST 2019
+2019-03-20 19:19:54,081 INFO  Time after invoking service In SUPER:Wed Mar 20 19:19:54 IST 2019
+2019-03-20 19:19:54,082 INFO  Service responded successfully with required details
+2019-03-20 19:19:54,082 INFO  Time after invoking service:Wed Mar 20 19:19:54 IST 2019
+2019-03-20 19:19:54,082 INFO  User solution successfully verified
+2019-03-20 19:19:54,083 INFO  Processing the response from verify service
+2019-03-20 19:19:54,084 INFO  Starting to parse JSON response
+2019-03-20 19:19:54,086 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:54,086 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:54,086 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:54,086 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:19:54,087 INFO  Successfully parsed JSON response
+2019-03-20 19:19:54,087 INFO  In the process of generating verify response in HTML
+2019-03-20 19:19:54,165 INFO  Successfully generated verify response in HTML
+2019-03-20 19:19:54,165 INFO  Successfully processed the response from service
+2019-03-20 19:22:06,161 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:22:06,162 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:22:06,162 INFO  Starting to parse the user solution
+2019-03-20 19:22:06,163 INFO  Displaying user solution
+2019-03-20 19:22:06,221 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-24\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\ndef count_decoding(digit_list):\r\n    #Remove pass and write your logic here\r\n    n=len(digit_list)\r\n    count = [0]*(n+1)  \r\n    count[0]=1\r\n    count[1]=1\r\n  \r\n    for i in range(2, n+1):\r\n        count[i] = 0\r\n        if(digit_list[i-1] > 0): \r\n            count[i] = count[i-1]  \r\n        if(digit_list[i-2] == 1 or \r\n           (digit_list[i-2] == 2 and digit_list[i-1]<7)): \r\n            count[i] += count[i-2]   \r\n    return count[n] \r\n\r\n#Pass different values to the function and test your program\r\ndigit_list=[9,8,1,5]\r\nprint(\"Number of possible decodings for the given sequence is:\",\r\n      count_decoding(digit_list))\r\n","asgnmtId":"24","SolutionFileName":"Assign24.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:22:06,221 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:22:06,221 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:22:06,221 INFO  Invoking the service to verify the user solution
+2019-03-20 19:22:06,222 INFO  Time before invoking service:Wed Mar 20 19:22:06 IST 2019
+2019-03-20 19:22:06,222 INFO  Initialising service address for VerifySolution
+2019-03-20 19:22:06,222 INFO  Time before invoking service In SUPER:Wed Mar 20 19:22:06 IST 2019
+2019-03-20 19:22:07,099 INFO  Time after invoking service In SUPER:Wed Mar 20 19:22:07 IST 2019
+2019-03-20 19:22:07,100 INFO  Service responded successfully with required details
+2019-03-20 19:22:07,100 INFO  Time after invoking service:Wed Mar 20 19:22:07 IST 2019
+2019-03-20 19:22:07,100 INFO  User solution successfully verified
+2019-03-20 19:22:07,100 INFO  Processing the response from verify service
+2019-03-20 19:22:07,102 INFO  Starting to parse JSON response
+2019-03-20 19:22:07,104 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:22:07,104 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:22:07,104 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:22:07,104 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:22:07,106 INFO  Successfully parsed JSON response
+2019-03-20 19:22:07,106 INFO  In the process of generating verify response in HTML
+2019-03-20 19:22:07,193 INFO  Successfully generated verify response in HTML
+2019-03-20 19:22:07,193 INFO  Successfully processed the response from service
+2019-03-20 19:31:57,724 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:31:57,724 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:31:57,724 INFO  Starting to parse the user solution
+2019-03-20 19:31:57,726 INFO  Displaying user solution
+2019-03-20 19:31:57,787 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_number_of_platforms(arrival_time_list,departure_time_list):\r\n    #Remove pass and test your program\r\n    n = len(arrival_time_list)\r\n    arrival_time_list.sort()\r\n    departure_time_list.sort()\r\n    plat_needed = 1\r\n    result = 1\r\n    i = 1\r\n    j = 0\r\n   \r\n    # Similar to merge in \r\n    # merge sort to process  \r\n    # all events in sorted order \r\n    while (i < n and j < n): \r\n     \r\n        # If next event in sorted \r\n        # order is arrival,  \r\n        # increment count of \r\n        # platforms needed \r\n        if (arrival_time_list[i] < departure_time_list[j]): \r\n          \r\n            plat_needed+=1\r\n            i+=1\r\n   \r\n            # Update result if needed  \r\n            if (plat_needed > result):  \r\n                result = plat_needed \r\n          \r\n   \r\n        # Else decrement count \r\n        # of platforms needed \r\n        else: \r\n          \r\n            plat_needed-=1\r\n            j+=1\r\n          \r\n    return result \r\n\r\n#Pass different values to the function and test your program\r\narrival_time_list = [800,810]\r\ndeparture_time_list = [2300,2000]\r\nprint(\"The arrival time of the trains:\", arrival_time_list)\r\nprint(\"The departure time of the trains:\",departure_time_list)\r\nprint(\"Minimum number of platforms required :\",find_number_of_platforms(arrival_time_list,departure_time_list))\r\n","asgnmtId":"25","SolutionFileName":"Assign25.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:31:57,788 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:31:57,788 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:31:57,788 INFO  Invoking the service to verify the user solution
+2019-03-20 19:31:57,789 INFO  Time before invoking service:Wed Mar 20 19:31:57 IST 2019
+2019-03-20 19:31:57,789 INFO  Initialising service address for VerifySolution
+2019-03-20 19:31:57,789 INFO  Time before invoking service In SUPER:Wed Mar 20 19:31:57 IST 2019
+2019-03-20 19:31:58,606 INFO  Time after invoking service In SUPER:Wed Mar 20 19:31:58 IST 2019
+2019-03-20 19:31:58,607 INFO  Service responded successfully with required details
+2019-03-20 19:31:58,607 INFO  Time after invoking service:Wed Mar 20 19:31:58 IST 2019
+2019-03-20 19:31:58,607 INFO  User solution successfully verified
+2019-03-20 19:31:58,607 INFO  Processing the response from verify service
+2019-03-20 19:31:58,609 INFO  Starting to parse JSON response
+2019-03-20 19:31:58,610 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:31:58,610 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:31:58,611 INFO  Successfully parsed JSON response
+2019-03-20 19:31:58,611 INFO  In the process of generating verify response in HTML
+2019-03-20 19:31:58,735 INFO  Successfully generated verify response in HTML
+2019-03-20 19:31:58,735 INFO  Successfully processed the response from service
+2019-03-20 19:34:16,724 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:34:16,724 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:34:16,724 INFO  Starting to parse the user solution
+2019-03-20 19:34:16,725 INFO  Displaying user solution
+2019-03-20 19:34:16,787 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_number_of_platforms(arrival_time_list,departure_time_list):\r\n    #Remove pass and test your program\r\n    n = len(arrival_time_list)\r\n    arrival_time_list.sort()\r\n    departure_time_list.sort()\r\n    plat_needed = 1\r\n    result = 1\r\n    i = 1\r\n    j = 0\r\n    while(i<n and j<n): \r\n        if(arrival_time_list[i]<departure_time_list[j]): \r\n            plat_needed+=1\r\n            i+=1  \r\n            if (plat_needed > result):  \r\n                result = plat_needed\r\n        else: \r\n            plat_needed-=1\r\n            j+=1    \r\n    return result \r\n\r\n#Pass different values to the function and test your program\r\narrival_time_list = [800,810]\r\ndeparture_time_list = [2300,2000]\r\nprint(\"The arrival time of the trains:\", arrival_time_list)\r\nprint(\"The departure time of the trains:\",departure_time_list)\r\nprint(\"Minimum number of platforms required :\",find_number_of_platforms(arrival_time_list,departure_time_list))\r\n","asgnmtId":"25","SolutionFileName":"Assign25.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:34:16,787 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:34:16,787 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:34:16,787 INFO  Invoking the service to verify the user solution
+2019-03-20 19:34:16,788 INFO  Time before invoking service:Wed Mar 20 19:34:16 IST 2019
+2019-03-20 19:34:16,788 INFO  Initialising service address for VerifySolution
+2019-03-20 19:34:16,788 INFO  Time before invoking service In SUPER:Wed Mar 20 19:34:16 IST 2019
+2019-03-20 19:34:17,753 INFO  Time after invoking service In SUPER:Wed Mar 20 19:34:17 IST 2019
+2019-03-20 19:34:17,753 INFO  Service responded successfully with required details
+2019-03-20 19:34:17,753 INFO  Time after invoking service:Wed Mar 20 19:34:17 IST 2019
+2019-03-20 19:34:17,754 INFO  User solution successfully verified
+2019-03-20 19:34:17,754 INFO  Processing the response from verify service
+2019-03-20 19:34:17,756 INFO  Starting to parse JSON response
+2019-03-20 19:34:17,756 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:34:17,757 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:34:17,758 INFO  Successfully parsed JSON response
+2019-03-20 19:34:17,758 INFO  In the process of generating verify response in HTML
+2019-03-20 19:34:17,836 INFO  Successfully generated verify response in HTML
+2019-03-20 19:34:17,836 INFO  Successfully processed the response from service
+2019-03-20 19:34:30,218 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:34:30,218 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:34:30,218 INFO  Starting to parse the user solution
+2019-03-20 19:34:30,218 INFO  Displaying user solution
+2019-03-20 19:34:30,267 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n\r\n\r\ndef find_number_of_platforms(arrival_time_list,departure_time_list):\r\n    #Remove pass and test your program\r\n    n = len(arrival_time_list)\r\n    arrival_time_list.sort()\r\n    departure_time_list.sort()\r\n    plat_needed = 1\r\n    result = 1\r\n    i = 1\r\n    j = 0\r\n    while(i<n and j<n): \r\n        if(arrival_time_list[i]<departure_time_list[j]): \r\n            plat_needed+=1\r\n            i+=1  \r\n            if (plat_needed > result):  \r\n                result = plat_needed\r\n        else: \r\n            plat_needed-=1\r\n            j+=1    \r\n    return result \r\n\r\n#Pass different values to the function and test your program\r\narrival_time_list = [800,810]\r\ndeparture_time_list = [2300,2000]\r\nprint(\"The arrival time of the trains:\", arrival_time_list)\r\nprint(\"The departure time of the trains:\",departure_time_list)\r\nprint(\"Minimum number of platforms required :\",\r\n      find_number_of_platforms(arrival_time_list,departure_time_list))\r\n","asgnmtId":"25","SolutionFileName":"Assign25.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:34:30,267 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:34:30,267 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:34:30,267 INFO  Invoking the service to verify the user solution
+2019-03-20 19:34:30,267 INFO  Time before invoking service:Wed Mar 20 19:34:30 IST 2019
+2019-03-20 19:34:30,267 INFO  Initialising service address for VerifySolution
+2019-03-20 19:34:30,268 INFO  Time before invoking service In SUPER:Wed Mar 20 19:34:30 IST 2019
+2019-03-20 19:34:31,090 INFO  Time after invoking service In SUPER:Wed Mar 20 19:34:31 IST 2019
+2019-03-20 19:34:31,091 INFO  Service responded successfully with required details
+2019-03-20 19:34:31,091 INFO  Time after invoking service:Wed Mar 20 19:34:31 IST 2019
+2019-03-20 19:34:31,091 INFO  User solution successfully verified
+2019-03-20 19:34:31,092 INFO  Processing the response from verify service
+2019-03-20 19:34:31,093 INFO  Starting to parse JSON response
+2019-03-20 19:34:31,094 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:34:31,094 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:34:31,095 INFO  Successfully parsed JSON response
+2019-03-20 19:34:31,095 INFO  In the process of generating verify response in HTML
+2019-03-20 19:34:31,165 INFO  Successfully generated verify response in HTML
+2019-03-20 19:34:31,165 INFO  Successfully processed the response from service
+2019-03-20 19:39:22,293 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:39:22,293 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:39:22,293 INFO  Starting to parse the user solution
+2019-03-20 19:39:22,294 INFO  Displaying user solution
+2019-03-20 19:39:22,357 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-26\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef count_strings(number):\r\n    #Remove pass and write your logic here\r\n    a=[0 for i in range(number)] \r\n    b=[0 for i in range(number)] \r\n    a[0] = b[0] = 1\r\n    for i in range(1,number): \r\n        a[i] = a[i-1] + b[i-1] \r\n        b[i] = a[i-1] \r\n      \r\n    return a[number-1] + b[number-1] \r\n\r\n#Pass different values to the function and test your program\r\nnumber=3\r\nprint(\"The number of strings that can be made are:\",count_strings(number))\r\n","asgnmtId":"26","SolutionFileName":"Assign26.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:39:22,357 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:39:22,357 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:39:22,357 INFO  Invoking the service to verify the user solution
+2019-03-20 19:39:22,358 INFO  Time before invoking service:Wed Mar 20 19:39:22 IST 2019
+2019-03-20 19:39:22,358 INFO  Initialising service address for VerifySolution
+2019-03-20 19:39:22,358 INFO  Time before invoking service In SUPER:Wed Mar 20 19:39:22 IST 2019
+2019-03-20 19:39:23,243 INFO  Time after invoking service In SUPER:Wed Mar 20 19:39:23 IST 2019
+2019-03-20 19:39:23,243 INFO  Service responded successfully with required details
+2019-03-20 19:39:23,244 INFO  Time after invoking service:Wed Mar 20 19:39:23 IST 2019
+2019-03-20 19:39:23,244 INFO  User solution successfully verified
+2019-03-20 19:39:23,244 INFO  Processing the response from verify service
+2019-03-20 19:39:23,248 INFO  Starting to parse JSON response
+2019-03-20 19:39:23,249 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:39:23,249 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:39:23,250 INFO  Successfully parsed JSON response
+2019-03-20 19:39:23,250 INFO  In the process of generating verify response in HTML
+2019-03-20 19:39:23,331 INFO  Successfully generated verify response in HTML
+2019-03-20 19:39:23,332 INFO  Successfully processed the response from service
+2019-03-20 19:40:31,022 INFO  Setting request parameters for VerifySolution
+2019-03-20 19:40:31,022 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 19:40:31,023 INFO  Starting to parse the user solution
+2019-03-20 19:40:31,023 INFO  Displaying user solution
+2019-03-20 19:40:31,088 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Assgn-26\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\ndef count_strings(number):\r\n    #Remove pass and write your logic here\r\n    a=[0 for i in range(number)] \r\n    b=[0 for i in range(number)] \r\n    a[0] = b[0] = 1\r\n    for i in range(1,number): \r\n        a[i] = a[i-1] + b[i-1] \r\n        b[i] = a[i-1] \r\n    return a[number-1] + b[number-1] \r\n\r\n#Pass different values to the function and test your program\r\nnumber=3\r\nprint(\"The number of strings that can be made are:\",count_strings(number))\r\n","asgnmtId":"26","SolutionFileName":"Assign26.py","AsgnmtTyp":"A","TestcaseFileName":""}
+2019-03-20 19:40:31,088 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 19:40:31,088 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 19:40:31,088 INFO  Invoking the service to verify the user solution
+2019-03-20 19:40:31,089 INFO  Time before invoking service:Wed Mar 20 19:40:31 IST 2019
+2019-03-20 19:40:31,089 INFO  Initialising service address for VerifySolution
+2019-03-20 19:40:31,089 INFO  Time before invoking service In SUPER:Wed Mar 20 19:40:31 IST 2019
+2019-03-20 19:40:32,035 INFO  Time after invoking service In SUPER:Wed Mar 20 19:40:32 IST 2019
+2019-03-20 19:40:32,035 INFO  Service responded successfully with required details
+2019-03-20 19:40:32,036 INFO  Time after invoking service:Wed Mar 20 19:40:32 IST 2019
+2019-03-20 19:40:32,036 INFO  User solution successfully verified
+2019-03-20 19:40:32,037 INFO  Processing the response from verify service
+2019-03-20 19:40:32,039 INFO  Starting to parse JSON response
+2019-03-20 19:40:32,039 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:40:32,039 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 19:40:32,040 INFO  Successfully parsed JSON response
+2019-03-20 19:40:32,040 INFO  In the process of generating verify response in HTML
+2019-03-20 19:40:32,119 INFO  Successfully generated verify response in HTML
+2019-03-20 19:40:32,119 INFO  Successfully processed the response from service
+2019-03-20 19:40:34,976 INFO  Initiating to process and prepare Input for the submit service
+2019-03-20 19:40:34,977 INFO  Displaying user solution
+2019-03-20 19:40:34,984 INFO  Successfully processed and prepared the input for the submit service
+2019-03-20 19:40:34,984 INFO  Invoking the service to submit the user solution
+2019-03-20 19:40:34,984 INFO  Initialising service address for Submit
+2019-03-20 19:40:34,985 INFO  Time before invoking service In SUPER:Wed Mar 20 19:40:34 IST 2019
+2019-03-20 19:40:35,290 INFO  Time after invoking service In SUPER:Wed Mar 20 19:40:35 IST 2019
+2019-03-20 19:40:35,290 INFO  Service responded successfully with required details
+2019-03-20 19:40:35,290 INFO  User solution successfully submitted
+2019-03-20 19:40:35,291 INFO  Displaying submission status
+2019-03-20 19:40:35,291 INFO  Displayed submission status successfullySuccessfully Submitted!
+2019-03-20 19:56:11,580 INFO  Verification Failed : Incorrect #tag
+->Please provide the correct #tag in thefirst line as per ILP starter code
+2019-03-20 20:14:48,605 INFO  Setting request parameters for VerifySolution
+2019-03-20 20:14:48,605 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 20:14:48,605 INFO  Starting to parse the user solution
+2019-03-20 20:14:48,606 INFO  Displaying user solution
+2019-03-20 20:14:48,690 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom cherrypy._cpcompat import xrange\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list=[]\r\n    i = 0\r\n    for j in xrange(len(finish_time_list)):\r\n        if(start_time_list[j]>=finish_time_list[i]):\r\n            new_list.append(activity_list[j])\r\n            i=j\r\n            \r\n        \r\n   \r\n#Pass different values to the function and test your program\r\nactivity_list=[11, 12, 32, 44, 53, 62]\r\nstart_time_list=[12, 14, 21, 31, 16, 18]\r\nfinish_time_list=[20, 16, 25, 35, 17, 20]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 20:14:48,690 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 20:14:48,690 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 20:14:48,690 INFO  Invoking the service to verify the user solution
+2019-03-20 20:14:48,691 INFO  Time before invoking service:Wed Mar 20 20:14:48 IST 2019
+2019-03-20 20:14:48,691 INFO  Initialising service address for VerifySolution
+2019-03-20 20:14:48,691 INFO  Time before invoking service In SUPER:Wed Mar 20 20:14:48 IST 2019
+2019-03-20 20:14:49,615 INFO  Time after invoking service In SUPER:Wed Mar 20 20:14:49 IST 2019
+2019-03-20 20:14:49,615 INFO  Service responded successfully with required details
+2019-03-20 20:14:49,615 INFO  Time after invoking service:Wed Mar 20 20:14:49 IST 2019
+2019-03-20 20:14:49,616 INFO  User solution successfully verified
+2019-03-20 20:14:49,616 INFO  Processing the response from verify service
+2019-03-20 20:14:49,617 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)
+2019-03-20 20:14:54,173 INFO  Setting request parameters for VerifySolution
+2019-03-20 20:14:54,173 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 20:14:54,173 INFO  Starting to parse the user solution
+2019-03-20 20:14:54,173 INFO  Displaying user solution
+2019-03-20 20:14:54,225 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom cherrypy._cpcompat import xrange\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list=[]\r\n    i = 0\r\n    for j in xrange(len(finish_time_list)):\r\n        if(start_time_list[j]>=finish_time_list[i]):\r\n            new_list.append(activity_list[j])\r\n            i=j\r\n            \r\n        \r\n   \r\n#Pass different values to the function and test your program\r\nactivity_list=[11, 12, 32, 44, 53, 62]\r\nstart_time_list=[12, 14, 21, 31, 16, 18]\r\nfinish_time_list=[20, 16, 25, 35, 17, 20]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 20:14:54,225 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 20:14:54,226 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 20:14:54,226 INFO  Invoking the service to verify the user solution
+2019-03-20 20:14:54,226 INFO  Time before invoking service:Wed Mar 20 20:14:54 IST 2019
+2019-03-20 20:14:54,226 INFO  Initialising service address for VerifySolution
+2019-03-20 20:14:54,227 INFO  Time before invoking service In SUPER:Wed Mar 20 20:14:54 IST 2019
+2019-03-20 20:14:55,003 INFO  Time after invoking service In SUPER:Wed Mar 20 20:14:55 IST 2019
+2019-03-20 20:14:55,004 INFO  Service responded successfully with required details
+2019-03-20 20:14:55,004 INFO  Time after invoking service:Wed Mar 20 20:14:55 IST 2019
+2019-03-20 20:14:55,004 INFO  User solution successfully verified
+2019-03-20 20:14:55,004 INFO  Processing the response from verify service
+2019-03-20 20:14:55,006 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)
+2019-03-20 20:15:00,003 INFO  Setting request parameters for VerifySolution
+2019-03-20 20:15:00,003 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 20:15:00,003 INFO  Starting to parse the user solution
+2019-03-20 20:15:00,004 INFO  Displaying user solution
+2019-03-20 20:15:00,071 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom cherrypy._cpcompat import xrange\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list=[]\r\n    i = 0\r\n    for j in xrange(len(finish_time_list)):\r\n        if(start_time_list[j]>=finish_time_list[i]):\r\n            new_list.append(activity_list[j])\r\n            i=j\r\n            \r\n        \r\n   \r\n#Pass different values to the function and test your program\r\nactivity_list=[11, 12, 32, 44, 53, 62]\r\nstart_time_list=[12, 14, 21, 31, 16, 18]\r\nfinish_time_list=[20, 16, 25, 35, 17, 20]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 20:15:00,071 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 20:15:00,072 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 20:15:00,072 INFO  Invoking the service to verify the user solution
+2019-03-20 20:15:00,072 INFO  Time before invoking service:Wed Mar 20 20:15:00 IST 2019
+2019-03-20 20:15:00,072 INFO  Initialising service address for VerifySolution
+2019-03-20 20:15:00,073 INFO  Time before invoking service In SUPER:Wed Mar 20 20:15:00 IST 2019
+2019-03-20 20:15:00,852 INFO  Time after invoking service In SUPER:Wed Mar 20 20:15:00 IST 2019
+2019-03-20 20:15:00,852 INFO  Service responded successfully with required details
+2019-03-20 20:15:00,852 INFO  Time after invoking service:Wed Mar 20 20:15:00 IST 2019
+2019-03-20 20:15:00,853 INFO  User solution successfully verified
+2019-03-20 20:15:00,853 INFO  Processing the response from verify service
+2019-03-20 20:15:00,854 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)
+2019-03-20 20:15:07,662 INFO  Setting request parameters for VerifySolution
+2019-03-20 20:15:07,663 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 20:15:07,663 INFO  Starting to parse the user solution
+2019-03-20 20:15:07,663 INFO  Displaying user solution
+2019-03-20 20:15:07,719 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-25\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\nfrom cherrypy._cpcompat import xrange\r\n\r\n\r\ndef find_maximum_activities(activity_list,start_time_list, finish_time_list):\r\n    #Remove pass and write your logic here\r\n    new_list=[]\r\n    i = 0\r\n    for j in xrange(len(finish_time_list)):\r\n        if(start_time_list[j]>=finish_time_list[i]):\r\n            new_list.append(activity_list[j])\r\n            i=j\r\n            \r\n        \r\n   \r\n#Pass different values to the function and test your program\r\nactivity_list=[11, 12, 32, 44, 53, 62]\r\nstart_time_list=[12, 14, 21, 31, 16, 18]\r\nfinish_time_list=[20, 16, 25, 35, 17, 20]\r\n\r\nprint(\"Activities:\",activity_list)\r\nprint(\"Start time of the activities:\",start_time_list)\r\nprint(\"Finishing time of the activities:\", finish_time_list)\r\n\r\nresult=find_maximum_activities(activity_list,start_time_list, finish_time_list)\r\nprint(\"The maximum set of activities that can be completed:\",result)\r\n","asgnmtId":"25","SolutionFileName":"Excer25.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 20:15:07,720 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 20:15:07,720 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 20:15:07,720 INFO  Invoking the service to verify the user solution
+2019-03-20 20:15:07,720 INFO  Time before invoking service:Wed Mar 20 20:15:07 IST 2019
+2019-03-20 20:15:07,720 INFO  Initialising service address for VerifySolution
+2019-03-20 20:15:07,721 INFO  Time before invoking service In SUPER:Wed Mar 20 20:15:07 IST 2019
+2019-03-20 20:15:08,565 INFO  Time after invoking service In SUPER:Wed Mar 20 20:15:08 IST 2019
+2019-03-20 20:15:08,566 INFO  Service responded successfully with required details
+2019-03-20 20:15:08,566 INFO  Time after invoking service:Wed Mar 20 20:15:08 IST 2019
+2019-03-20 20:15:08,566 INFO  User solution successfully verified
+2019-03-20 20:15:08,566 INFO  Processing the response from verify service
+2019-03-20 20:15:08,567 INFO  Verification Failed : Unknown error
+->Please Contact the educator
+(error code:-57)
+2019-03-20 20:34:36,546 INFO  Loading Baseframework Plugin
+2019-03-20 20:34:36,547 INFO  Initializing the platform to load the Menu - HandsOn
+2019-03-20 20:34:36,550 INFO  Loading the Menu - HandsOn
+2019-03-20 20:34:36,553 INFO  Successfully loaded the Menu - HandsOn
+2019-03-20 20:36:37,700 INFO  Loading Programming Assignment Plugin
+2019-03-20 20:36:37,988 INFO  Setting request parameters for VerifySolution
+2019-03-20 20:36:37,988 INFO  Initiating to process and prepare Input for the verify service
+2019-03-20 20:36:37,993 INFO  Starting to parse the user solution
+2019-03-20 20:36:37,996 INFO  Displaying user solution
+2019-03-20 20:36:38,096 INFO  Successfully parsed the user solution{"CourseShortName":"DSA","UserSolution":"#DSA-Exer-27\r\n'''\r\nCreated on Mar 20, 2019\r\n\r\n@author: vijay.pal01\r\n'''\r\n#DSA-Exer-27\r\n\r\ndef max_sum_is(num_list):\r\n    #Remove pass and write your logic here\r\n    n = len(num_list)\r\n    count = [0 for i in range(10)] \r\n    for i in range(n): \r\n        for j in range(num_list[i]-1, -1, -1): \r\n            count[num_list[i]] += count[j] \r\n        count[num_list[i]] += 1\r\n      \r\n  \r\n    # Now sum up the all sequences  \r\n    # possible in count[] array \r\n    result = 0\r\n    for i in range(10): \r\n        result += count[i] \r\n  \r\n    return result \r\n\r\n\r\n#Pass different values to the function and test your program\r\nnum_list=[1, 101, 2, 3, 100, 4, 5]\r\nprint(\"Sum of the maximum sum increasing subsequence is :\" ,max_sum_is(num_list))\r\n\r\n","asgnmtId":"27","SolutionFileName":"Excer27.py","AsgnmtTyp":"E","TestcaseFileName":""}
+2019-03-20 20:36:38,097 INFO  Successfully processed and prepared the input for the verify service
+2019-03-20 20:36:38,097 INFO  Successfully set the request parameters for VerifySolution
+2019-03-20 20:36:38,097 INFO  Invoking the service to verify the user solution
+2019-03-20 20:36:38,098 INFO  Time before invoking service:Wed Mar 20 20:36:38 IST 2019
+2019-03-20 20:36:38,098 INFO  Initialising service address for VerifySolution
+2019-03-20 20:36:38,099 INFO  Time before invoking service In SUPER:Wed Mar 20 20:36:38 IST 2019
+2019-03-20 20:36:40,268 INFO  Time after invoking service In SUPER:Wed Mar 20 20:36:40 IST 2019
+2019-03-20 20:36:40,269 INFO  Service responded successfully with required details
+2019-03-20 20:36:40,269 INFO  Time after invoking service:Wed Mar 20 20:36:40 IST 2019
+2019-03-20 20:36:40,269 INFO  User solution successfully verified
+2019-03-20 20:36:40,270 INFO  Processing the response from verify service
+2019-03-20 20:36:40,272 INFO  Starting to parse JSON response
+2019-03-20 20:36:40,275 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 20:36:40,275 ERROR Keys used to parse test result JSON might be incorrect
+2019-03-20 20:36:40,278 INFO  Successfully parsed JSON response
+2019-03-20 20:36:40,279 INFO  In the process of generating verify response in HTML
+2019-03-20 20:36:40,691 INFO  Successfully generated verify response in HTML
+2019-03-20 20:36:40,691 INFO  Successfully processed the response from service
